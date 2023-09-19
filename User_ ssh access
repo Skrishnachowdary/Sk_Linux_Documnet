@@ -1,0 +1,65 @@
+sudo vim /etc/ssh/sshd_config
+ 
+ PasswordAuthentication yes
+ sudo service sshd restart
+ 
+ sudo usermod -aG git gaurav
+sudo chown -R gaurav:git /var/www/Test-connect
+sudo chmod -R 775 /var/www/Test-connect
+sudo su - gaurav -c "pm2 startup"
+
+
+
+7gq6rds5Rvb#67#gasytha      	- ssh Sai@13.233.132.28 user
+ 
+ 
+ sai ALL=(ALL) NOPASSWD: /usr/bin/pm2 start, /usr/bin/pm2 restart, /usr/bin/pm2 list
+sudo chmod -R 775 /var/www/Test-connect
+sudo chmod +x /usr/bin/git
+sudo usermod -aG sudo sai
+sudo chmod +x /usr/bin/pm2
+ sai ALL=(ALL) NOPASSWD: /usr/bin/pm2
+sai ALL=(ALL) NOPASSWD: /usr/bin/git
+
+jgzyfh#R^UR#^&FCfs7gjwb
+
+sudo vi /etc/ssh/sshd_config
+
+PermitRootLogin no
+thgxy$^GE#&GEcxhtysb   - ssh gaurav@13.233.132.28
+
+AllowUsers sai gaurav
+
+
+sudo git rev-parse --abbrev-ref HEAD
+
+<VirtualHost *:80>
+	ServerName test.bharathapp.com
+	DocumentRoot /var/www/Test-connect
+
+	<Directory /var/www/Test-connect>
+    	Options Indexes FollowSymLinks
+    	AllowOverride All
+    	Require all granted
+	</Directory>
+
+	ErrorLog /var/log/httpd/example.error.log
+	CustomLog /var/log/httpd/example.access.log combined
+</VirtualHost>
+
+
+
+
+
+ 
+
+                                  	visudo
+
+
+## Allow root to run any commands anywhere
+root	ALL=(ALL)   	ALL
+sai ALL=(ALL) NOPASSWD: /usr/bin/git
+sai ALL=(ALL) NOPASSWD: /bin/bash, /root/.nvm/versions/node/v16.20.1/bin/pm2
+
+gaurav ALL=(ALL) NOPASSWD: /usr/bin/git
+gaurav  ALL=(ALL) NOPASSWD: /bin/bash, /root/.nvm/versions/node/v16.20.1/bin/pm2
