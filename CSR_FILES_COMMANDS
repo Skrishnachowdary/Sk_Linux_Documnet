@@ -1,0 +1,18 @@
+openssl req -new -newkey rsa:4096 -nodes -keyout stores.maccosmetics.in.key -out stores.maccosmetics.in.csr   --- Generate csr command
+openssl pkey -pubout -in stores.maccosmetics.in.key | openssl sha256	                                  --- key command 
+openssl req -pubkey -in stores.maccosmetics.in.csr -noout | openssl sha256                                  --- csr command 
+openssl req -noout -text -in stores.myvi.in.csr                                                    --- certificate command 
+openssl x509 -in 97a35a23d1d88c35.crt -noout -enddate                                       --- certificate date
+openssl pkey -in privateKey.key -pubout -outform pem | sha256sum                                        
+openssl x509 -in certificate.crt -pubkey -noout -outform pem | sha256sum
+openssl req -in CSR.csr -pubkey -noout -outform pem | sha256sum
+
+Organization: ELCA Cosmetics Pvt Ltd
+Organization Unit: Marketing
+City or Locality: Mumbai
+State or Province:   Maharashtra 
+Country: India
+Email Address:  jraval1@in.estee.com
+Contact Number: 9833442853
+
+
