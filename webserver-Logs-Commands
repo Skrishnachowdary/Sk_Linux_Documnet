@@ -99,6 +99,34 @@ awk '{print $4}' access_log | cut -c 14-18 | uniq -c
 
 	500 Internal Server Error: This code indicates that there was an error on the server while processing the request.
 
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+    	<title>Welcome to my Website</title>
+    	<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+    	<header>
+        	<nav>
+            	<ul>
+                	<li><a href="#">Home</a></li>
+                	<li><a href="#">About</a></li>
+                	<li><a href="#">Contact</a></li>
+            	</ul>
+        	</nav>
+    	</header>
+    	<main>
+        	<h1>Welcome sai!</h1>
+        	<p>Thanks for visiting my website.</p>
+    	</main>
+    	<footer>
+        	<p>&copy; 2023 My Website. All rights reserved.</p>
+    	</footer>
+	</body>
+</html>
+
  
  
  cat /var/log/httpd/access_log | awk '{ print $7}' | sort | uniq -c | sort
