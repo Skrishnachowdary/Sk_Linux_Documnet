@@ -1,0 +1,105 @@
+%h – Remote host (client IP address)
+%l – User identity, or dash, if none (often not used)
+%u – Username, via HTTP authentication, or dash if not used
+%t – Timestamp of when Apache received the HTTP request
+”%r – The actual request itself from the client
+%>s – The status code Apache returns in response to the request
+%b – The size of the request in bytes.
+”%{Referer}i” – Referrer header, or dash if not used  (In other words, did they click a URL on another site to come to your site)
+”%{User-agent}i – User agent (contains information about the requester’s browser/OS/etc)
+
+
+
+
+                              	 
+                               	Total day hits count
+cd /var/log/httpd/
+
+sudo tail -f /var/log/httpd/access_log
+
+grep '11/Jul/2023:12:44:19' access_log | grep nissan
+
+            	 
+grep 'manyavar' access_log | grep '11/Jul/2023:04:06' | wc -l
+
+
+grep "axis" access_log | awk '{print $1}' | sort -u | wc -l    	-- subdomain total ips Number
+grep "axis" access_log | awk '{print $1}' | sort -u            	-- subdomain total ips list
+grep "axis" access_log | awk '{print $1}' | sort | uniq -c     	-- subdomain total ips list and hits
+awk -F: '{print $2":00"}' access_log  | sort -n | uniq -c      	-- server hour by hour hits list
+
+
+
+
+                                       	install iptables
+sudo yum update
+sudo yum install iptables
+
+                         	to block traffic from a specific IP address:
+
+iptables -A INPUT -s 182.74.33.58 -j DROP
+
+                             	Show - which IP addresses are currently blocked
+
+iptables -L INPUT --line-numbers
+
+                                   	unblock an IP address
+
+iptables -D INPUT -s 182.74.33.58 -j DROP
+
+
+
+
+
+ cd /var/log/httpd/
+ sudo tail -f access_log
+ 
+                                	 
+ 
+                                 	Count the number of requests per minute:
+                                	 
+                                	 
+ 
+                                 	minite by minite command
+                                                            	 
+awk '{print $4}' access_log | cut -c 14-18 | uniq -c
+                      	 
+                               	Checking hits from a specific IP address:
+                        	 
+ grep 'IP_ADDRESS' /path/to/httpd/access.log | wc -l
+                       	 
+                                       	To view the hits by IP address
+                       	 
+  	awk '{print $1}' | sort | uniq -c | sort -nr
+	 
+ 	awk '{print $1}' | sort | uniq -c | sort -nr | head -n 10
+	 
+                                 	 
+                                    	Display all requests with a 404 status code
+                                   	 
+	 
+ 
+ HTTPD logs:
+
+	200 OK: This code indicates that the request was successful and the server was able to return the requested resource.
+
+	301 Moved Permanently: This code indicates that the requested resource has been permanently moved to a new location.
+
+	302 Found: This code indicates that the requested resource has been temporarily moved to a new location.
+
+	304 Not Modified: This code indicates that the requested resource has not been modified since it was last accessed by the client.
+
+	400 Bad Request: This code indicates that the request sent by the client is invalid or malformed.
+
+	401 Unauthorized: This code indicates that the client needs to authenticate itself to access the requested resource.
+
+	403 Forbidden: This code indicates that the client is authenticated but does not have permission to access the requested resource.
+
+	404 Not Found: This code indicates that the requested resource could not be found on the server.
+
+	500 Internal Server Error: This code indicates that there was an error on the server while processing the request.
+
+ 
+ 
+ cat /var/log/httpd/access_log | awk '{ print $7}' | sort | uniq -c | sort
+ 
