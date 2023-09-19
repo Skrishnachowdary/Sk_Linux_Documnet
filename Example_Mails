@@ -1,0 +1,179 @@
+                                                	SSL   	 
+  Hi Naval,
+
+I have implemented the SSL certificate to the client website. Now ssl certificate update, https://stores.spencers.in/ .Please check the attached screenshot.
+
++Shailendra  Thanks for your support.
+
+Thanks & Regards
+
+
+                                 	 
+                                     	Server Disk Space Full
+                                    	 
+      	I wanted to inform you that the disk space on the New live bharatshop server(10.0.3.57) is having 93%. Please take appropriate action to resolve this issue promptly.
+
+                            	 
+                            	 
+                             	Server monitoring
+
+I have prepared the servers monitoring sheet as you required. Please find the below attached sheet.
+
+Servers Process Status info 22-06-2023
+
+Hi Naval,
+
+I have prepared the servers monitoring sheet as you required. I wanted to inform you that the disk space on the New live bharatshop server(10.0.3.57) is 92%.  Please find the below attached sheet.
+
+Thanks & Regards
+
+                                     	Incident Report
+
+Hi Team,
+
+Me and Lokesh have Prepared the incident report as  you requested. Please find the below  attached incident report 14-07-2023.
+
+Thanks
+
+
+Hi ,
+I have checked the subdomain  stores.amaron.in is  pointing to si-locations-lb-a-1.singleinterface.com. Please find the below attached screenshot.
+
+The domain amaron.in is pointing to 13.234.99.128. Please find the below attached screenshot.
+
+
+
+Hi Sir,
+I have checked on skoda which is working fine on new si-locations-5 alb.Please check the screenshot also.
+
+
+For CSR --- Hi sir , https://stores.easybuyindia.com/  I will renew this ssl,certificate for 1 year ,please share the opt.   																																																																									 
+Hi Naval,
+
+I have generated the new csr for   Salons.naturals.in. Please find the below attached csr file and screenshot please check
+
+I have purchased SSL for 1 year and i have provided CSR to godaddy,but certificate pending for godaddy side .Please check .
+
+
+Unique ID132n900gqe5cbnbn9ctk87dk28
+Instructionshttps://www.godaddy.com/help/7452?locale=en
+ 
+                                  SSL mail 
+ 
+ Hi Naval,
+
+We have checked the pointing. This website pointed to the si-locations-lb-a-pi.singleinterface.com. Then I have implemented an SSL certificate to the client website  stores.philipslightlounge.com on pixma server. But this certificate pending on goddady side. once we will free then we will fix thiss issue.
+ 
+
+For Websites
+
+Hi Naval,
+I have checked  all websites multiple times in a private browser. All websites working fine except branch-atm-locator.bank.sbi.
+
+hdfc Prepord
+
+We had  traffic on preprod1 servers because of the NFS process which was going on from preprod1 servers to hdfc servers.
+         	Mostly the process stuck on  preprod1 servers and because of that servers was hitting oneself which was increasing traffic on these x.x.x.53 and x.x.x.63 servers.
+
+For controlling we cleared the cache of application and nfs server and then kill all the processes of nfs at preprod1 both  servers and then restarted nfs server and then reload apache also.
+ 
+     	We had done another activity also now we had stopped symlink between hdfc frontent servers to preprod1 servers. Now Hdfc frontend servers are getting symlink from timeline server for Vendor-Page-Theme folder.
+
+Then traffic reduced  from both preprod1 servers.
+
+                        	 
+                          	server monitoring report
+
+
+I am writing to provide you with a summary and conclusion based on the server monitoring report. Below are the key findings:
+
+	Load Average:
+    	The load average values across all servers indicate a well-balanced workload with no signs of excessive load or performance issues.
+
+	Memory:
+    	The servers have an adequate amount of total memory, ranging from 921MB to 15GB.
+    	Free memory levels vary from 154MB to 14GB, suggesting sufficient memory availability for smooth operation.
+
+	CPU:
+    	Most servers exhibit low CPU usage, indicating efficient resource utilization.
+    	However, one server shows a slightly higher CPU usage of 6.20%, which requires further investigation to identify any resource-intensive processes causing the increase.
+
+	Storage:
+    	The storage capacity across servers ranges from 20GB to 552GB.
+    	Used storage varies from 3.5GB to 430GB, with available storage ranging from 3.5GB to 347GB.
+    	Overall, storage utilization levels appear to be within acceptable ranges.
+
+In conclusion, the servers are performing well, with sufficient memory, manageable CPU usage, and appropriate storage utilization.
+
+
+
+
+
+
+Hi Mohammed,
+
+  Conclusion based on the servers monitoring . Below are the key points I found.
+
+Load Average:
+1. The load average values of all servers indicate a well-balanced workload with no signs of excessive load or performance issues.
+
+Memory:
+1. The servers have an amount of total memory, ranging from 921MB to 15GB.
+2. Free memory levels vary from 154MB to 14GB, suggesting sufficient memory availability for smooth operation.
+
+CPU:
+1. Most servers exhibit low CPU usage, indicating efficient resource utilization.
+
+Storage:
+1. The storage capacity across servers ranges from 20GB to 552GB.
+2. Used storage varies from 3.5GB to 430GB, with available storage ranging from 3.5GB to 347GB.
+3. Disk utilization levels are within acceptable ranges, with percentages ranging from 10.00% to 80.00%.
+4. Overall, storage utilization levels are acceptable ranges.
+
+   	Based on these findings, I concluded  the servers are performing well.
+  	 
+  	 
+  	 
+  	 
+   	Based on the above information, there are no significant issues found with the load average, CPU and memory usages across the servers. However, it is worth noting that Server 1 has a disk usage of 56.00%, which is approaching the threshold. It is recommended to monitor the disk usage closely on that server to ensure it does not exceed capacity limits.
+  	 
+  	 
+Metric    Load Average    CPU Usage    Memory Utilization    Disk Usage
+Low    0-1          	0-20%    	0-30%           	0-40%
+Medium    1-5          	20-60%       	30-70%           	40-80%
+High    5+         	60-100%   	70-100%          	80-100% 	 
+
+
+
+	Load Average: The load average values range from 0.00 to 0.73, indicating a relatively low workload on the servers.
+
+	CPU Usage: The CPU usage ranges from 0.00% to 33.30%, suggesting that the CPU resources are utilized at a low level.
+
+	Memory Utilization: The memory utilization varies from 1.9G to 13Gi, indicating that there is sufficient available memory on the servers.
+
+	Disk Usage: The disk usage ranges from 5.00% to 80.00%, signifying that the disk space is being utilized moderately.
+    
+    
+ location.maplestore.in
+
+
+    
+    
+	Hi Naval,
+
+I have prepared the servers monitoring sheet as you required. Please find the below attached sheet.
+
+Conclusion based on all servers monitoring. Below are the key points I found.
+
+Load Average: The load average values range from Low - 0.00, 0.00, 0.00 to High 1.33, 1.33, 1.29, indicating low workload on the servers
+
+CPU Usage: The CPU usage ranges from Low - 0.00% to High - 59.40. The CPU resources are utilized at a low & medium  level.
+
+Memory Utilization: The memory utilization varies from
+Low & medium. there is sufficient available memory on the servers.
+
+Disk Usage: The disk usage ranges from Low - 5.00% to High - 80.00%, The disk space is being utilized in low & medium ranges.
+
+            	Based on these findings, I concluded  the servers are performing well.
+
+Thanks & Regards
