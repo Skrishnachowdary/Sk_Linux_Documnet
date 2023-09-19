@@ -1,0 +1,76 @@
+Step 1 – Create Atlantic.Net Cloud Server
+
+Once you are logged into your CentOS 8 server, run the following command to update your base system with the latest available packages.
+
+
+dnf update -y
+
+    	​ Step 2 – Create an SFTP User
+First, you will need to create a new user with only file transfer access. You can create a new user named sftp using the following command:
+adduser krishna
+
+
+Next, set the password for the above user:
+passwd krishna
+
+Provide your desired password and hit enter.
+
+
+
+    	​ Step 3 – Create a Directory Structure for File Transfers
+Next, you will need to create a directory structure for file transfer to restrict SFTP access to one directory.
+You can create a new directory with the following command:
+
+mkdir -p /opt/krishna/public
+
+
+Next, set the ownership of the /opt/sftp/ directory to root:
+
+chown root:root /opt/krishna
+
+
+Next, give proper permissions with the following command:
+
+
+chmod 755 /opt/krishna
+
+
+Next, set the ownership of the public directory to the sftp user:
+
+chown krishna:krishna /opt/krishna/public
+    	​ Step 4 – Configure SSH for SFTP
+Next, you will need to configure SSH to restrict access to one directory and disallow terminal access to the sftp user.
+You can do it by editing the file /etc/ssh/sshd_config:
+vim /etc/ssh/sshd_config
+
+
+Add the following lines at the end of the file:
+
+Match User krishna
+ForceCommand internal-sftp
+PasswordAuthentication yes
+ChrootDirectory /opt/krishna
+PermitTunnel no
+AllowAgentForwarding no
+AllowTcpForwarding no
+X11Forwarding no
+
+
+
+AllowUsers krishna shiva shankar venky
+PasswordAuthentication yes
+
+Subsystem sftp internal-sftp
+
+Match User krishna
+	ChrootDirectory /opt/krishna/uploadfiles
+	ForceCommand internal-sftp
+
+
+Save and close the file when you are finished. Then, restart the SSH service to implement the changes:
+
+systemctl restart sshd
+
+    	​ Step 5 – Verify SFTP
+Now, verify the SFTP access with the following command:
+sftp krishna@18.141.164.240
