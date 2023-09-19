@@ -1,0 +1,9 @@
+  	 
+Metric    Load Average    CPU Usage    Memory Utilization    Disk Usage
+Low    0-1          	0-20%    	0-30%           	0-40%
+Medium    1-5          	20-60%       	30-70%           	40-80%
+High    5+         	60-100%   	70-100%          	80-100% 	
+
+
+
+
