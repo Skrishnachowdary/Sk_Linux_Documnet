@@ -1,0 +1,524 @@
+                        	how to take dump of a database - user1 to  user2  
+               	 
+Log in to the MySQL server with user1 credentials using the following command:
+
+mysql -u user1 -p
+
+Once you are logged in to the MySQL server, use the following command to take a dump of the database:
+
+mysqldump -u user1 -p database_name > database_name_dump.sql
+
+Log out of the MySQL server using the following command:
+
+exit
+
+Log in to the MySQL server with user2 credentials using the following command:
+
+mysql -u user2 -p
+
+Once you are logged in to the MySQL server with user2 credentials, use the following command to import the dump file into the database:
+
+mysql -u user2 -p database_name < database_name_dump.sql
+
+Log out of the MySQL server using the following command:
+exit
+
+
+                                    	Enabling root access to a MySQL server
+                                   	 
+  Open the MySQL command prompt by running the following command:
+
+mysql -u root -p
+
+Once you are logged in to the MySQL server, run the following command to enable root access:
+
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost' IDENTIFIED BY 'password' WITH GRANT OPTION;
+                                 	 
+ If you want to enable root access from remote hosts, run the following command:
+ 
+ GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'password' WITH GRANT OPTION;
+
+To apply the changes, run the following command:
+
+FLUSH PRIVILEGES;
+
+Log out of the MySQL server
+                                	 
+exit;
+
+                         	Disabling root access to a MySQL server    
+
+Open the MySQL command prompt by running the following command:
+
+mysql -u root -p
+
+
+Once you are logged in to the MySQL server, run the following command to disable root access:
+
+REVOKE ALL PRIVILEGES, GRANT OPTION FROM 'root'@'localhost';
+
+
+If you have enabled root access from remote hosts, run the following command as well:
+
+REVOKE ALL PRIVILEGES, GRANT OPTION FROM 'root'@'%';
+
+
+To apply the changes, run the following command:
+
+FLUSH PRIVILEGES;
+
+
+Log out of the MySQL server
+
+exit;
+
+
+                     	To grant a user access to a specific database, run the following command:
+ 
+
+ CREATE USER 'new_user'@'localhost' IDENTIFIED BY 'password123';
+                    	 
+ GRANT SELECT, INSERT, UPDATE, DELETE ON dbname.* TO 'username'@'localhost';
+               	 
+To apply the changes, run the following command:
+
+FLUSH PRIVILEGES;
+
+                      	Showing the all users -list
+                     	 
+                      	mysql> Select user from mysql.user;  
+                     	 
+   	 
+    	To get the selected information like as hostname, password expiration status,
+   	 
+    	SELECT user, host, account_locked, password_expired FROM user;              	 
+
+                                	 
+                                 	Show Current User
+             	 
+              	mysql> Select user();  
+     	or,  
+mysql> Select current_user();  
+
+
+                                 	Show Current Logged User
+                                	 
+                         	SELECT user, host, db, command FROM information_schema.processlist;     	 
+
+
+
+
+
+
+sudo vim /etc/mysql/mysql.conf.d/mysqld.cnf
+
+sudo vi /etc/mysql/my.cnf
+
+
+
+                    	Update the package list and install MySQL server by running the following commands
+
+                       	Step 1: Install MySQL
+
+# sudo apt update
+# sudo apt install mysql-server
+
+How to check version
+mysql --version
+
+
+During the installation process, you will be prompted to set a root password. Choose a secure password and remember it as you will need it later.
+
+Once the installation is complete, start the MySQL service with the following command:
+
+# sudo systemctl start mysql
+
+
+To check if MySQL is running, use the following command:
+
+# sudo systemctl status mysql
+
+sudo mysql
+USE mysql;
+UPDATE user SET Grant_priv='Y', Super_priv='Y' WHERE User='root';
+FLUSH PRIVILEGES;
+exit
+
+sudo mysql
+
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost' IDENTIFIED BY 'password' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
+exit
+
+GRANT PROCESS ON *.* TO 'sai'@'localhost';
+
+                             	Step 2: Connect to MySQL
+
+Connect to the MySQL server using the following command:
+
+# sudo mysql -u root -p
+
+                             	Step 3: Create a database
+
+Enter the root password you set during installation when prompted. You should now be connected to the MySQL server.
+To create a new database, run the following command:
+
+Replace "dbname" with the name you want to give your database.
+
+CREATE DATABASE dbname;
+
+                               	Step 4: Create a user
+
+To create a new user and grant them access to the database, use the following command:
+
+Replace "username" and "password" with the username and password you want to give the user, and "dbname" with the name of the database you created earlier.
+
+CREATE USER 'krishna'@'localhost' IDENTIFIED BY 'krishna@123';
+GRANT ALL PRIVILEGES ON dbname.* TO 'username'@'localhost';
+
+                               	Step 5: Provide access to users database
+                              	 
+To provide access to the user's database, follow these steps:
+
+	Once you are logged in to MySQL as the root user, type the following command to provide access to the user's database:
+    
+   # FLUSH PRIVILEGES;
+
+
+                                 	Step 6: Give remote access to database user
+
+Open the MySQL configuration file using the following command:
+ 
+ # sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf
+
+ the line that starts with "bind-address" and comment it out by adding a "#" at the beginning of the line.
+
+Save and close the file.
+
+Restart the MySQL service using the following command:
+
+sudo systemctl restart mysql
+
+Once you have completed the above steps, you can grant remote access to the database user by typing the following command:
+
+# GRANT ALL PRIVILEGES ON your_database_name.* TO 'your_username'@'%' IDENTIFIED BY 'your_password';
+
+Replace "your_database_name", "your_username", and "your_password" with the appropriate values.
+
+# exit
+
+
+To test the new user, log in to MySQL using the following command:
+ 
+ # mysql -u username -p
+
+
+
+
+
+
+
+
+
+
+Stop the MySQL service:
+
+
+sudo systemctl stop mysql
+
+Uninstall MySQL:
+
+
+sudo apt-get remove --purge mysql-server mysql-client mysql-common -y
+
+Remove the MySQL configuration files:
+
+
+sudo rm -rf /etc/mysql /var/lib/mysql
+
+Remove the MySQL user:
+
+
+sudo deluser mysql
+sudo rm -rf /var/lib/mysql
+sudo rm -rf /var/log/mysql
+
+Remove the MySQL packages that were not removed by the previous command:
+
+sudo apt-get autoremove
+
+Remove the MySQL repository:
+
+
+sudo rm -rf /etc/apt/sources.list.d/mysql.list*
+
+Finally, clean the apt cache to free up disk space:
+
+
+
+sudo apt-get clean
+
+
+                        	to connect to your AWS RDS instance from your Ubuntu 20.04 instance.
+
+Install the MySQL client by running the following command:
+
+# sudo apt install mysql-client
+
+
+# mysql -h <endpoint> -P <port> -u <username> -p
+
+
+
+
+                                   	create user and add previvileges--
+
+sudo mysql -u root -p
+
+mysql> CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';
+mysql> GRANT ALL PRIVILEGES ON *.* TO 'newuser'@'localhost' WITH GRANT OPTION;
+mysql> FLUSH PRIVILEGES;
+mysql> exit
+
+
+        	Grant the new user read and write permissions to a specific database with the following
+
+GRANT SELECT, INSERT, UPDATE ON database_name.* TO 'new_user'@'localhost';
+
+If you want to limit the user's access to a specific table in the database, you can use the following SQL command:
+
+
+GRANT SELECT, INSERT, UPDATE ON database_name.table_name TO 'new_user'@'localhost';
+
+
+
+                	Grant the necessary permissions to the "krishna" user account app path
+               	 
+    	GRANT SELECT, INSERT, UPDATE, DELETE ON facebook_com.* TO 'krishna'@'%';
+      	 
+       	GRANT SELECT ON google_com.* TO 'krishna'@'%';
+      	 
+      	 
+          	 
+           	To take a dump backup of a database on the same live database server and transfer it to another user,
+          	 
+ 	Step 1: Open a terminal  and log in to your database server using SSH or your preferred method.
+	 
+ 	Step 2: Use the mysqldump or pg_dump command to create a backup of the database. Here is an example command for MySQL:
+	 
+ 	mysqldump -u old_username -p old_database_name > backup.sql
+
+
+Replace old_username with the username of the database owner and old_database_name with the name of the database you want to backup.
+
+
+
+Step 3: Create a new database user for the new user. Here is an example command for MySQL:
+
+CREATE USER 'new_username'@'localhost' IDENTIFIED BY 'new_password';
+
+
+Replace new_username with the desired username for the new user and new_password with a strong password.
+
+Step 4: Grant the new user permissions to access the database. Here is an example command for MySQL:
+
+GRANT ALL PRIVILEGES ON old_database_name.* TO 'new_username'@'localhost';
+
+
+Replace old_database_name with the name of the database you want to backup and new_username with the username you created in step 3.
+
+
+Step 5: Transfer the backup file to the new user's account. You can use any file transfer method you prefer, such as FTP, SCP, or SFTP.
+
+
+Step 6: Log in to the new user's account and use the following command to restore the database:
+
+mysql -u new_username -p new_database_name < backup.sql
+
+
+Replace new_username with the username you created in step 3 and new_database_name with the desired name for the new database.     	 
+       	 
+       	 
+       	 
+       	 
+                	Creating Users:
+             	 
+CREATE USER 'john'@'localhost' IDENTIFIED BY 'password';
+
+ 
+               	Granting Privileges:
+             	 
+GRANT ALL PRIVILEGES ON mydb.* TO 'john'@'localhost';
+
+               	Revoking Privileges:
+            	 
+REVOKE DELETE ON mydb.* FROM 'john'@'localhost';
+
+              	Securing Passwords:             	 
+       	 
+UPDATE mysql.user SET authentication_string = PASSWORD('newpassword') WHERE User = 'john' AND Host = 'localhost';
+FLUSH PRIVILEGES;
+       	 
+                     	Removing Users:
+                    	 
+DROP USER 'john'@'localhost';
+
+
+                	Show Current Logged User
+                                	 
+SELECT user, host, db, command FROM information_schema.processlist
+
+
+                    	Show Current User
+             	 
+mysql> Select user();  
+     	or,  
+mysql> Select current_user();  
+
+
+                     	Showing the all users -list
+                     	 
+mysql> Select user from mysql.user;
+
+             	To check if the user already exists, you can run the following command in the MySQL
+
+SELECT User FROM mysql.user WHERE User = 'Gaurav' AND Host = 'localhost';
+
+
+If the query returns a result, it means the user already exists. In that case, you can update the existing user's password using the following command:
+
+ALTER USER 'Gaurav'@'localhost' IDENTIFIED BY 'Gaurav@123';
+
+Connect to MySQL Server:
+
+mysql -u username -p
+
+Enter MySQL Password:
+
+Switch to the Database:
+
+USE database_name;
+
+Take Backup:
+
+mysqldump -u username -p database_name > backup_file.sql
+
+SOURCE backup_file.sql;
+
+SELECT * FROM your_table;
+
+                             	Grant Privileges to a New User:
+
+CREATE USER 'new_user'@'localhost' IDENTIFIED BY 'password';
+GRANT ALL PRIVILEGES ON new_database.* TO 'new_user'@'localhost';
+FLUSH PRIVILEGES;
+
+                                 	Import the Backup File:
+
+mysql -u new_user -p new_database < ecommerce_backup.sql
+
+                                 	check the User privileges
+
+SHOW GRANTS FOR 'saikrishna'@'localhost';
+
+SHOW GRANTS FOR 'sai'@'%';
+
+
+
+      	How to show table information
+     	 
+      	DESCRIBE Tablename ;
+     	 
+                                      	Delete username
+      	DROP USER 'account_name';  
+                	 
+                                    	Change user password
+                	 
+                 	mysql> USE mysql;  
+   
+mysql> UPDATE user SET password = PASSWORD('jtp12345') WHERE user = 'peter' AND host = 'localhost';  
+
+[OR]] mysql> SET PASSWORD FOR 'peter'@'localhost' = PASSWORD('jtp12345');  
+   
+mysql> FLUSH PRIVILEGES;  
+
+
+
+
+                                          	Create table
+
+
+CREATE TABLE my_table (
+  id INT PRIMARY KEY,
+  name VARCHAR(50),
+  age INT
+);
+
+
+CREATE TABLE my_table (
+  id INT PRIMARY KEY,
+  email VARCHAR(255)
+);
+
+
+
+
+
+                                        	Edit informatioin
+ 
+ 
+  INSERT INTO users (username, email, password) VALUES ('Gaurav', 'Gaurav@example.com', 'Gaurav!@#123');
+ 
+  INSERT INTO users (id, username, email, password) VALUES (1, 'shiva', 'shiva@example.com', 'shiva!@#123');
+
+ 
+ 
+                                        	Delete information
+              	 
+                 	DELETE FROM users WHERE username = 'sai';
+                	 
+                	 
+                                        	How to change column name
+                 	 
+ALTER TABLE your_table_name
+CHANGE COLUMN email email_id VARCHAR(255);
+
+
+                                      	RDS SERVER DOCUMENT
+
+CREATE DATABASE Test_Database;
+
+CREATE USER 'krishna'@'%' IDENTIFIED BY 'krishna@123';
+GRANT ALL PRIVILEGES ON Test_Database.* TO 'krishna'@'%';
+FLUSH PRIVILEGES;
+SHOW GRANTS for krishna;
+
+
+                                               	 
+                                               	Connect Database
+                                              	 
+mysql -h database-1.cdqyff0qwuyv.ap-south-1.rds.amazonaws.com -P 3306 -u admin -p
+
+                                       	 
+                                       	Old database  backup
+                                      	 
+mysqldump -h database-2.cdqyff0qwuyv.ap-south-1.rds.amazonaws.com -P 3306 -u admin -p mysql > backup.sql
+
+                                   	backup import New database
+                                  	 
+mysql -h database-2.cdqyff0qwuyv.ap-south-1.rds.amazonaws.com -P 3306 -u krishna -p Test_Database < backup.sql
+
+
+
+GRANT ALL PRIVILEGES ON *.* TO 'krishna'@'%' IDENTIFIED BY 'krishna@123' WITH GRANT OPTION;
+
+
+                                     	Rds mysql server lo user ni cerate chesi full permisions
+                                    	 
+                                    	 
+  CREATE USER 'ravi'@'%' IDENTIFIED BY 'password1';
+GRANT ALL PRIVILEGES ON *.* TO 'ravi'@'%' WITH GRANT OPTION;
+
+CREATE USER 'ram'@'%' IDENTIFIED BY 'password2';
+GRANT ALL PRIVILEGES ON *.* TO 'ram'@'%' WITH GRANT OPTION;
+                                  	 
