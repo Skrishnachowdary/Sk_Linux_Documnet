@@ -130,4 +130,24 @@ awk '{print $4}' access_log | cut -c 14-18 | uniq -c
  
  
  cat /var/log/httpd/access_log | awk '{ print $7}' | sort | uniq -c | sort
+
+
+
+
+
+
+
+<VirtualHost *:80>
+	ServerName test.bharathapp.com
+	DocumentRoot /var/www/Test-connect
+
+	<Directory /var/www/Test-connect>
+    	Options Indexes FollowSymLinks
+    	AllowOverride All
+    	Require all granted
+	</Directory>
+
+	ErrorLog /var/log/httpd/example.error.log
+	CustomLog /var/log/httpd/example.access.log combined
+</VirtualHost>
  
