@@ -1,0 +1,10 @@
+    Bit (b): The smallest unit, representing a binary digit (0 or 1).
+    Byte (B): A group of 8 bits.
+    Kilobyte (KB): 1,024 bytes (2^10).
+    Megabyte (MB): 1,024 kilobytes or 1,048,576 bytes (2^20).
+    Gigabyte (GB): 1,024 megabytes or 1,073,741,824 bytes (2^30).
+    Terabyte (TB): 1,024 gigabytes or 1,099,511,627,776 bytes (2^40).
+    Petabyte (PB): 1,024 terabytes or 1,125,899,906,842,624 bytes (2^50).
+    Exabyte (EB): 1,024 petabytes or 1,152,921,504,606,846,976 bytes (2^60).
+    Zettabyte (ZB): 1,024 exabytes or 1,180,591,620,717,411,303,424 bytes (2^70).
+    Yottabyte (YB): 1,024 zettabytes or 1,208,925,819,614,629,174,706,176 bytes (2^80).
