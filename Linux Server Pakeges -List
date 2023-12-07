@@ -12,9 +12,13 @@ sudo systemctl restart httpd
 
 
                                             	Install-PHP
-yum install php*
+yum update
 amazon-linux-extras enable php7.4
+yum clean metadata
+yum install php-cli php-pdo php-fpm php-json php-mysqlnd
+php -v
 
+yum install php*
 yum install php php-common php-opcache php-cli php-gd php-curl php-mysqlnd -y
 
  systemctl start php-fpm
