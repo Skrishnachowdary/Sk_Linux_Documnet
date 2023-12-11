@@ -160,5 +160,15 @@ sudo cp src/redis-cli /usr/local/bin/
 redis-server
 redis-cli
                                        	 
+                                    mongodb Driver
+
+sudo yum install -y gcc make autoconf libc-dev pkgconfig
+sudo yum install glibc-devel
+sudo pecl install mongodb
+sudo yum install php-pear
+sudo pecl install mongodb
+sudo yum install php-devel
+sudo pecl install mongodb
+ yes '' | sudo pecl install mongodb
 
 
