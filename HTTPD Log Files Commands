@@ -1,0 +1,30 @@
+                                             last 10 ips list
+
+tail -5000 access_log |awk '{print $1}'|sort |uniq -c|sort -rn |head -10 
+
+                                             min by min hits count    
+
+grep "24/Dec/2023:04" access_log | cut -d[ -f2 | cut -d] -f1 | awk -F: '{print $2":"$3}' | sort -nk1 -nk2 | uniq -c | awk '{ if ($1 > 10) print $0}'
+                              server last ips list
+
+awk '{print $1}' access_log | sort | uniq -c | sort -nr | head -n 20  
+
+                         server hits top 20 ips list
+                          
+awk '/24\/Dec\/2023:09:/' access_log | awk '$5 >="[09:00:" && $5 < "[09:59:"' | awk '{print $1}' | sort | uniq -c | sort -nr | head -n 20
+
+                         server particular hour top ips list
+                         
+awk '/24\/Dec\/2023:09:/' access_log | awk '{print $1}' | sort | uniq -c | sort -nr
+
+                          server particular hour top 20 ips list 
+awk '/24\/Dec\/2023:09:/' access_log | awk '{print $1}' | sort | uniq -c | sort -nr | head -n 10
+
+                                
+                                particular subdomain top 20 ips list 
+                                
+ awk '/24\/Dec\/2023:09:/' access_log | awk '/www.samsungexclusivestores.in/' | awk '{print $1}' | sort | uniq -c | sort -nr | head -n 20
+
+grep '03/Nov/2023:06:33' access_log-20231016 | grep 'iocl'
+
+grep 'www.samsungexclusivestores.in' | grep "03/Nov/2023:06:3" access_log
