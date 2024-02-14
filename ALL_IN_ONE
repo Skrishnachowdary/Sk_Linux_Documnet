@@ -1,0 +1,2955 @@
+find . -type f -name ".env"
+card no- 4481,8341 cvv - 455     Customer #: 77699147     pin - 0576 - rehana0600@godaddy.com - dealers.caseconstructionindia.com
+GoDaddy Support-9666268100
+
+
+/etc/init.d/nfs status
+
+scp -r branches.piramalfinance.com-23 sai@10.0.2.192:/home/sai/
+
+c5a.8xlarge
+Key,CRT,GD
+
+Regarding Backups of NFS/Image Server and Live RDS
+
+SI_LIVE
+
+
+App-Path: cd /var/singleinterface/                    URL: singleinterface.com
+Cheaking branch: sudo git rev-parse --abbrev-ref HEAD
+current branch: master-branch-dec-2023-v1
+backup command: sudo git branch master-branch-dec-2023-v1-bkp-14-02-2024-
+pull command: sudo git pull origin master-branch-dec-2023-v1
+
+
+SI_BACKED
+App-Path: cd /var/www/singleinterface/                    URL: backend.singleinterface.com
+Cheaking branch: sudo git rev-parse --abbrev-ref HEAD
+current branch: master-branch-dec-2023-v1
+backup command: sudo git branch master-branch-dec-2023-v1-bkp-14-02-2024-
+pull command: sudo git pull origin master-branch-dec-2023-v1
+
+
+
+
+
+
+ln -s /si_image/files
+ln -s /data/Vendorpage101 VendorpageTheme
+
+Server Setup Regarding Webp
+
+/etc/init.d/crond start
+/etc/init.d/crond stop
+
+Bharath shop -Test 
+
+GDROCKSTAR , GDROCKSTAR
+
+alias ll="ls -al"
+
+Please use below command for WHATSAPP User engagement
+
+node /var/www/new_connect_app_singleinterface/crons/MessageTemplatesToAgent.js
+
+
+shop-support-demo.singleinterface.com                	-- enterprise_demo
+
+GITHUB Token-2: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
+ 
+ GITHUB Token-3: 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
+
+ GITHUB Token-4: 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
+  
+ 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
+ 
+ Server-Name: new-bharat-test-server
+
+ Server-IP: 10.0.1.85
+ Username: sai	[   ssh sai@10.0.1.85  ]
+ App-Path: cd /var/www/bharatshop_work	  [SubdomainName: : https://shop-support-staging.singleinterface.com]
+ Cheaking branch: sudo git rev-parse --abbrev-ref HEAD
+ current branch: enterprise-demo-test-master-july-with-headers-fix
+ backup command: sudo git branch enterprise-demo-test-master-july-with-headers-fix-bkp-14-02-2024-
+ pull command: sudo git pull origin enterprise-demo-test-master-july-with-headers-fix
+
+
+enterprise-demo-test-master-july
+
+ 
+   Server-Name:old-test-bharat-server
+
+ ServerIP: 10.0.4.141
+ Username: Sai	[  ssh Sai@10.0.4.141  ]
+ App-path: cd /var/www/bharatshop_work/  [for www.bharatstaging.shop this subdomain]
+ Cheaking  branch: sudo git rev-parse --abbrev-ref HEAD
+ current branch: test-master-july
+ backup command: sudo git branch enterprise-demo-test-master-july-bkp-14-02-2024-
+ pull command: sudo git pull origin enterprise-demo-test-master-july
+ 
+ 
+ 
+ App-path: cd /var/www/demo_bharatshop/  [For demo.bharatstaging.shop this subdomain]
+ Cheaking branch: sudo git rev-parse --abbrev-ref HEAD
+ current branch:enterprise-demo-test-master-july
+ backup command:sudo git branch enterprise-demo-test-master-july-bkp-14-02-2024-
+ pull command: sudo git pull origin enterprise-demo-test-master-july
+
+
+
+ Server-Name:Test connect-app-server
+
+ ServerIP: 10.0.4.73
+ Username: Sai	[   ssh Sai@10.0.4.73  ]
+ App-path: cd /var/www/connect_staging [for test-chat-1.starify.co this subdomain]
+ Cheaking  branch: sudo git rev-parse --abbrev-ref HEAD
+ current branch: test-master-branch-jan-2024
+ backup command: sudo git branch test-master-branch-jan-2024-bkp-14-02-2024-
+ pull command: sudo git pull origin test-master-branch-jan-2024
+ 
+ sudo git reset --hard
+ 
+ App-path: cd /var/www/connect_dev 	[for test-chat.starify.co this subdomain]
+ Cheaking  branch: sudo git rev-parse --abbrev-ref HEAD
+ current branch: new-google-petppoja-8may
+ backup command:sudo git branch new-google-petppoja-8may-bkp-14-02-2024-
+ pull command: sudo git pull origin new-google-petppoja-8may
+ 
+ 
+
+ App-path: cd /var/www/connect_demo	[for connect-demo.starify.co this path]
+ Cheaking  branch: sudo git rev-parse --abbrev-ref HEAD
+ current branch: demo-master-pet-dec-2023-v1
+ backup command: sudo git branch demo-master-pet-dec-2023-v1-bkp-14-02-2024-
+ pull command: sudo git pull origin demo-master-pet-dec-2023-v1
+
+
+bharatshop-pet-flow-master-merge-10-nov
+
+
+ Server-Name: connect-app-new-server
+
+ Server-IP: 10.0.4.46
+ Username: sai	[   ssh sai@10.0.4.46  ]
+ Password: 	 
+ App-Path: cd /var/www/new_connect_app_singleinterface   [SubdomainName: : ]
+ Cheaking branch: sudo git rev-parse --abbrev-ref HEAD
+ current branch:master-pet-dec-2023-v1
+ backup command:sudo git branch master-pet-dec-2023-v1-bkp-14-02-2024-
+ pull command: sudo git pull origin master-pet-dec-2023-v1
+
+
+
+
+Servername: New live bharatshop server
+ServerIp : 10.0.3.57   master-branch-june-2023
+Cheaking branch: sudo git rev-parse --abbrev-ref HEAD
+ current branch: master-branch-june-2023
+ backup command:sudo git branch master-branch-june-2023-bkp-14-02-2024-
+ pull command: sudo git pull origin master-branch-june-2023
+
+                   Disk full issue
+cd /root/.pm2/
+du -sh *
+cd logs/
+du -sh *	
+> connect-production-out-1.log 
+> connect-production-out-0.log
+> connect-production-error-1.log
+> connect-production-error-0.log
+df -h
+
+
+Live_Si Server
+
+df -h
+cd /var/lib/
+cd cro
+cd /var/spool/mail/
+ll
+du -sh *
+> root 
+df -h    
+
+
+
+ pm2 list
+ pm2 reload demo
+ pm2 logs demo	bharatshop-pet-flow-master-merge-10-nov
+ 
+sudo tail -f /var/log/httpd/access_log
+
+sudo tail -f /var/log/httpd/error_log
+
+pm2 list
+
+pm2 logs 0
+
+
+Bharat Shop Live server.
+Username: Sai
+Password:
+10.0.4.96
+cd /var/www/bharat_shop_api
+
+
+user-name: sai
+server name: OLD-LIVE-CONNECT-APP-SERVER-3
+server IP: 10.0.4.211
+
+
+
+
+
+
+
+
+
+
+
+Server Name -New live bharatshop server   	[10-0-3-57]
+shop-support.singleinterface.com - subdomain
+Db Name - connect_production_enterprise_version
+
+new-bharat-test-server -Server-IP: 10.0.1.85
+shop-support-staging.singleinterface.com - Sub domain
+connect_staging_enterprise_version - Db name
+
+ Server-Name:old-test-bharat-server
+ ServerIP: 10.0.4.141
+demo.bharatstaging.shop- subdomain
+demo_connect_staging_enterprise_version - Db name
+
+
+
+
+
+Test connect-app-server[10-0-4-73]
+
+ Sub Domain - connect-demo.starify.co[ cd /var/www/connect_demo]
+ Db Name - connect_app_demo
+
+ Sub Domain - test-chat-1.starify.co  [cd /var/www/connect_staging]
+ Db Name - connect_app_staging
+
+ Sub Domain - test-chat.starify.co [cd /var/www/connect_dev]
+ Db Name - connect_app_staging
+
+
+
+Server Name - connect-app-new-server
+Server Ip - 10.0.4.46  [/var/www/new_connect_app_singleinterface]
+
+Sub Domain - app.singleinterfce.co
+Db Name - updated_dev_whatsapp
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://stackoverflow.com/questions/54409953/cant-install-sharp
+
+
+
+
+
+
+sudo systemctl status  php8.1-fpm
+source .profile
+systemctl start mssql-server.srevice
+systemctl stop mssql-server.srevice
+systemctl status mssql-server.srevice
+
+
+
+cd /etc/nginx/sites-enabled
+
+
+
+mysql -h database-1.cjwysq8wwbyd.ap-south-1.rds.amazonaws.com -P 3306 -u admin -p
+personal_acount
+sai9666268100
+saikrishna
+8100(sai)->Krishna
+
+
+SI_TEST
+
+rajeshdevineni8055@gmail.com
+Rajesh@akhil
+bathiniyedukondal@gmail.com
+55kon177da8l!@#SAI
+username: Sai
+
+610829563994
+saikrishna
+55kon177da8l!@#Sai
+alias - sai-9666268100
+ssh Sai@10.0.4.235
+cd /var/www/SI_TEST
+sudo git rev-parse --abbrev-ref HEAD
+sudo git branch test-master-branch-june-2021-bkp-13-02-2024-
+sudo git pull origin test-master-branch-june-2021
+
+sudo git branch test-master-branch-june-2021-bkp-13-02-2024- && sudo git pull origin test-master-branch-june-2021
+
+
+sudo git branch master-branch-march-2023-demo-v1-bkp-13-02-2024-
+sudo git pull origin master-branch-march-2023-demo-v1
+
+/var/www/demo_si/app/tmp/logs           	-- logs
+
+SOURCE /var/lib/mysql/sample_sql_file.sql;
+
+SOURCE /var/lib/mysql/new_database/sample_sql_file.sql;
+
+
+
+ps aux | grep apache | wc -l
+
+/etc/init.d/httpd restart
+
+
+Ford-LB CLB
+
+LB-Name : Ford-LB
+HostName/DNSName/Endpoint Name: FORD-LB-1969159144.ap-south-1.elb.amazonaws.com
+Attached Servers: FORD-SERVER-1, FORD-SERVER-2
+Servers IPS: 10.0.4.161, 10.0.4.221
+
+65.1.115.86
+35.154.196.85
+
+
+
+
+Si-locations CLB
+
+LB-Name : si-locations CLB
+HostName/DNSName/Endpointname: si-locations-166252326.ap-south-1.elb.amazonaws.com
+Attached Servers: SI-LOCATIONS-SERVER-1, SI-LOCATIONS-SERVER-2, SI-LOCATIONS-SERVER-3, SI-LOCATIONS-SERVER-4
+Servers IPS: 10.0.4.75, 10.0.4.89, 10.0.4.196, 10.0.4.238
+
+13.232.145.204
+13.234.15.114
+
+si-locations-3 CLB
+
+LB-Name : si-locations-3 CLB
+HostName/DNSName/Endpointname: SI-LOCATION-3-152911756.ap-south-1.elb.amazonaws.com
+Attached Servers: SI-LOCATIONS-SERVER-5, SI-LOCATIONS-SERVER-6
+Servers IPS: 10.0.4.75, 10.0.4.92, 10.0.4.196, 10.0.4.28
+Cname: si-locations-lb-c.singleinterface.com
+
+
+3.7.1.106
+35.154.161.213
+
+
+Pizzahut  ALB Details
+
+LB-Name :  singleinterface-location-alb
+HostName/DNSName/Endpointname: singleinterface-location-alb-1487050805.ap-south-1.elb.amazonaws.com
+Attached Servers: Live-pizzahut-server
+Servers IPS: 10.0.4.166
+
+3.108.139.86
+13.234.126.229
+
+HDFC ALB Details
+
+ALB Name: si-location-alb
+HostName/DNSName/Endpoint Name: si-location-alb-1884078839.ap-south-1.elb.amazonaws.com
+Attached Servers: HDFC-SERVER-1, HDFC-SERVER-2, HDFC-SERVER-3
+Servers IPS: 10.0.4.215, 10.0.4.25, 10.0.4.176
+
+13.126.126.97
+3.7.107.122
+
+
+STARBUCKS aALB DETAILS
+
+ALB Name: SI-LOCATIONS-alb-2
+HostName/DNSName/Endpoint Name: SI-LOCATIONS-alb-2-161662544.ap-south-1.elb.amazonaws.com
+Attached Servers: FORD-STARBUCKS-SERVER
+Servers IPS: 10.0.1.115
+
+3.108.148.41
+13.126.192.245
+
+pIXMA CLB DETAILS
+ALB Name: si-locations-4
+HostName/DNSName/Endpoint Name: si-locations-4-1134162587.ap-south-1.elb.amazonaws.com
+Attached Servers: NEW-SI-LOCATION-3 [Pixma]
+Servers IPS: 10.0.1.250
+Cname: si-locations-lb-a-pi.singleinterface.com
+
+
+43.204.9.102
+35.154.18.187
+
+ALL working client ALB
+ALB Name: si-locations-5
+HostName/DNSName/Endpoint Name: si-locations-5-1145949185.ap-south-1.elb.amazonaws.com
+Attached Servers: NEW-SI-LOCATION-4
+Servers IPS: 10.0.1.14, 10.0.1.67
+Cname : si-locations-lb-a-1.singleinterface.com
+
+35.154.243.174
+43.204.0.35
+
+
+1. ALB Name: SI-LOCATIONS-6
+Hostname: si-locations-6-674633222.ap-south-1.elb.amazonaws.com
+Cname: si-locations-lb-a-2.singleinterface.com  [Now client will point their domains and subdomain this Cname]
+ServerIP: 10.0.2.119
+
+
+43.205.219.82
+13.234.211.39
+
+
+Cname: si-locations-lb-a-3.singleinterface.com [Client will point their domain and subdomain on this Cname]
+ALB-Name: SI-LOCATIONS-7
+ALB HostName/Endpoint/Cname: SI-LOCATIONS-7-636619165.ap-south-1.elb.amazonaws.com
+Attached TG: SI-LOCATIONS-7-2
+WAF: ON
+Global Accelerator: ON
+AWS ConFig: ON
+Attached Servername: SI-LOCATIONS-7-2
+Attached Server IP: x.x.2.192
+Attached Server Configuration: T3a.xlarge 4CPU/16GB RAM along with 200 GB HD
+
+3.109.9.0
+3.109.128.248
+
+
+ALB Name: SI-LOCATIONS-8-ALB-4
+ALB DNS Name: SI-LOCATIONS-8-ALB-4-255910282.ap-south-1.elb.amazonaws.com
+CallIng Name: ALB-4 [Call this alb-4 because of endpoint]
+client pointing endpoint/Hostname/DNSName/Cname: https://si-locations-lb-a-4.singleinterface.com/
+Connect Target Group: ALB-4
+Waf: Enabled
+Access Log: Enabled
+Connected Server: 10.0.2.43
+
+
+3.7.111.159
+13.235.44.51
+
+ALB-Name: SI-LOCATIONS-9-ALB-5
+ALB-HostName/Cname/Endpoint/dnsname: SI-LOCATIONS-9-ALB-5-1658791481.ap-south-1.elb.amazonaws.com   - 15.206.132.224
+ALB Cname: si-locations-lb-a-5.singleinterface.com [new clients will point their domains and subdomains on this Cname]
+TargetGroupName: ALB-5  
+IPv4 :
+52.223.22.35
+35.71.174.210
+WaF: On
+AccessLog: ON
+ServerName: ALB-5
+ServerClone: Pixma
+Credentials: Same which we are using for pixma servers
+ServerIP: x.x.1.86
+
+13.235.209.253
+15.206.132.224
+
+
+ALB-Name: SI-LOCATIONS-10-ALB-6
+ALB-HostName/Cname/Endpoint/dnsname: SI-LOCATIONS-10-ALB-6-647136148.ap-south-1.elb.amazonaws.com   - 15.206.132.224
+ALB Cname: si-locations-lb-a-6.singleinterface.com [new clients will point their domains and subdomains on this Cname]
+TargetGroupName: ALB-6
+WaF: On
+AccessLog: ON
+ServerName: ALB-6
+Credentials: Same which we are using for pixma servers
+ServerIP: x.x.1.244
+
+
+
+
+
+V2_ Test
+
+
+
+
+
+                                                  	v2 Frontent details
+
+GITHUB Token-2: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
+
+GITHUB Token-3: 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
+
+GITHUB Token-4: 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
+
+Dev environment
+
+Server-Name: V2-Dev-Frontend-server                    	[  https://dev-backend-dashboard.singleinterface.com ]
+Server-IP: 10.0.3.166                                   	 
+App-pull-path: cd /var/www/dev_singleinterface_dashboard_v2/singleinterface-dashboard
+Cheaking  branch: sudo git rev-parse --abbrev-ref HEAD
+current branch: Dev-Testing-Branch-Oct-2023
+backup command: sudo git branch Dev-Testing-Branch-Oct-2023-bkp-14-02-2024-
+pull command: sudo git pull origin Dev-Testing-Branch-Oct-2023                               	 
+
+
+Live environment
+
+Live_Frontend-server
+
+Server-Name: V2-Dev-Frontend-server            	[ https://backend-dashboard.singleinterface.com/pages/ ]
+Server-IP: 10.0.1.225
+App-pull-path: cd /var/www/live_frontent_v2                          	live_v2_dashboard/singleinterface-dashboard
+Cheaking  branch: sudo git rev-parse --abbrev-ref HEAD
+current branch: master-branch-july-2023-for-live
+backup command: sudo git branch master-branch-jan-2024-for-live-bkp-14-02-2024-
+pull command: sudo git pull origin master-branch-jan-2024-for-live
+
+
+
+                                                   	V2 backend Details
+
+                                                     	Dev environment
+
+Server-Name: V2-Dev-backend-server
+Server-IP: 10.0.3.105                      	[ Url: https://test1.singleinterface.com/v1/ping ]
+App-pull-path: cd /var/www/si-backend-v2/
+Cheaking  branch: sudo git rev-parse --abbrev-ref HEAD
+current branch: test-master-v2-may-2023
+backup command: sudo git branch test-master-v2-may-2023-bkp-14-02-2024-
+pull command: sudo git pull origin test-master-v2-may-2023
+
+  	yarn reload                                                                       	 
+
+Live environment
+
+Server-Name: V2-Dev-backend-server
+Server-IP: 10.0.3.71                      	[Url: test1.singleinterface.com ]
+App-pull-path: /var/www/singleinterface_dashboard_v2/
+connected database: dashboard
+Url: https://v2.singleinterface.com/v1/ping
+
+
+
+                                                      	V2 Preprod Details
+
+                                                       	Test environment
+
+Server-Name: V2-Dev-Preprod-server
+Server-IP: 10.0.3.62
+App-pull-path: cd /var/www/singleinterface/  	[ Url: https://test-dashboard-preprod.singleinterface.com ]
+connected database: Testing si dataServerCertificate.crtbase
+Cheaking branch: sudo git rev-parse --abbrev-ref HEAD
+current branch: preprod-20dec-2022
+backup command:sudo git branch preprod-20dec-2022-bkp-14-02-2024-
+pull command: sudo git pull origin preprod-20dec-2022
+
+                                                    	 
+                                                    	 
+                                                       	V2 Preprod Details
+
+                                                        	Live environment
+
+Server-Name: V2-Live-Preprod-server
+Server-IP: 10.0.3.243  
+App-pull-path: cd /var/www/backend-preprod/            	[Url: https://dashboard-preprod.singleinterface.com]
+Cheaking  branch: sudo git rev-parse --abbrev-ref HEAD
+current branch: v2-dashboard-preprod-dec-2023-v1
+backup command: sudo git branch v2-dashboard-preprod-feb-2024-bkp-14-02-2024-
+sudo git pull origin v2-dashboard-preprod-feb-2024
+
+  App-pull-path: cd /var/www/test_dashboard_preprod            	[Url: https://dashboard-preprod.singleinterface.com]
+Cheaking  branch: sudo git rev-parse --abbrev-ref HEAD
+current branch: master-branch-dec-2023-v1
+backup command: sudo git branch master-branch-dec-2023-v1-bkp-14-02-2024-
+sudo git pull origin master-branch-dec-2023-v1
+
+
+Server-Name: V2-Backend-Preprod-server
+Server-IP: 10.0.4.123  
+App-pull-path: cd /var/www/preprod-singleinterface            	[Url:]
+Cheaking  branch: sudo git rev-parse --abbrev-ref HEAD
+current branch:preprod-branch-dec-2023
+backup command: sudo git branch preprod-branch-dec-2023-bkp-14-02-2024-
+pull command: sudo git pull origin preprod-branch-dec-2023                     
+
+disk full isuue resolve things
+
+cd /var/spool/
+cd mail/
+> root
+
+Live_Si Server
+
+df -h
+cd /var/lib/
+cd cro
+cd /var/spool/mail/
+ll
+du -sh *
+> root 
+df -h 
+
+
+
+
+    Bit (b): The smallest unit, representing a binary digit (0 or 1).
+    Byte (B): A group of 8 bits.
+    Kilobyte (KB): 1,024 bytes (2^10).
+    Megabyte (MB): 1,024 kilobytes or 1,048,576 bytes (2^20).
+    Gigabyte (GB): 1,024 megabytes or 1,073,741,824 bytes (2^30).
+    Terabyte (TB): 1,024 gigabytes or 1,099,511,627,776 bytes (2^40).
+    Petabyte (PB): 1,024 terabytes or 1,125,899,906,842,624 bytes (2^50).
+    Exabyte (EB): 1,024 petabytes or 1,152,921,504,606,846,976 bytes (2^60).
+    Zettabyte (ZB): 1,024 exabytes or 1,180,591,620,717,411,303,424 bytes (2^70).
+    Yottabyte (YB): 1,024 zettabytes or 1,208,925,819,614,629,174,706,176 bytes (2^80).
+
+
+
+
+cd /var/www/preprod-singleinterface/	Backend 123 server
+
+
+
+
+
+
+Create new subdomain 
+
+
+
+.env
+npm install pm2 --g
+pm2 start src/index.js --name test-bharat-shop -i 2
+sudo -s
+
+
+shop-support-demo.singleinterface.com                	-- enterprise_demo
+
+
+create a sudomain
+cd /var/www/
+mkdri connect_enterprise [ Project path  name]
+
+cd connect_enterprise/   --- go to the subdomain directory
+
+git clone https://github.com/dealsandyou/bharat_shop_api.git  --- clone the git repo       	---  /home/sai
+ 
+ll	--next show the files present directory
+
+cd /etc/httpd/conf.d/  	--- Next go the directory
+
+vim connect_enterprise.conf	--- edit the file 1.change directory path 2.change server name 3. change the port number and save
+
+systemctl status httpd 	--- next check status
+
+/etc/httpd/ssl/singleinterface_certs/   --- create these things
+
+httpd -t	--- check the syntax
+
+systemctl restart httpd 	--- restart the server
+
+ [/var/www/bharatshop_work]  git statas   ---- Go to the other project path and check the current branch
+ 
+ git fetch origin master-branch-june-2023
+  git status
+  git checkout master-branch-june-2023
+  git status    
+ 
+ open the vim .gitignore file -- show the detailes
+                                                                                            	connect_enterprise
+ pwd  	-- show the current directory path ---   /var/www/bharatshop_work
+ 
+ cd includes/  --- Go to the  this directory path
+ 
+ ll  -- show the list
+ 
+  cp DbConnect.php /var/www/connect_enterprise/includes ---- copy the database[DbConnect.php]file in new project path directory
+ 
+ cd ../ -- back the one directory  --  /var/www/bharatshop_work
+ 
+ cd bharatAPI/includes/	-- Go the the this directory path
+ 
+ ll  -- check list
+ 
+ 
+ cp db.php /var/www/connect_enterprise/bharatAPI/includes ---- Copy the db.php file in the new sobdomain path
+ 
+ pwd   -- check the directory path ---  	/var/www/bharatshop_work/bharatAPI/includes
+ 
+ cd ..   --- Back one directory
+ 
+ ll	-- check the list
+ 
+ cd ..
+ 
+ ll
+ 
+ cp define.php /var/www/enterprise_demo
+ 
+ cp .env /var/www/connect_enterprise/connectBharatShop
+ 
+ 
+ 
+ edit the files subdomain PATH
+ 
+
+ 
+ /var/www/connect_enterprise/connectBharatShop/
+ 
+ npm install
+ 
+ pm2 start src/index.js --name "demo_test"
+
+ pm2 start src/index.js --name "connect_enterprise_production" -i 2
+
+
+ pm2 start src/index.js --name "Test-connect" -i  
+ 
+
+ 
+ sudo vim /etc/ssh/sshd_config
+ 
+ PasswordAuthentication yes
+ sudo service sshd restart
+ 
+ sudo usermod -aG git gaurav
+sudo chown -R gaurav:git /var/www/Test-connect
+sudo chmod -R 775 /var/www/Test-connect
+sudo su - gaurav -c "pm2 startup"
+
+
+
+7gq6rds5Rvb#67#gasytha      	- ssh Sai@13.233.132.28 user
+ 
+ 
+ sai ALL=(ALL) NOPASSWD: /usr/bin/pm2 start, /usr/bin/pm2 restart, /usr/bin/pm2 list
+sudo chmod -R 775 /var/www/Test-connect
+sudo chmod +x /usr/bin/git
+sudo usermod -aG sudo sai
+sudo chmod +x /usr/bin/pm2
+ sai ALL=(ALL) NOPASSWD: /usr/bin/pm2
+sai ALL=(ALL) NOPASSWD: /usr/bin/git
+
+jgzyfh#R^UR#^&FCfs7gjwb
+
+sudo vi /etc/ssh/sshd_config
+
+PermitRootLogin no
+thgxy$^GE#&GEcxhtysb   - ssh gaurav@13.233.132.28
+
+AllowUsers sai gaurav
+
+
+sudo git rev-parse --abbrev-ref HEAD
+
+<VirtualHost *:80>
+	ServerName test.bharathapp.com
+	DocumentRoot /var/www/Test-connect
+
+	<Directory /var/www/Test-connect>
+    	Options Indexes FollowSymLinks
+    	AllowOverride All
+    	Require all granted
+	</Directory>
+
+	ErrorLog /var/log/httpd/example.error.log
+	CustomLog /var/log/httpd/example.access.log combined
+</VirtualHost>
+
+
+
+
+
+ 
+
+                                  	visudo
+
+
+## Allow root to run any commands anywhere
+root	ALL=(ALL)   	ALL
+sai ALL=(ALL) NOPASSWD: /usr/bin/git
+sai ALL=(ALL) NOPASSWD: /bin/bash, /root/.nvm/versions/node/v16.20.1/bin/pm2
+
+gaurav ALL=(ALL) NOPASSWD: /usr/bin/git
+gaurav  ALL=(ALL) NOPASSWD: /bin/bash, /root/.nvm/versions/node/v16.20.1/bin/pm2
+
+
+
+
+
+
+
+Apps were removed when I changed laptop
+
+
+
+VPN Details 
+
+
+Open NetExtender
+VPN Server : 182.74.33.58:4433
+VPN User : dnydeepika
+VPN Password : HG%^$56464hkjhj
+Domain : LocalDomain
+
+Open Remmina App
+Desktop IP : 172.16.10.37
+Username : deepikasheoran
+Pass : Automation@241
+
++91 9910011018
+
+
+
+
+
+
+
+
+
+SFTB 
+
+
+
+
+Step 1 – Create Atlantic.Net Cloud Server
+
+Once you are logged into your CentOS 8 server, run the following command to update your base system with the latest available packages.
+
+
+dnf update -y
+
+    	​ Step 2 – Create an SFTP User
+First, you will need to create a new user with only file transfer access. You can create a new user named sftp using the following command:
+adduser krishna
+
+
+Next, set the password for the above user:
+passwd krishna
+
+Provide your desired password and hit enter.
+
+
+
+    	​ Step 3 – Create a Directory Structure for File Transfers
+Next, you will need to create a directory structure for file transfer to restrict SFTP access to one directory.
+You can create a new directory with the following command:
+
+mkdir -p /opt/krishna/public
+
+
+Next, set the ownership of the /opt/sftp/ directory to root:
+
+chown root:root /opt/krishna
+
+
+Next, give proper permissions with the following command:
+
+
+chmod 755 /opt/krishna
+
+
+Next, set the ownership of the public directory to the sftp user:
+
+chown krishna:krishna /opt/krishna/public
+    	​ Step 4 – Configure SSH for SFTP
+Next, you will need to configure SSH to restrict access to one directory and disallow terminal access to the sftp user.
+You can do it by editing the file /etc/ssh/sshd_config:
+vim /etc/ssh/sshd_config
+
+
+Add the following lines at the end of the file:
+
+Match User krishna
+ForceCommand internal-sftp
+PasswordAuthentication yes
+ChrootDirectory /opt/krishna
+PermitTunnel no
+AllowAgentForwarding no
+AllowTcpForwarding no
+X11Forwarding no
+
+
+
+AllowUsers krishna shiva shankar venky
+PasswordAuthentication yes
+
+Subsystem sftp internal-sftp
+
+Match User krishna
+	ChrootDirectory /opt/krishna/uploadfiles
+	ForceCommand internal-sftp
+
+
+Save and close the file when you are finished. Then, restart the SSH service to implement the changes:
+
+systemctl restart sshd
+
+    	​ Step 5 – Verify SFTP
+Now, verify the SFTP access with the following command:
+sftp krishna@18.141.164.240
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sure, here are the step-by-step commands to create the users shiva, shankar, and venky and assign them specific directories:
+Step 1 - Create the Users: First, create the users using the adduser command, as follows:
+adduser shiva
+adduser shankar
+adduser venky
+Step 2 - Set the Passwords: Next, set passwords for the users using the passwd command, as follows:
+passwd shiva
+passwd shankar
+passwd venky
+Provide the desired passwords for each user and hit enter.
+Step 3 - Create Directories: Next, create directories for each user using the mkdir command, as follows:
+bash
+mkdir -p /opt/shiva/files
+mkdir -p /opt/shankar/files
+mkdir -p /opt/venky/files
+Step 4 - Set Directory Ownership and Permissions: Set the ownership of the directories to the corresponding user and set the permissions using the following commands:
+bash
+chown shiva:shiva /opt/shiva/files
+chmod 755 /opt/shiva/files
+
+chown shankar:shankar /opt/shankar/files
+chmod 755 /opt/shankar/files
+
+chown venky:venky /opt/venky/files
+chmod 755 /opt/venky/files
+Step 5 - Configure SSH for SFTP: Edit the /etc/ssh/sshd_config file using the vim editor as follows:
+bash
+vim /etc/ssh/sshd_config
+Add the following lines at the end of the file for each user, replacing <user> with the actual username:
+yaml
+Match User shiva
+ForceCommand internal-sftp
+PasswordAuthentication yes
+ChrootDirectory /opt/shiva
+PermitTunnel no
+AllowAgentForwarding no
+AllowTcpForwarding no
+X11Forwarding no
+
+Match User shankar
+ForceCommand internal-sftp
+PasswordAuthentication yes
+ChrootDirectory /opt/shankar
+PermitTunnel no
+AllowAgentForwarding no
+AllowTcpForwarding no
+X11Forwarding no
+
+Match User venky
+ForceCommand internal-sftp
+PasswordAuthentication yes
+ChrootDirectory /opt/venky
+PermitTunnel no
+AllowAgentForwarding no
+AllowTcpForwarding no
+X11Forwarding no
+Save and close the file when you are finished. Then, restart the SSH service to implement the changes using the following command:
+systemctl restart sshd
+That's it! You have now created the users shiva, shankar, and venky and assigned them specific directories for SFTP access.
+
+
+
+
+
+Software packages 
+
+
+this is my server - NAME="Amazon Linux"
+VERSION="2023"
+ID="amzn"
+ID_LIKE="fedora"
+VERSION_ID="2023"
+PLATFORM_ID="platform:al2023"
+PRETTY_NAME="Amazon Linux 2023"
+                                          	Install- SSL
+
+sudo yum install mod_ssl      	 
+
+                                            	Install-HTTPD
+sudo yum update -y
+sudo yum install httpd -y          	 
+sudo systemctl start httpd
+sudo systemctl enable httpd
+sudo systemctl status httpd
+sudo systemctl restart httpd
+
+
+                                            	Install-PHP
+yum install php*
+
+yum install php php-common php-opcache php-cli php-gd php-curl php-mysqlnd -y
+
+ systemctl start php-fpm
+ systemctl enable php-fpm
+ systemctl status php-fpm
+ systemctl restart php-fpm
+ 
+ php -v
+
+ sudo systemctl status php8.1-fpm
+ 
+                                              	Install NODE.JS
+ 
+ Install Node.js and npm: 16 version
+ 
+ Install nvm by running the following command:
+ 
+ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
+ 
+ Close and reopen your terminal to start a new session, or run the following command to apply the changes:
+ source ~/.bashrc
+
+Install Node.js version 16 by running the following command:
+nvm install 16
+
+node -v
+
+
+                                                      	Install-Git
+
+yum install git -y
+
+npm install pm2 --g
+
+
+                                                      	install-iptables
+
+sudo yum update
+sudo yum install iptables
+
+                         	to block traffic from a specific IP address:
+
+iptables -A INPUT -s <IP_ADDRESS> -j DROP
+
+                             	Show - which IP addresses are currently blocked
+
+iptables -L INPUT --line-numbers
+
+                                   	unblock an IP address
+
+iptables -D INPUT -s <IP_ADDRESS> -j DROP
+
+
+
+
+                                                            	Install-Redis
+
+Download the latest stable version of Redis:
+wget http://download.redis.io/releases/redis-6.2.4.tar.gz
+
+Extract the downloaded file:
+tar xzf redis-6.2.4.tar.gz
+
+Move into the extracted directory:
+cd redis-6.2.4
+
+Build Redis:
+make
+
+Install Redis:
+sudo make install
+
+Create a Redis configuration file:
+sudo mkdir /etc/redis
+sudo cp redis.conf /etc/redis/redis.conf
+
+Edit the Redis configuration file:
+
+You can change the configuration options according to your requirements. For example, you can set a password or change the port number.
+Create a systemd service file for Redis:
+
+Create a systemd service file for Redis:
+[Unit]
+Description=Redis In-Memory Data Store
+After=network.target
+
+[Service]
+User=root
+ExecStart=/usr/local/bin/redis-server /etc/redis/redis.conf
+ExecStop=/usr/local/bin/redis-cli shutdown
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+
+Reload the systemd daemon:
+sudo systemctl daemon-reload
+
+
+Start Redis:
+
+sudo systemctl start redis
+
+
+Enable Redis to start automatically on boot:
+
+sudo systemctl enable redis
+
+
+
+                                  	firewall install
+
+ 
+ sudo yum update
+Install firewalld -
+
+ sudo yum install firewalld
+
+start and enable firewalld -
+
+sudo systemctl start firewalld
+sudo systemctl enable firewalld
+
+
+Now you can configure firewalld by adding appropriate rules. Here are some example commands to get you started:
+
+	Allow incoming SSH connections:
+
+   
+
+sudo firewall-cmd --add-service=ssh --permanent
+
+Allow incoming HTTP (Port 80) connections:
+
+
+
+sudo firewall-cmd --add-service=http --permanent
+
+Allow incoming HTTPS (Port 443) connections:
+
+
+
+	sudo firewall-cmd --add-service=https --permanent
+
+After adding rules, remember to reload firewalld for the changes to take effect:
+
+
+
+sudo firewall-cmd --reload
+
+                                                	install crond
+
+sudo yum update
+sudo yum install cronie
+sudo service crond start
+sudo service crond enable
+sudo service crond status
+
+crontab -l  -- See all cronlist
+crontab -e  -- edit crontab
+
+*/2 * * * *
+
+                                        	install Grafana
+                                       	 
+ sudo yum update
+ sudo yum upgrade
+ sudo yum install https://dl.grafana.com/oss/release/grafana-8.0.6-1.x86_64.rpm
+ sudo systemctl start grafana-server
+ sudo systemctl enable grafana-server
+ sudo yum install iptables
+ sudo iptables -A INPUT -p tcp --dport 3000 -j ACCEPT
+ sudo service iptables save
+  http://your_server_ip:3000
+                                    	 
+sudo yum install -y https://dl.grafana.com/enterprise/release/grafana-enterprise-9.5.3-1.x86_64.rpm
+
+grafana-cli admin reset-admin-password 3.111.52.196:3000
+
+
+                               Install redis client
+
+sudo yum -y install gcc make # install GCC compiler
+cd /usr/local/src
+sudo wget http://download.redis.io/redis-stable.tar.gz
+sudo tar xvzf redis-stable.tar.gz
+sudo rm -f redis-stable.tar.gz
+cd redis-stable
+sudo yum groupinstall "Development Tools"
+sudo make distclean
+sudo make
+sudo yum install -y tcl
+sudo make test
+sudo cp src/redis-server /usr/local/bin/
+sudo cp src/redis-cli /usr/local/bin/
+redis-server
+redis-cli
+                                       	 
+                                       	 
+                                         	To install MongoDB
+
+Step 1: Import the MongoDB GPG key:
+
+wget -qO - https://www.mongodb.org/static/pgp/server-4.4.asc | sudo apt-key add -
+
+Step 2: Add the MongoDB repository:
+
+echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/4.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.4.list
+
+Step 3: Update the package list:
+sudo apt update
+
+Step 4: Install MongoDB:
+
+sudo apt install mongodb-org
+
+
+Step 5: Start and enable MongoDB service:
+
+sudo systemctl start mongod
+sudo systemctl enable mongod
+sudo systemctl status mongod
+
+
+
+Step 1: Check the MongoDB log file
+sudo nano /var/log/mongodb/mongod.log
+
+Step 2: Ensure proper file permissions for MongoDB. Run the following commands to set the correct permissions:
+
+sudo chown -R mongodb:mongodb /var/lib/mongodb
+sudo chown -R mongodb:mongodb /var/log/mongodb
+
+
+Step 3: If the MongoDB data directory (/var/lib/mongodb) is empty or doesn't exist, you can create it using the following command:
+
+sudo mkdir -p /var/lib/mongodb
+
+
+Then set the ownership to the MongoDB user:
+sudo chown -R mongodb:mongodb /var/lib/mongodb
+
+Step 4: If the MongoDB log directory (/var/log/mongodb) is empty or doesn't exist, create it using the following command:
+sudo mkdir -p /var/log/mongodb
+
+Then set the ownership to the MongoDB user:
+
+sudo chown -R mongodb:mongodb /var/log/mongodb
+
+Step 5: Try starting the MongoDB service again:
+
+
+sudo systemctl start mongod
+
+Step 6: Check the status of the MongoDB service to verify if it started successfully:
+sudo systemctl status mongod
+
+
+npm install -g mongosh
+mongosh
+
+db.createUser({
+  user: "<saikrishna>",
+  pwd: "<sai@123>",
+  roles: [
+	{ role: "userAdminAnyDatabase", db: "admin" },
+	{ role: "readWriteAnyDatabase", db: "admin" },
+	{ role: "dbAdminAnyDatabase", db: "admin" },
+	{ role: "clusterAdmin", db: "admin" }
+  ]
+})
+
+
+
+
+
+The roles specified in the roles array grant the following privileges:
+
+	userAdminAnyDatabase: Allows user administration on any database.
+	readWriteAnyDatabase: Provides read and write access to any database.
+	dbAdminAnyDatabase: Grants database administration privileges on any database.
+	clusterAdmin: Allows administrative actions on the cluster.
+
+You can modify the roles based on your specific requirements
+
+
+
+
+mongosh --username saikrishna --password sai@123 --authenticationDatabase admin
+
+
+                                 	generate a self-signed certificate using OpenSSL:
+
+sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/pki/tls/private/localhost.key -out /etc/pki/tls/certs/localhost.crt
+
+
+
+
+
+Server Migration 
+
+
+step -1  -  check pointing
+ 
+ping sobdomain
+ 
+step -2  - Go to the server configuration file
+
+cd /etc/httpd/conf.d/
+
+Next check the files list use - ll
+
+cat filename Copy the SSL directory and go to the ssl direcory
+
+step -3  copy the ssl directory to home directory  
+
+sudo scp -r dirctory name /home/Sai
+
+step -4  - change the owner root to Sai
+
+sudo chown -R Sai directory name
+
+step -5  - open filezilla
+
+ in server /home/Sai/directory sher the files  to local systems /home/baithinisaikrishna/server-migration
+ 
+ step -6 - open new server in filezilla and sher the files local system to new server home directory
+ 
+  /home/baithinisaikrishna/server-migration/ to new server home/Sai/
+ 
+ 
+  step -7 change the root permision Sai user to root user
+ 
+  # sudo chown -R root directory name
+ 
+  step -8 move the directory Sai home directory to ssl directory and check the list in ssl files
+ 
+ mv directoryname /etc/httpd/ssl
+ 
+ step -9 - go to the  configuration directory create the file use vim
+ 
+ cd /etc/httpd/conf.d/  
+ 
+ vim filename.conf
+ 
+ copy the content and save the content
+ 
+ 
+ step -10 - check the syntax
+ 
+ httpd -t
+ 
+ step -11 - restart the httpd
+ 
+ syatemctl restart httpd
+ 
+ step -12 Go the your local system and create the virual host
+ 
+ # vim /etc/hosts/
+ 
+ public ip : subdomain name and save it
+ 
+ step 13 - check the public ip in browser  
+ 
+ ln -s /si_image/files
+
+ln -s /data/Vendorpage101 VendorpageTheme
+    
+
+ 
+ abcf.singleinterface.com.conf
+ 
+ 
+ 
+ 
+<VirtualHost *:443>
+    	DocumentRoot /var/www/sites/ford_sites/Ford_Websites/hdfc_life/
+    	ServerName  branch.hdfclife.com
+    	ServerAlias branch.hdfclife.com
+<Directory /var/www/sites/ford_sites/Ford_Websites/hdfc_life/>
+    	Options -Indexes +FollowSymLinks +MultiViews
+            	<LimitExcept GET POST>
+                    	Order allow,deny
+            	</LimitExcept>
+            	Options +FollowSymLinks
+            	AllowOverride All
+            	Order allow,deny
+            	allow from all
+</Directory>
+    	SSLEngine on
+    	SSLCertificateFile /etc/httpd/ssl/branch.hdfclife.com/branch.hdfclife.com.crt
+    	SSLCertificateKeyFile /etc/httpd/ssl/branch.hdfclife.com/branch.hdfclife.com.key
+    	SSLCACertificateFile /etc/httpd/ssl/branch.hdfclife.com/branch.hdfclife.com.Ca.crt
+</VirtualHost>
+
+<VirtualHost *:80>
+    	ServerAdmin aijaz.m@dealsandyou.com
+    	ServerName branch.hdfclife.com
+    	ServerAlias branch.hdfclife.com
+    	DocumentRoot /var/www/sites/ford_sites/Ford_Websites/hdfc_life/
+    	<Directory /var/www/sites/ford_sites/Ford_Websites/hdfc_life/>
+            	Options -Indexes +FollowSymLinks +MultiViews
+            	<LimitExcept GET POST>
+                    	Order allow,deny
+            	</LimitExcept>
+            	Options +FollowSymLinks
+            	AllowOverride All
+            	Order allow,deny
+            	allow from all
+    	</Directory>
+ErrorLog /var/log/httpd/branch.hdfclife.com.error.log
+    	LogLevel warn
+    	CustomLog /var/log/httpd/branch.hdfclife.com.access.log combined
+</VirtualHost>
+
+ 
+ 
+ /var/www/sites/ford_sites/Ford_Websites/bajaj_finance
+
+Mongo Db
+
+
+
+Master Slave replication.
+
+
+
+
+
+
+db.createUser({
+  user: "krishna",
+  pwd: "krish@123",
+  roles: [
+	{ role: "userAdminAnyDatabase", db: "admin" },
+	{ role: "readWriteAnyDatabase", db: "admin" },
+	{ role: "dbAdminAnyDatabase", db: "admin" },
+	{ role: "clusterAdmin", db: "admin" }
+  ]
+}) ;
+
+
+                                           	Login user
+
+mongo -u krishna -p krish@123 --authenticationDatabase admin
+
+
+
+                                          	create collection
+                                         	 
+> use skdb
+switched to db skdb
+> db.createCollection("skcollection")
+{ "ok" : 1 }
+                                        	 
+                                           	Show databases
+                                           	 
+> show dbs
+admin	0.000GB
+config   0.000GB
+local	0.000GB
+skdb 	0.000GB
+
+
+                                            	show collections
+                                           	 
+show collections
+
+
+                                           	Insert the informain in collection                                       	 
+
+
+> use skdb
+switched to db skdb
+> db.skcollection.insertOne({name: "krish", age: 25, gender: "Male"})
+
+> db.skcollection.insertOne({name: "Gaurav", age: 26, gender: "male"})
+
+
+
+
+                                           	show collection matter
+
+db.skcollection.find()
+
+                                                                                                                                      	 
+                                         	 
+                                          	
+Httpd logs Doc
+
+
+
+                                              	Crond
+/etc/init.d/crond start
+/etc/init.d/crond stop
+
+
+
+%h – Remote host (client IP address)
+%l – User identity, or dash, if none (often not used)
+%u – Username, via HTTP authentication, or dash if not used
+%t – Timestamp of when Apache received the HTTP request
+”%r – The actual request itself from the client
+%>s – The status code Apache returns in response to the request
+%b – The size of the request in bytes.
+”%{Referer}i” – Referrer header, or dash if not used  (In other words, did they click a URL on another site to come to your site)
+”%{User-agent}i – User agent (contains information about the requester’s browser/OS/etc)
+
+                              	 
+                               	Total day hits count
+cd /var/log/httpd/
+
+sudo tail -f /var/log/httpd/access_log
+
+grep '11/Jul/2023:12:44:19' access_log | grep nissan
+
+            	 
+grep 'manyavar' access_log | grep '11/Jul/2023:04:06' | wc -l
+
+
+grep "axis" access_log | awk '{print $1}' | sort -u | wc -l    	-- subdomain total ips Number
+grep "axis" access_log | awk '{print $1}' | sort -u            	-- subdomain total ips list
+grep "axis" access_log | awk '{print $1}' | sort | uniq -c     	-- subdomain total ips list and hits
+awk -F: '{print $2":00"}' access_log  | sort -n | uniq -c      	-- server hour by hour hits list
+
+
+
+
+                                       	install iptables
+sudo yum update
+sudo yum install iptables
+
+                         	to block traffic from a specific IP address:
+
+iptables -A INPUT -s 182.74.33.58 -j DROP
+
+                             	Show - which IP addresses are currently blocked
+
+iptables -L INPUT --line-numbers
+
+                                   	unblock an IP address
+
+iptables -D INPUT -s 182.74.33.58 -j DROP
+
+
+
+
+
+ cd /var/log/httpd/
+ sudo tail -f access_log
+ 
+                                	 
+ 
+                                 	Count the number of requests per minute:
+                                	 
+                                	 
+ 
+                                 	minite by minite command
+                                                            	 
+awk '{print $4}' access_log | cut -c 14-18 | uniq -c
+                      	 
+                               	Checking hits from a specific IP address:
+                        	 
+ grep '54.215.83.81' /path/to/httpd/access.log | wc -l
+                       	 
+                                       	To view the hits by IP address
+                       	 
+  	awk '{print $1}' | sort | uniq -c | sort -nr
+	 
+ 	awk '{print $1}' | sort | uniq -c | sort -nr | head -n 10
+	 
+                                 	 
+                                    	Display all requests with a 404 status code
+                                   	 
+	 
+ 
+ HTTPD logs:
+
+	200 OK: This code indicates that the request was successful and the server was able to return the requested resource.
+
+	301 Moved Permanently: This code indicates that the requested resource has been permanently moved to a new location.
+
+	302 Found: This code indicates that the requested resource has been temporarily moved to a new location.
+
+	304 Not Modified: This code indicates that the requested resource has not been modified since it was last accessed by the client.
+
+	400 Bad Request: This code indicates that the request sent by the client is invalid or malformed.
+
+	401 Unauthorized: This code indicates that the client needs to authenticate itself to access the requested resource.
+
+	403 Forbidden: This code indicates that the client is authenticated but does not have permission to access the requested resource.
+
+	404 Not Found: This code indicates that the requested resource could not be found on the server.
+
+	500 Internal Server Error: This code indicates that there was an error on the server while processing the request.
+
+ 
+ 
+ cat /var/log/httpd/access_log | awk '{ print $7}' | sort | uniq -c | sort
+ 
+ 
+ 
+                                                        	HTML FILE
+ 
+<!DOCTYPE html>
+<html>
+	<head>
+    	<title>Welcome to my Website</title>
+    	<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+    	<header>
+        	<nav>
+            	<ul>
+                	<li><a href="#">Home</a></li>
+                	<li><a href="#">About</a></li>
+                	<li><a href="#">Contact</a></li>
+            	</ul>
+        	</nav>
+    	</header>
+    	<main>
+        	<h1>Welcome sai!</h1>
+        	<p>Thanks for visiting my website.</p>
+    	</main>
+    	<footer>
+        	<p>&copy; 2023 My Website. All rights reserved.</p>
+    	</footer>
+	</body>
+</html>
+
+	 
+	 
+	 
+	 
+	 
+
+GITHUB 
+
+
+
+ 
+	Practice account
+	 
+ GITHUB Token: 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
+   
+   
+   git config --global user.name "Skrishnachowdary"
+   git config --global user.email "krishnaawscloudeng@gmail.com"
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   
+   
+   
+   
+   GITHUB ID - #130553101
+
+User id	-- baithini.saikrishna@singleinterface.com
+Username   -- Saikrishna9666
+password   -- Saikrishna@1647
+
+GITHUB Token: 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
+
+GITHUB Token-2: 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
+
+GITHUB Token-3  : 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
+
+GITHUB Token-4: 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	 
+
+Database - 
+
+
+
+Master username
+admin
+Master password
+WMtlsBprLgV5MUTEnMMR
+
+database-3.cdqyff0qwuyv.ap-south-1.rds.amazonaws.com
+
+
+mysql -h database-3.cdqyff0qwuyv.ap-south-1.rds.amazonaws.com -P 3306 -u admin -p
+
+
+
+
+
+
+
+sudo yum update -y
+
+sudo dnf install mariadb105  
+sudo yum install mariadb*
+mysql --version
+man mysql
+mysql -h database-1.cdqyff0qwuyv.ap-south-1.rds.amazonaws.com -P 3306 -u admin -p
+
+
+                                   	install local system
+sudo apt-get update
+sudo apt-get install mysql-client
+
+
+
+Master username
+admin
+Master password
+znUkU7RgxmMaAjdkGBca
+
+database-1.cdqyff0qwuyv.ap-south-1.rds.amazonaws.com
+
+
+
+
+mysql -h server_address -P port_number -u username -p
+
+
+Copy the SQL file to the appropriate directory:
+
+sudo cp /Documents/sample_sql_file.sql /var/lib/mysql/
+ 
+Change the ownership and permissions of the file: 	 
+sudo chown mysql:mysql /var/lib/mysql/sample_sql_file.sql
+sudo chmod 660 /var/lib/mysql/sample_sql_file.sql
+
+Log in to MySQL as the root user:
+sudo mysql -u root -p
+
+Enter your MySQL root password when prompted.
+
+Once you're in the MySQL command-line interface, switch to the mysql database:
+USE mysql;
+
+you can execute the SQL file to import its contents into the mysql database:
+SOURCE /var/lib/mysql/sample_sql_file.sql;
+
+
+CREATE DATABASE krishnadatabase;
+
+sudo mv /var/lib/mysql/sample_sql_file.sql /var/lib/mysql/krishnadatabase/
+
+  	 
+sudo chown mysql:mysql /var/lib/mysql/krishnadatabase/sample_sql_file.sql
+sudo chmod 660 /var/lib/mysql/krishnadatabase/sample_sql_file.sql
+
+sudo mysql -u root -p
+
+use krishnadatabase ;
+
+SOURCE /var/lib/mysql/krishnadatabase/sample_sql_file.sql;
+
+ 	 
+  	 
+  	 
+  	 
+  	 
+  	 
+                        	how to take dump of a database - user1 to  user2  
+               	 
+Log in to the MySQL server with user1 credentials using the following command:
+
+mysql -u user1 -p
+
+Once you are logged in to the MySQL server, use the following command to take a dump of the database:
+
+mysqldump -u user1 -p database_name > database_name_dump.sql
+
+Log out of the MySQL server using the following command:
+
+exit
+
+Log in to the MySQL server with user2 credentials using the following command:
+
+mysql -u user2 -p
+
+Once you are logged in to the MySQL server with user2 credentials, use the following command to import the dump file into the database:
+
+mysql -u user2 -p database_name < database_name_dump.sql
+
+Log out of the MySQL server using the following command:
+exit
+
+
+                                    	Enabling root access to a MySQL server
+                                   	 
+  Open the MySQL command prompt by running the following command:
+
+mysql -u root -p
+
+Once you are logged in to the MySQL server, run the following command to enable root access:
+
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost' IDENTIFIED BY 'password' WITH GRANT OPTION;
+                                 	 
+ If you want to enable root access from remote hosts, run the following command:
+ 
+ GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'password' WITH GRANT OPTION;
+
+To apply the changes, run the following command:
+
+FLUSH PRIVILEGES;
+
+Log out of the MySQL server
+                                	 
+exit;
+
+                         	Disabling root access to a MySQL server    
+
+Open the MySQL command prompt by running the following command:
+
+mysql -u root -p
+
+
+Once you are logged in to the MySQL server, run the following command to disable root access:
+
+REVOKE ALL PRIVILEGES, GRANT OPTION FROM 'root'@'localhost';
+
+
+If you have enabled root access from remote hosts, run the following command as well:
+
+REVOKE ALL PRIVILEGES, GRANT OPTION FROM 'root'@'%';
+
+
+To apply the changes, run the following command:
+
+FLUSH PRIVILEGES;
+
+
+Log out of the MySQL server
+
+exit;
+
+
+                     	To grant a user access to a specific database, run the following command:
+ 
+
+ CREATE USER 'new_user'@'localhost' IDENTIFIED BY 'password123';
+                    	 
+ GRANT SELECT, INSERT, UPDATE, DELETE ON dbname.* TO 'username'@'localhost';
+               	 
+To apply the changes, run the following command:
+
+FLUSH PRIVILEGES;
+
+                      	Showing the all users -list
+                     	 
+                      	mysql> Select user from mysql.user;  
+                     	 
+   	 
+    	To get the selected information like as hostname, password expiration status,
+   	 
+    	SELECT user, host, account_locked, password_expired FROM user;              	 
+
+                                	 
+                                 	Show Current User
+             	 
+              	mysql> Select user();  
+     	or,  
+mysql> Select current_user();  
+
+
+                                 	Show Current Logged User
+                                	 
+                         	SELECT user, host, db, command FROM information_schema.processlist;     	 
+
+
+
+
+
+
+sudo vim /etc/mysql/mysql.conf.d/mysqld.cnf
+
+sudo vi /etc/mysql/my.cnf
+
+
+
+                    	Update the package list and install MySQL server by running the following commands
+
+                       	Step 1: Install MySQL
+
+# sudo apt update
+# sudo apt install mysql-server
+
+How to check version
+mysql --version
+
+
+During the installation process, you will be prompted to set a root password. Choose a secure password and remember it as you will need it later.
+
+Once the installation is complete, start the MySQL service with the following command:
+
+# sudo systemctl start mysql
+
+
+To check if MySQL is running, use the following command:
+
+# sudo systemctl status mysql
+
+sudo mysql
+USE mysql;
+UPDATE user SET Grant_priv='Y', Super_priv='Y' WHERE User='root';
+FLUSH PRIVILEGES;
+exit
+
+sudo mysql
+
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost' IDENTIFIED BY 'password' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
+exit
+
+GRANT PROCESS ON *.* TO 'sai'@'localhost';
+
+                             	Step 2: Connect to MySQL
+
+Connect to the MySQL server using the following command:
+
+# sudo mysql -u root -p
+
+                             	Step 3: Create a database
+
+Enter the root password you set during installation when prompted. You should now be connected to the MySQL server.
+To create a new database, run the following command:
+
+Replace "dbname" with the name you want to give your database.
+
+CREATE DATABASE dbname;
+
+                               	Step 4: Create a user
+
+To create a new user and grant them access to the database, use the following command:
+
+Replace "username" and "password" with the username and password you want to give the user, and "dbname" with the name of the database you created earlier.
+
+CREATE USER 'krishna'@'localhost' IDENTIFIED BY 'krishna@123';
+GRANT ALL PRIVILEGES ON dbname.* TO 'username'@'localhost';
+
+                               	Step 5: Provide access to users database
+                              	 
+To provide access to the user's database, follow these steps:
+
+	Once you are logged in to MySQL as the root user, type the following command to provide access to the user's database:
+    
+   # FLUSH PRIVILEGES;
+
+
+                                 	Step 6: Give remote access to database user
+
+Open the MySQL configuration file using the following command:
+ 
+ # sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf
+
+ the line that starts with "bind-address" and comment it out by adding a "#" at the beginning of the line.
+
+Save and close the file.
+
+Restart the MySQL service using the following command:
+
+sudo systemctl restart mysql
+
+Once you have completed the above steps, you can grant remote access to the database user by typing the following command:
+
+# GRANT ALL PRIVILEGES ON your_database_name.* TO 'your_username'@'%' IDENTIFIED BY 'your_password';
+
+Replace "your_database_name", "your_username", and "your_password" with the appropriate values.
+
+# exit
+
+
+To test the new user, log in to MySQL using the following command:
+ 
+ # mysql -u username -p
+
+
+
+
+
+
+
+
+
+
+Stop the MySQL service:
+
+
+sudo systemctl stop mysql
+
+Uninstall MySQL:
+
+
+sudo apt-get remove --purge mysql-server mysql-client mysql-common -y
+
+Remove the MySQL configuration files:
+
+
+sudo rm -rf /etc/mysql /var/lib/mysql
+
+Remove the MySQL user:
+
+
+sudo deluser mysql
+sudo rm -rf /var/lib/mysql
+sudo rm -rf /var/log/mysql
+
+Remove the MySQL packages that were not removed by the previous command:
+
+sudo apt-get autoremove
+
+Remove the MySQL repository:
+
+
+sudo rm -rf /etc/apt/sources.list.d/mysql.list*
+
+Finally, clean the apt cache to free up disk space:
+
+
+
+sudo apt-get clean
+
+
+                        	to connect to your AWS RDS instance from your Ubuntu 20.04 instance.
+
+Install the MySQL client by running the following command:
+
+# sudo apt install mysql-client
+
+
+# mysql -h <endpoint> -P <port> -u <username> -p
+
+
+
+
+                                   	create user and add previvileges--
+
+sudo mysql -u root -p
+
+mysql> CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';
+mysql> GRANT ALL PRIVILEGES ON *.* TO 'newuser'@'localhost' WITH GRANT OPTION;
+mysql> FLUSH PRIVILEGES;
+mysql> exit
+
+
+        	Grant the new user read and write permissions to a specific database with the following
+
+GRANT SELECT, INSERT, UPDATE ON database_name.* TO 'new_user'@'localhost';
+
+If you want to limit the user's access to a specific table in the database, you can use the following SQL command:
+
+
+GRANT SELECT, INSERT, UPDATE ON database_name.table_name TO 'new_user'@'localhost';
+
+
+
+                	Grant the necessary permissions to the "krishna" user account app path
+               	 
+    	GRANT SELECT, INSERT, UPDATE, DELETE ON facebook_com.* TO 'krishna'@'%';
+      	 
+       	GRANT SELECT ON google_com.* TO 'krishna'@'%';
+      	 
+      	 
+          	 
+           	To take a dump backup of a database on the same live database server and transfer it to another user,
+          	 
+ 	Step 1: Open a terminal  and log in to your database server using SSH or your preferred method.
+	 
+ 	Step 2: Use the mysqldump or pg_dump command to create a backup of the database. Here is an example command for MySQL:
+	 
+ 	mysqldump -u old_username -p old_database_name > backup.sql
+
+
+Replace old_username with the username of the database owner and old_database_name with the name of the database you want to backup.
+
+
+
+Step 3: Create a new database user for the new user. Here is an example command for MySQL:
+
+CREATE USER 'new_username'@'localhost' IDENTIFIED BY 'new_password';
+
+
+Replace new_username with the desired username for the new user and new_password with a strong password.
+
+Step 4: Grant the new user permissions to access the database. Here is an example command for MySQL:
+
+GRANT ALL PRIVILEGES ON old_database_name.* TO 'new_username'@'localhost';
+
+
+Replace old_database_name with the name of the database you want to backup and new_username with the username you created in step 3.
+
+
+Step 5: Transfer the backup file to the new user's account. You can use any file transfer method you prefer, such as FTP, SCP, or SFTP.
+
+
+Step 6: Log in to the new user's account and use the following command to restore the database:
+
+mysql -u new_username -p new_database_name < backup.sql
+
+
+Replace new_username with the username you created in step 3 and new_database_name with the desired name for the new database.     	 
+       	 
+       	 
+       	 
+       	 
+                	Creating Users:
+             	 
+CREATE USER 'john'@'localhost' IDENTIFIED BY 'password';
+
+ 
+               	Granting Privileges:
+             	 
+GRANT ALL PRIVILEGES ON mydb.* TO 'john'@'localhost';
+
+               	Revoking Privileges:
+            	 
+REVOKE DELETE ON mydb.* FROM 'john'@'localhost';
+
+              	Securing Passwords:             	 
+       	 
+UPDATE mysql.user SET authentication_string = PASSWORD('newpassword') WHERE User = 'john' AND Host = 'localhost';
+FLUSH PRIVILEGES;
+       	 
+                     	Removing Users:
+                    	 
+DROP USER 'john'@'localhost';
+
+
+                	Show Current Logged User
+                                	 
+SELECT user, host, db, command FROM information_schema.processlist
+
+
+                    	Show Current User
+             	 
+mysql> Select user();  
+     	or,  
+mysql> Select current_user();  
+
+
+                     	Showing the all users -list
+                     	 
+mysql> Select user from mysql.user;
+
+             	To check if the user already exists, you can run the following command in the MySQL
+
+SELECT User FROM mysql.user WHERE User = 'Gaurav' AND Host = 'localhost';
+
+
+If the query returns a result, it means the user already exists. In that case, you can update the existing user's password using the following command:
+
+ALTER USER 'Gaurav'@'localhost' IDENTIFIED BY 'Gaurav@123';
+
+Connect to MySQL Server:
+
+mysql -u username -p
+
+Enter MySQL Password:
+
+Switch to the Database:
+
+USE database_name;
+
+Take Backup:
+
+mysqldump -u username -p database_name > backup_file.sql
+
+SOURCE backup_file.sql;
+
+SELECT * FROM your_table;
+
+                             	Grant Privileges to a New User:
+
+CREATE USER 'new_user'@'localhost' IDENTIFIED BY 'password';
+GRANT ALL PRIVILEGES ON new_database.* TO 'new_user'@'localhost';
+FLUSH PRIVILEGES;
+
+                                 	Import the Backup File:
+
+mysql -u new_user -p new_database < ecommerce_backup.sql
+
+                                 	check the User privileges
+
+SHOW GRANTS FOR 'saikrishna'@'localhost';
+
+SHOW GRANTS FOR 'sai'@'%';
+
+
+
+      	How to show table information
+     	 
+      	DESCRIBE Tablename ;
+     	 
+                                      	Delete username
+      	DROP USER 'account_name';  
+                	 
+                                    	Change user password
+                	 
+                 	mysql> USE mysql;  
+   
+mysql> UPDATE user SET password = PASSWORD('jtp12345') WHERE user = 'peter' AND host = 'localhost';  
+
+[OR]] mysql> SET PASSWORD FOR 'peter'@'localhost' = PASSWORD('jtp12345');  
+   
+mysql> FLUSH PRIVILEGES;  
+
+
+
+
+                                          	Create table
+
+
+CREATE TABLE my_table (
+  id INT PRIMARY KEY,
+  name VARCHAR(50),
+  age INT
+);
+
+
+CREATE TABLE my_table (
+  id INT PRIMARY KEY,
+  email VARCHAR(255)
+);
+
+
+
+
+
+                                        	Edit informatioin
+ 
+ 
+  INSERT INTO users (username, email, password) VALUES ('Gaurav', 'Gaurav@example.com', 'Gaurav!@#123');
+ 
+  INSERT INTO users (id, username, email, password) VALUES (1, 'shiva', 'shiva@example.com', 'shiva!@#123');
+
+ 
+ 
+                                        	Delete information
+              	 
+                 	DELETE FROM users WHERE username = 'sai';
+                	 
+                	 
+                                        	How to change column name
+                 	 
+ALTER TABLE your_table_name
+CHANGE COLUMN email email_id VARCHAR(255);
+
+
+                                      	RDS SERVER DOCUMENT
+
+CREATE DATABASE Test_Database;
+
+CREATE USER 'krishna'@'%' IDENTIFIED BY 'krishna@123';
+GRANT ALL PRIVILEGES ON Test_Database.* TO 'krishna'@'%';
+FLUSH PRIVILEGES;
+SHOW GRANTS for krishna;
+
+
+                                               	 
+                                               	Connect Database
+                                              	 
+mysql -h database-1.cdqyff0qwuyv.ap-south-1.rds.amazonaws.com -P 3306 -u admin -p
+
+                                       	 
+                                       	Old database  backup
+                                      	 
+mysqldump -h database-2.cdqyff0qwuyv.ap-south-1.rds.amazonaws.com -P 3306 -u admin -p mysql > backup.sql
+
+                                   	backup import New database
+                                  	 
+mysql -h database-2.cdqyff0qwuyv.ap-south-1.rds.amazonaws.com -P 3306 -u krishna -p Test_Database < backup.sql
+
+
+
+GRANT ALL PRIVILEGES ON *.* TO 'krishna'@'%' IDENTIFIED BY 'krishna@123' WITH GRANT OPTION;
+
+
+                                     	Rds mysql server lo user ni cerate chesi full permisions
+                                    	 
+                                    	 
+  CREATE USER 'ravi'@'%' IDENTIFIED BY 'password1';
+GRANT ALL PRIVILEGES ON *.* TO 'ravi'@'%' WITH GRANT OPTION;
+
+CREATE USER 'ram'@'%' IDENTIFIED BY 'password2';
+GRANT ALL PRIVILEGES ON *.* TO 'ram'@'%' WITH GRANT OPTION;
+                                  	 
+
+
+
+
+                                  	 
+                                            	
+Ebs volume DOc 
+
+
+Increase EBS Volume Size in AWS
+===========================================================
+Step 1: Take Snapshot of EBS Volume (to be Safe).
+Step 2: Increase EBS Volume Size in AWS Console.
+Step 3: Extend a Linux file system after resizing a volume.
+
+
+Command to Extend the file system:
+===========================================================
+df -hT
+
+Check whether the volume has a partition:
+sudo lsblk
+
+Extend the partition:
+sudo growpart /dev/xvda 1
+
+Extend the file system on /:
+[XFS file system]: sudo xfs_growfs -d /
+[Ext4 file system]: sudo resize2fs /dev/xvda1
+
+
+45.50%
+
+
+
+
+
+Mails _
+
+
+
+
+
+ how to monitor network metrics by command line on ec2 instances
+Please explain why we got three things in load average? Like 1.33, 1.33, 1.29
+how to analyze Ram utilization it depends on the server family or server load.
+
+
+ssh sai@10.0.1.84
+
+ALL Frontend CLB and ALB details
+
+check-pointing and working  -- websites new list
+
+ June 2023   Drive folder link.
+
+
+
+V2 completely Setup  -- v2 access
+
+Create new ford server and si location servers - new servers
+                                                	 
+                                                	 
+                                                 	SSL   	 
+  Hi Naval,
+
+I have implemented the SSL certificate to the client website. Now ssl certificate update, https://stores.spencers.in/ .Please check the attached screenshot.
+
++Shailendra  Thanks for your support.
+
+Thanks & Regards
+
+
+                                 	 
+                                     	Server Disk Space Full
+                                    	 
+      	I wanted to inform you that the disk space on the New live bharatshop server(10.0.3.57) is having 93%. Please take appropriate action to resolve this issue promptly.
+
+                            	 
+                            	 
+                             	Server monitoring
+
+I have prepared the servers monitoring sheet as you required. Please find the below attached sheet.
+
+Servers Process Status info 22-06-2023
+
+Hi Naval,
+
+I have prepared the servers monitoring sheet as you required. I wanted to inform you that the disk space on the New live bharatshop server(10.0.3.57) is 92%.  Please find the below attached sheet.
+
+Thanks & Regards
+
+                                     	Incident Report
+
+Hi Team,
+
+Me and Lokesh have Prepared the incident report as  you requested. Please find the below  attached incident report 14-07-2023.
+
+Thanks
+
+
+Hi ,
+I have checked the subdomain  store.ambaniceramics.com is  pointing to si-locations-lb-a-5.singleinterface.com. Please find the below attached screenshot.
+
+The domain amaron.in is pointing to 13.234.99.128. Please find the below attached screenshot.
+
+
+
+Hi Sir,
+I have checked on skoda which is working fine on new si-locations-5 alb.Please check the screenshot also.
+
+
+For CSR --- Hi sir , https://stores.easybuyindia.com/  I will renew this ssl,certificate for 1 year ,please share the opt.   																																																																									 
+Hi Naval,
+
+I have generated the new csr for   Salons.naturals.in. Please find the below attached csr file and screenshot please check
+
+I have purchased SSL for 1 year and i have provided CSR to godaddy,but certificate pending for godaddy side .Please check .
+
+
+Unique ID132n900gqe5cbnbn9ctk87dk28
+Instructionshttps://www.godaddy.com/help/7452?locale=en
+ 
+                                  SSL mail 
+ 
+ Hi Naval,
+
+We have checked the pointing. This website pointed to the si-locations-lb-a-pi.singleinterface.com. Then I have implemented an SSL certificate to the client website  stores.philipslightlounge.com on pixma server. But this certificate pending on goddady side. once we will free then we will fix thiss issue.
+ 
+
+For Websites
+
+Hi Naval,
+I have checked  all websites multiple times in a private browser. All websites working fine except branch-atm-locator.bank.sbi.
+
+hdfc Prepord
+
+We had  traffic on preprod1 servers because of the NFS process which was going on from preprod1 servers to hdfc servers.
+         	Mostly the process stuck on  preprod1 servers and because of that servers was hitting oneself which was increasing traffic on these x.x.x.53 and x.x.x.63 servers.
+
+For controlling we cleared the cache of application and nfs server and then kill all the processes of nfs at preprod1 both  servers and then restarted nfs server and then reload apache also.
+ 
+     	We had done another activity also now we had stopped symlink between hdfc frontent servers to preprod1 servers. Now Hdfc frontend servers are getting symlink from timeline server for Vendor-Page-Theme folder.
+
+Then traffic reduced  from both preprod1 servers.
+
+                        	 
+                          	server monitoring report
+
+
+I am writing to provide you with a summary and conclusion based on the server monitoring report. Below are the key findings:
+
+	Load Average:
+    	The load average values across all servers indicate a well-balanced workload with no signs of excessive load or performance issues.
+
+	Memory:
+    	The servers have an adequate amount of total memory, ranging from 921MB to 15GB.
+    	Free memory levels vary from 154MB to 14GB, suggesting sufficient memory availability for smooth operation.
+
+	CPU:
+    	Most servers exhibit low CPU usage, indicating efficient resource utilization.
+    	However, one server shows a slightly higher CPU usage of 6.20%, which requires further investigation to identify any resource-intensive processes causing the increase.
+
+	Storage:
+    	The storage capacity across servers ranges from 20GB to 552GB.
+    	Used storage varies from 3.5GB to 430GB, with available storage ranging from 3.5GB to 347GB.
+    	Overall, storage utilization levels appear to be within acceptable ranges.
+
+In conclusion, the servers are performing well, with sufficient memory, manageable CPU usage, and appropriate storage utilization.
+
+
+
+
+
+
+Hi Mohammed,
+
+  Conclusion based on the servers monitoring . Below are the key points I found.
+
+Load Average:
+1. The load average values of all servers indicate a well-balanced workload with no signs of excessive load or performance issues.
+
+Memory:
+1. The servers have an amount of total memory, ranging from 921MB to 15GB.
+2. Free memory levels vary from 154MB to 14GB, suggesting sufficient memory availability for smooth operation.
+
+CPU:
+1. Most servers exhibit low CPU usage, indicating efficient resource utilization.
+
+Storage:
+1. The storage capacity across servers ranges from 20GB to 552GB.
+2. Used storage varies from 3.5GB to 430GB, with available storage ranging from 3.5GB to 347GB.
+3. Disk utilization levels are within acceptable ranges, with percentages ranging from 10.00% to 80.00%.
+4. Overall, storage utilization levels are acceptable ranges.
+
+   	Based on these findings, I concluded  the servers are performing well.
+  	 
+  	 
+  	 
+  	 
+   	Based on the above information, there are no significant issues found with the load average, CPU and memory usages across the servers. However, it is worth noting that Server 1 has a disk usage of 56.00%, which is approaching the threshold. It is recommended to monitor the disk usage closely on that server to ensure it does not exceed capacity limits.
+  	 
+  	 
+Metric    Load Average    CPU Usage    Memory Utilization    Disk Usage
+Low    0-1          	0-20%    	0-30%           	0-40%
+Medium    1-5          	20-60%       	30-70%           	40-80%
+High    5+         	60-100%   	70-100%          	80-100% 	 
+
+
+
+	Load Average: The load average values range from 0.00 to 0.73, indicating a relatively low workload on the servers.
+
+	CPU Usage: The CPU usage ranges from 0.00% to 33.30%, suggesting that the CPU resources are utilized at a low level.
+
+	Memory Utilization: The memory utilization varies from 1.9G to 13Gi, indicating that there is sufficient available memory on the servers.
+
+	Disk Usage: The disk usage ranges from 5.00% to 80.00%, signifying that the disk space is being utilized moderately.
+    
+    
+ location.maplestore.in
+
+
+    
+    
+	Hi Naval,
+
+I have prepared the servers monitoring sheet as you required. Please find the below attached sheet.
+
+Conclusion based on all servers monitoring. Below are the key points I found.
+
+Load Average: The load average values range from Low - 0.00, 0.00, 0.00 to High 1.33, 1.33, 1.29, indicating low workload on the servers
+
+CPU Usage: The CPU usage ranges from Low - 0.00% to High - 59.40. The CPU resources are utilized at a low & medium  level.
+
+Memory Utilization: The memory utilization varies from
+Low & medium. there is sufficient available memory on the servers.
+
+Disk Usage: The disk usage ranges from Low - 5.00% to High - 80.00%, The disk space is being utilized in low & medium ranges.
+
+            	Based on these findings, I concluded  the servers are performing well.
+
+Thanks & Regards
+
+	
+	CSR FILES COMMANDS   
+	
+openssl req -new -newkey rsa:4096 -nodes -keyout stores.maccosmetics.in.key -out stores.maccosmetics.in.csr   --- Generate csr command
+openssl pkey -pubout -in stores.maccosmetics.in.key | openssl sha256	                                  --- key command 
+openssl req -pubkey -in stores.maccosmetics.in.csr -noout | openssl sha256                                  --- csr command 
+openssl req -noout -text -in stores.hindwareappliances.com.csr                                                    --- certificate command 
+openssl x509 -in singleinterface.com.crt -noout -enddate                                       --- certificate date
+openssl pkey -in privateKey.key -pubout -outform pem | sha256sum                                        
+openssl x509 -in certificate.crt -pubkey -noout -outform pem | sha256sum
+openssl req -in CSR.csr -pubkey -noout -outform pem | sha256sum
+
+Organization: ELCA Cosmetics Pvt Ltd
+Organization Unit: Marketing
+City or Locality: Mumbai
+State or Province:   Maharashtra 
+Country: India
+Email Address:  jraval1@in.estee.com
+Contact Number: 9833442853
+
+
+
+Master username
+admin
+Master password
+NwvSdaOWNj4Z8Ur7s1eC
+
+5dbaYzzZZXb8ztPavKiB
+
+
+
+
+<VirtualHost *:443>
+        DocumentRoot /var/www/sites/ford_sites/Ford_Websites/
+        ServerName stores.hamleys.in
+        ServerAlias stores.hamleys.in
+<Directory /var/www/sites/ford_sites/Ford_Websites/>
+       Options Indexes FollowSymLinks MultiViews
+       AllowOverride All
+       Order allow,deny
+       allow from all
+</Directory>
+       SSLEngine on
+       SSLCertificateFile /etc/httpd/ssl/stores.hamleys.in/fd7f78886f466473.crt
+       SSLCertificateKeyFile /etc/httpd/ssl/stores.hamleys.in/stores.hamleys.in.key
+       SSLCACertificateFile /etc/httpd/ssl/stores.hamleys.in/gd_bundle-g2-g1.crt
+</VirtualHost>
+
+<VirtualHost *:80>
+        ServerAdmin aijaz@singleinterface.com
+        ServerName stores.hamleys.in
+        ServerAlias stores.hamleys.in
+        DocumentRoot /var/www/sites/ford_sites/Ford_Websites/
+<Directory /var/www/sites/ford_sites/Ford_Websites/>
+                Options Indexes FollowSymLinks MultiViews
+                AllowOverride All
+                Order allow,deny
+                allow from all 
+</Directory>
+        ErrorLog /var/log/httpd/stores.hamleys.in.error.log
+        LogLevel warn
+        CustomLog /var/log/httpd/stores.hamleys.in.access.log combined
+</VirtualHost>
+
+
+I have implemented the client  website  https://stores.hindwareappliances.com/  ssl certificates server layer and si-locations-lb-a-3.singleinterface.com ALB layer. It's working fine and certificates uptodate. Please find the attached screenshot.
+
+
+
+Hi Naval,
+
+I have prepared the servers monitoring sheet as you required. Please find the below attached sheet.
+
+Conclusion based on all servers monitoring. Below are the key points I found.
+
+Load Average: The load average values range from Low - 0.00, 0.00, 0.00 to Medium 2.35, 2.66, 2.72, indicating low & Medium workload on the servers
+
+CPU Usage: The CPU usage ranges from Low - 0.00% to High  - 86.70%. The CPU resources are utilized at a low & high  level.
+
+Memory Utilization: The memory utilization varies from Low & medium. there is sufficient available memory on the servers.
+
+Disk Usage: The disk usage ranges from Low - 5.0% to High - 80.0%, The disk space is being utilized in low & medium ranges.
+
+                Based on these findings, I concluded  the servers are performing well. But the V2 environment 10.0.3.105 server had CPU usage 86.70%, This is higher than the normal range.
+
+Thanks & Regards
+
+
+1. Client needs to go to the current domain provider. e.g. GoDaddy.
+2. Client needs to add a new record with CNAME entry.
+3. Select CNAME while adding a new record
+4. Add Host as per their subdomain. e.g. if a subdomain client wants to go ahead is
+branches.maindomain.com  then Host will be ‘branches’ only.
+5. Add Points To as  si-locations-lb-a-3.singleinterface.com
+6. Select TTL as 1 Hour.
+
+At the same time I have checked. No load on the server. I can't find errors on  access logs and error logs and also i checked the RDS & ALB layer. All things are normal,mostly hits going on 200. Please find the attached information.
+
+Ec2-instace
+
+CPU utilization : 15.065
+Network in (bytes):  232,333,920
+Network out (bytes) : 28,043,173
+Network packets in (count) : 175,647
+Network packets out (count) : 34,146
+
+RDS-Instance
+
+CPU utilization : 42.4673333333
+DatabaseConnections : 10.4
+LVMReadIOPS : 2.70671307
+LVMWriteIOPS : 289.0829950
+
+
+openssl pkey -in privateKey.key -pubout -outform pem | sha256sum
+openssl x509 -in certificate.crt -pubkey -noout -outform pem | sha256sum
+openssl req -in CSR.csr -pubkey -noout -outform pem | sha256sum
+
+
+
+                                  RTF To CRT
+ Install Required Packages
+ 
+ sudo apt update
+sudo apt install unrtf catdoc
+
+# For Certificate.rtf                                                                     
+openssl x509 -req -in your_csr_file.csr -signkey your_private_key.key -out output.crt
+                                  
+
+# For Intermediate_Certificate.rtf
+unrtf --text Intermediate_Certificate.rtf > Intermediate_Certificate.txt
+
+# For Root_Certificate.rtf
+unrtf --text Root_Certificate.rtf > Root_Certificate.txt
+
+
+
+MAIL _ SUB
+
+Please share backup
+
+
+
+
+
+                                     query for getting all live client websites.
+
+select o.id, o.website from outlets o left join orders od on o.order_id = od.id where od.order_status = 'complete' and o.parent_id is null and (o.website is not null and o.website <> '');
+
+
+grep "10/Feb/2024:" access_log-20240211| grep 'www.dealer.india.ford.com' | cut -d[ -f2 | cut -d] -f1 | awk -F: '{print $2":00"}' | sort -n | uniq -c | wc -l
+
+grep "11/Feb/2024:" access_log| grep 'www.dealer.india.ford.com' | wc -l
+
+grep "10/Feb/2024:" access_log-20240211| grep 'www.dealer.india.ford.com' | cut -d[ -f2 | cut -d] -f1 | awk -F: '{print $2":00"}' | sort -n | uniq -c
+                                             
+                                             HTTPD Log Files commands 
+
+                                             min by min hits count    
+
+grep "24/Dec/2023:04" access_log | cut -d[ -f2 | cut -d] -f1 | awk -F: '{print $2":"$3}' | sort -nk1 -nk2 | uniq -c | awk '{ if ($1 > 10) print $0}'
+                              server last ips list
+
+awk '{print $1}' access_log | sort | uniq -c | sort -nr | head -n 20  
+
+                         server hits top 20 ips list
+                          
+awk '/24\/Dec\/2023:09:/' access_log | awk '$5 >="[09:00:" && $5 < "[09:59:"' | awk '{print $1}' | sort | uniq -c | sort -nr | head -n 20
+
+                         server particular hour top ips list
+                         
+awk '/24\/Dec\/2023:09:/' access_log | awk '{print $1}' | sort | uniq -c | sort -nr
+
+                          server particular hour top 20 ips list 
+awk '/24\/Dec\/2023:09:/' access_log | awk '{print $1}' | sort | uniq -c | sort -nr | head -n 10
+
+                                
+                                particular subdomain top 20 ips list 
+                                
+ awk '/24\/Dec\/2023:09:/' access_log | awk '/www.samsungexclusivestores.in/' | awk '{print $1}' | sort | uniq -c | sort -nr | head -n 20
+
+grep '03/Nov/2023:06:33' access_log-20231016 | grep 'iocl'
+
+grep 'www.samsungexclusivestores.in' | grep "03/Nov/2023:06:3" access_log
+
+
+
+some popular domain registration websites where you can purchase and manage domain names:
+
+    GoDaddy: https://www.godaddy.com
+    Namecheap: https://www.namecheap.com
+    Bluehost: https://www.bluehost.com
+    HostGator: https://www.hostgator.com
+    Google Domains: https://domains.google
+    1&1 IONOS: https://www.ionos.com
+    Name.com: https://www.name.com
+    Hover: https://www.hover.com
+    Network Solutions: https://www.networksolutions.com
+    Enom: https://www.enom.com
+
+
+Cloud front
+1. prod2
+2. prod3
+3. prod4
+4.prod8
+5.prod9
+6.prod12
+7.hdfc-branch-locator
+8.prod-hero
+
+
+
+1. ai-db-rds
+Storage Space: 50 GiB
+FreeStorageSpace:  34.87356928 GB
+
+
+
+
+
+2. bharat-shop
+Storage Space: 200 GiB
+FreeStorageSpace:
+
+
+
+
+3. bharat-shop-live-rds
+Storage Space: 100 GiB
+FreeStorageSpace:
+
+
+
+4. bharat-test-shfdg3474i5	
+Storage Space: 50 GiB
+FreeStorageSpace:
+
+
+5.  connect-app-live
+Storage Space: 500 GiB
+FreeStorageSpace:
+
+6. coonect-bi-team-read-replica
+Storage Space: 500 GiB
+FreeStorageSpace:
+
+7. live-si-db
+Storage Space: 3200 GiB
+FreeStorageSpace:
+
+
+
+8. bi-googlereadreplica-1
+Storage Space: 3200 GiB
+FreeStorageSpace:
+
+
+9. hdfc-preprod-1 
+Storage Space: 3025 GiB
+FreeStorageSpace:
+
+10. hdfc-preprod-2
+Storage Space: 3200 GiB
+FreeStorageSpace:
+
+
+11. prepord-timeline
+Storage Space:  3025 GiB
+FreeStorageSpace:
+
+
+
+12.  preprod-timeline-2
+Storage Space:  3200 GiB
+FreeStorageSpace:
+
+
+13. preprod1
+Storage Space:  3025 GiB
+FreeStorageSpace:
+
+
+
+14. preprod2
+Storage Space:  3025 GiB
+FreeStorageSpace:
+
+15. v2-preprod-replica
+Storage Space:  3100 GiB
+FreeStorageSpace:
+
+
+16. mysql8-rds
+Storage Space:  2500 GiB
+FreeStorageSpace:
+
+
+
+17. spotlight-googlelookerreadreplica1
+Storage Space:  148 GiB
+FreeStorageSpace:
+
+
+
+
+18. spotlightreadreplica
+Storage Space:  500 GiB
+FreeStorageSpace:
+
+
+
+
+19. si-test-rds-3r6dj98e478jvryrui278ryjh
+Storage Space:  605 GiB
+FreeStorageSpace:
+
+
+
+
+20. spot-test
+Storage Space:  20 GiBFreeStorageSpace
+
+
+
+21. starify
+Storage Space:  299 GiB
+FreeStorageSpace:
+
+
+
+22. test-connect-app
+Storage Space: 299 GiB
+FreeStorageSpace:
+
+
+
+
+
+23. test-myspotlight
+Storage Space: 100 GiB
+FreeStorageSpace:
+
+
+
+
+
+
+SELECT 
+    ROUND((@@innodb_buffer_pool_size / 1024 / 1024), 2) AS "InnoDB Buffer Pool Size (MB)",
+    ROUND((@@key_buffer_size / 1024 / 1024), 2) AS "Key Buffer Size (MB)",
+    ROUND((@@query_cache_size / 1024 / 1024), 2) AS "Query Cache Size (MB)",
+    ROUND((@@tmp_table_size / 1024 / 1024), 2) AS "Tmp Table Size (MB)",
+    ROUND((@@max_heap_table_size / 1024 / 1024), 2) AS "Max Heap Table Size (MB)",
+    ROUND((@@thread_stack / 1024 / 1024), 2) AS "Thread Stack Size (MB)",
+    ROUND((@@max_connections), 2) AS "Max Connections",
+    ROUND((@@thread_cache_size), 2) AS "Thread Cache Size",
+    ROUND((@@innodb_log_buffer_size / 1024 / 1024), 2) AS "InnoDB Log Buffer Size (MB)",
+    ROUND((@@read_buffer_size / 1024 / 1024), 2) AS "Read Buffer Size (MB)",
+    ROUND((@@read_rnd_buffer_size / 1024 / 1024), 2) AS "Read Rnd Buffer Size (MB)",
+    ROUND((@@sort_buffer_size / 1024 / 1024), 2) AS "Sort Buffer Size (MB)",
+    ROUND((@@join_buffer_size / 1024 / 1024), 2) AS "Join Buffer Size (MB)"
+
+SELECT 
+    ROUND((@@global.memory_total - @@global.memory_free) / 1024 / 1024, 2) AS "Memory Used (MB)",
+    ROUND(@@global.memory_free / 1024 / 1024, 2) AS "Memory Free (MB)"
+
