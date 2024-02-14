@@ -1,0 +1,2760 @@
+70!z<]p"y5ip~;1N8rb=RNU"s<e7wCzaOAcP#fn?"&b\?z=iJmO`8
+
+GITHUB Token-4: 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
+
+                                             min by min hits count    
+
+grep "14/Feb/2024:12" access_log | cut -d[ -f2 | cut -d] -f1 | awk -F: '{print $2":"$3}' | sort -nk1 -nk2 | uniq -c | awk '{ if ($1 > 10) print $0}'
+                              server last ips list
+
+awk '{print $1}' access_log | sort | uniq -c | sort -nr | head -n 20  
+
+                         server hits top 20 ips list
+                          
+awk '/24\/Dec\/2023:09:/' access_log | awk '$5 >="[09:00:" && $5 < "[09:59:"' | awk '{print $1}' | sort | uniq -c | sort -nr | head -n 20
+
+                         server particular hour top ips list
+                         
+awk '/24\/Dec\/2023:09:/' access_log | awk '{print $1}' | sort | uniq -c | sort -nr
+
+                          server particular hour top 20 ips list 
+awk '/24\/Dec\/2023:09:/' access_log | awk '{print $1}' | sort | uniq -c | sort -nr | head -n 10
+
+                                
+                                particular subdomain top 20 ips list 
+                                
+ awk '/24\/Dec\/2023:09:/' access_log | awk '/www.samsungexclusivestores.in/' | awk '{print $1}' | sort | uniq -c | sort -nr | head -n 20
+
+grep '03/Nov/2023:06:33' access_log-20231016 | grep 'iocl'
+
+grep 'www.samsungexclusivestores.in' | grep "03/Nov/2023:06:3" access_log
+
+
+
+
+
+
+
+amazon-linux-extras enable php7.4
+
+Sai
+an0fh^dh1@fhs0
+
+A quick reminder
+useradd sai
+  passwd Sai
+  visudo 
+  vim /etc/ssh/sshd_config 
+  systemctl restart sshd
+
+neetu ALL=NOPASSWD: /etc/init.d/httpd restart,/usr/bin/killall httpd
+rds-migration ALL=NOPASSWD:  /usr/bin/git
+deepika
+
+@4f732bhYTrHfg!nfgst#$
+
+geetika
+gee@#6fstika%^81Gufrc!&
+
+
+ps aux | grep httpd | wc -l
+
+Instance Type	RAM Size	Estimated Hits per Minute (HPM)
+t2.micro	1 GB	Low traffic: Up to 100 HPM
+t3.micro	1 GB	Low traffic: Up to 150 HPM
+t3.small	2 GB	Moderate traffic: Up to 300 HPM
+t3.medium	4 GB	Moderate to High traffic: Up to 600 HPM
+t3.large	8 GB	High traffic: Up to 1200 HPM
+t3.xlarge	16 GB	Very High traffic: Up to 2400 HPM
+t3.2xlarge	32 GB	Extremely High traffic: Up to 4800 HPM
+
+Go-daddy-Team,
+
+Customer Support Inbound -mail subject
+
+
+23-11-2023
+
+openssl pkey -in castrolautoservice.in.key -pubout -outform pem | sha256sum
+openssl x509 -in 880db873ed6ca15d.crt -pubkey -noout -outform pem | sha256sum
+openssl req -in CSR.csr -pubkey -noout -outform pem | sha256sum
+
+
+I have shifted the below client https://dealers.caseconstructionindia.com/ websites ssl certificates server layer and si-locations-lb-a-2.singleinterface.com ALB layer. 
+
+I have implemented the ssl certificates to the  client  website  https://stores.paragonfootwear.com/  server layer and si-locations-lb-a-5.singleinterface.com ALB layer. It's working fine and certificates uptodate. Please find the attached screenshot.
+
+13.235.209.253
+15.206.132.224
+
+openssl x509 -in 4728ba8bd0fd4145.crt  -noout -enddate 
+openssl req -noout -text -in reliancedigitalstores.in.csr  
+
+%ahss@gdsh%skd
+
+https://dealers.skoda-auto.co.in/
+https://branch.hdfclife.com/
+https://brandshop.in.panasonic.com/
+
+
+
+
+https://tatamotorsdealers.com/	            Tata	Live
+https://dealers.skoda-auto.co.in/      	    Skoda   	Live
+https://brandshop.in.panasonic.com/	  Panasonic	Live
+https://branch.hdfclife.com/	       HDFC Life	Live
+
+https://outlets.godrejinterio.com/	Godrej Interio	Live
+https://www.sotcdeals.in/	                    SOTC	Live
+
+
+SELECT distinct if(custom_state_alias IS NULL OR '',state_alias,custom_state_alias) as custom_state_alias, if(custom_state IS NULL OR '',state, custom_state) as custom_state FROM `outlets` AS `Outlet` WHERE `Outlet`.`parent_id` = 147517 AND ((`Outlet`.`close_outlet` IS NULL) OR (`Outlet`.`close_outlet` = '0') OR (`Outlet`.`close_outlet` = '0'))
+
+
+
+<VirtualHost *:443>
+        DocumentRoot /var/www/sites/ford_sites/Ford_Websites/geogit/
+        ServerName branch.geojit.com
+        ServerAlias branch.geojit.com
+<Directory /var/www/sites/ford_sites/Ford_Websites/geogit/>
+       Options Indexes FollowSymLinks MultiViews
+       AllowOverride All
+       Order allow,deny
+       allow from all
+</Directory>
+       SSLEngine on
+       SSLCertificateFile /etc/httpd/ssl/branch.geojit.com_23/9a5ff450b081c592.crt
+       SSLCertificateKeyFile /etc/httpd/ssl/branch.geojit.com_23/branch.geojit.com.key
+       SSLCACertificateFile /etc/httpd/ssl/branch.geojit.com_23/gd_bundle-g2-g1.crt
+</VirtualHost>
+
+<VirtualHost *:80>
+        ServerAdmin aijaz@singleinterface.com
+        ServerName branch.geojit.com
+        ServerAlias branch.geojit.com
+        DocumentRoot /var/www/sites/ford_sites/Ford_Websites/geogit/
+<Directory /var/www/sites/ford_sites/Ford_Websites/geogit/>
+                Options Indexes FollowSymLinks MultiViews
+                AllowOverride All
+                Order allow,deny
+                allow from all 
+</Directory>
+        ErrorLog /var/log/httpd/branch.geojit.com.error.log
+        LogLevel warn
+        CustomLog /var/log/httpd/branch.geojit.com.access.log combined
+</VirtualHost>
+
+
+
+01-12-2023
+
+sudo alternatives --config java
+
+
+mvn -version
+
+
+SETUP: CREATE EC2
+yum install git java-1.8.0-amazon-corretto maven tree -y
+git clone https://github.com/devopsbyraham/jenkins-java-project.git
+cd jenkins-java-project.git
+
+PLUGIN: its a small software which automates our work.
+with the plugins we can use tools without installing them.
+
+GOAL: its a command used to perfrom task.
+MAVEN follows a lifecycle
+
+mvn compile	: to compile the source code
+mvn test	: to test the code
+mvn package	: to create artifact (project directory)
+mvn install	: to create artifact (maven home dir .m2)
+mvn clean packge: to perform entire goals 
+mvn clean	: to delete target
+sudo mvn clean test -DsuiteXmlFile=testng.xml
+
+
+
+    1  yum install git java-1.8.0-openjdk maven tree -y
+    2  git clone https://github.com/devopsbyraham/jenkins-java-project.git
+    3  ll
+    4  cd jenkins-java-project/
+    5  ll
+    6  rm -rf Jenkinsfile
+    7  ll
+    8  tree
+    9  mvn compile
+   10  ll
+   11  tree
+   12  mvn test
+   13  mvn package
+   14  tree
+   15  mvn install
+   16  ll /root/.m2/repository/in/RAHAM/NETFLIX/1.2.2/
+   17  ll
+   18  mvn clean
+   19  ll
+   20  mvn package
+   21  mvn clean
+   22  ll
+   23  mvn clean package
+   24  cd src/
+   25  ll
+   26  tree
+   27  vim main/java/in/javahome/myweb/controller/Calculator.java
+   28  mvn compile
+   29  ll
+   30  cd ..
+   31  ll
+   32  mvn compile
+   33  java -version
+   34  amazon-linux-extras install java-openjdk11 -y
+   35  update-alternatives --config java
+   36  java -version
+   37  update-alternatives --config java
+   38  java -version
+   39  mvn --version
+   40  vim src/main/java/in/javahome/myweb/controller/Calculator.java
+   41  mvn --version
+   42  yum remove maven* java* -y
+   43  yum install maven -y
+   44  mvn --version
+   45  ll
+   46  mvn clean
+   47  ll
+   48  mvn test
+
+
+04-11-23
+
+Hi Sir, I need to renewal this clinics.pristyncare.com subdomain for 1 year . Please share otp sir.
+
+
+I have renewed ssl for one year. Godaddy issued the ssl certificate.
+
+
+
+
+
+
+SSLCertificateFile /etc/httpd/ssl/clinics.pristyncare.com_23/d9cec339b363bbd7.crt
+SSLCertificateKeyFile /etc/httpd/ssl/clinics.pristyncare.com_23/clinics.pristyncare.com.key
+SSLCACertificateFile /etc/httpd/ssl/clinics.pristyncare.com_23/gd_bundle-g2-g1.crt
+
+
+
+05-11-23
+
+
+
+
+Subject: Urgent: Keyboard Malfunction and System Unresponsiveness
+
+Dear [System Administrator's Name],
+
+I am currently experiencing issues with my system's keyboard, rendering it nonfunctional. Additionally, the system has become unresponsive unexpectedly. Kindly assist in resolving these matters promptly.
+
+
+
+
+
+The new cliet  stores.nilkamalsleep.com. I need to buy the 1 SSL certificates for 1 year. Could you please share otp sir.
+
+
+
+
+
+Certificate Request:
+    Data:
+        Version: 1 (0x0)
+        Subject: C = IN, ST = Delhi, L = Delhi, O = Orientbell Ltd, OU = Orientbell Tiles, CN = *.orientbell.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+
+
+
+access_log-20231205  locator.iocl.com//
+
+
+https://stores.manyavar.com
+
+
+
+
+49.47.68.137 10.0.3.176 - - [04/Dec/2023:11:17:37 +0530] "POST /indianoil-subedar-naurang-ram-f-s-petrol-pump-charkhi-dadri-bhiwani-226085/_/jserror?script=https%3A%2F%2Flocator.iocl.com%2Findianoil-subedar-naurang-ram-f-s-petrol-pump-charkhi-dadri-bhiwani-226085%2FHome%3Futm_source%3Dlocator%26utm_medium%3Dgoogleplaces&error=%7B%22message%22%3A%22Script%20error.%22%2C%22fileName%22%3A%22%22%2C%22line%22%3A0%2C%22lineNumber%22%3A0%2C%22Ib%22%3A0%2C%22error%22%3Anull%7D&line=Not%20available HTTP/1.1" 404 1038 "https://locator.iocl.com/indianoil-subedar-naurang-ram-f-s-petrol-pump-charkhi-dadri-bhiwani-226085/Home?utm_source=locator&utm_medium=googleplaces" "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Mobile Safari/537.36"
+
+
+
+
+FACEBOOK_CLIENT_ID : 3275704592726835,
+FACEBOOK_CLIENT_SECRET : c1181606f7a64b4b63c766b065c54c65
+
+
+CSR FILES COMMANDS   
+	
+openssl req -new -newkey rsa:4096 -nodes -keyout stores.orientbell.com.key -out stores.orientbell.com.csr   --- Generate csr command
+openssl pkey -pubout -in stores.orientbell.com.key | openssl sha256	                                  --- key command 
+openssl req -pubkey -in stores.orientbell.com.csr -noout | openssl sha256                                  --- csr command 
+openssl req -noout -text -in stores.orientbell.com.csr                                                    --- certificate command 
+openssl x509 -in doctors.pristyncare.com.crt -noout -enddate                                       --- certificate date
+openssl pkey -in privateKey.key -pubout -outform pem | sha256sum                                        
+openssl x509 -in certificate.crt -pubkey -noout -outform pem | sha256sum
+openssl req -in CSR.csr -pubkey -noout -outform pem | sha256sum
+
+ https://stores.orientbell.com/
+
+1. Orient Bell Tiles limited
+2. Tiles manufacturing
+3. Delhi
+4. New Delhi
+5. India
+6. jegatheeswaran.palsamy@orientbell.com
+7. 8800690700
+
+
+I have generated the new csr for   dealers.srmbsteel.com. Please find the below attached csr file and screenshot please check
+
+I have purchased SSL for 1 year and i have provided CSR to godaddy,but certificate pending for godaddy side .Please check .
+
+
+I am notifying you about  AWS Life cycle & AWS backups. Please find the attached information.
+
+
+1. AWS Life cycle :
+
+Date :  04-Dec-2023
+
+ 1. AWS Snapshot ID : 
+
+
+
+AWS Backup :  
+
+Date 04-12-2023   -    We get a total of  341 backups
+
+Todays Screenshot
+
+06-12-2023 -tasks
+
+Expires On - 3 Feb 2024
+
+Hi Sir, I need to renewal this singleinterface.in domain for 2years. Please share otp sir. Please share otp sir
+
+
+
+       SSLCertificateFile /etc/httpd/ssl/livguardsolar_com_ssl_2023/wildcard_livguardsolar_com_2023.crt
+       SSLCertificateKeyFile /etc/httpd/ssl/livguardsolar_com_ssl_2023/wildcard_livguardsolar_com_2023.key
+       SSLCACertificateFile /etc/httpd/ssl/livguardsolar_com_ssl_2023/DigiCertCA_Intermediate.crt
+
+I have implemented the ssl certificates to the  client  website  https://logistics-near-me.cjdarcl.com/  server layer and si-locations-lb-a-1.singleinterface.com ALB layer. It's working fine and certificates uptodate. Please find the attached screenshot.
+
+
+http://stores.astralpipes.com/
+
+The new cliet  stores.astralpipes.com. I need to buy the 1 SSL certificates for 1 year. Could you please share otp sir.
+
+
+07-12-2023
+
+
+
+Software packages 
+
+
+this is my server - NAME="Amazon Linux"
+VERSION="2023"
+ID="amzn"
+ID_LIKE="fedora"
+VERSION_ID="2023"
+PLATFORM_ID="platform:al2023"
+PRETTY_NAME="Amazon Linux 2023"
+                                          	Install- SSL
+
+sudo yum install mod_ssl      	 
+
+                                            	Install-HTTPD
+sudo yum update -y
+sudo yum install httpd -y          	 
+sudo systemctl start httpd
+sudo systemctl enable httpd
+sudo systemctl status httpd
+sudo systemctl restart httpd
+
+
+                                            	Install-PHP
+yum install php*
+
+yum install php php-common php-opcache php-cli php-gd php-curl php-mysqlnd -y
+
+ systemctl start php-fpm
+ systemctl enable php-fpm
+ systemctl status php-fpm
+ systemctl restart php-fpm
+ 
+ php -v
+
+ sudo systemctl status php8.1-fpm
+ 
+
+
+sudo yum -y install gcc make # install GCC compiler
+cd /usr/local/src
+sudo wget http://download.redis.io/redis-stable.tar.gz
+sudo tar xvzf redis-stable.tar.gz
+sudo rm -f redis-stable.tar.gz
+cd redis-stable
+sudo yum groupinstall "Development Tools"
+sudo make distclean
+sudo make
+sudo yum install -y tcl
+sudo make test
+sudo cp src/redis-server /usr/local/bin/
+sudo cp src/redis-cli /usr/local/bin/
+redis-server
+redis-cli
+
+
+
+PREPROD1-1
+
+Average latency - 0.00005876008
+
+Requests  - 252
+
+Estimated ALB consumed LCUs - 0.00944
+
+Surge queue length - 514
+
+Estimated processed bytes- 8,435,417
+
+Estimated ALB active connection count - 75
+
+Estimated ALB new connection count - 844
+
+
+
+
+
+SSLCertificateFile /etc/httpd/ssl/stores.orientbell/a3f6dd2175f24287.crt
+SSLCertificateKeyFile /etc/httpd/ssl/stores.orientbell/stores.orientbell.com.key
+SSLCACertificateFile /etc/httpd/ssl/stores.orientbell/gd_bundle-g2-g1.crt
+
+
+
+
+10.0.3.186
+
+
+12-12-23
+
+
+         SSLCertificateFile /etc/httpd/ssl/stores.lapcare.com_24/b7bf374343d32099.crt
+         SSLCertificateKeyFile /etc/httpd/ssl/stores.lapcare.com_24/stores.lapcare.com.key
+         SSLCACertificateFile /etc/httpd/ssl/stores.lapcare.com_24/gd_bundle-g2-g1.crt
+
+CSR FILES COMMANDS   
+	
+openssl req -new -newkey rsa:4096 -nodes -keyout vyshukrishna.shop.key -out vyshukrishna.shop.csr   --- Generate csr command
+openssl pkey -pubout -in www.samsungsmartplaza.co.in.key | openssl sha256	                                  --- key command 
+openssl req -pubkey -in www.samsungsmartplaza.co.in.csr -noout | openssl sha256                                  --- csr command 
+openssl req -noout -text -in TataMotors.csr                                                    --- certificate command 
+openssl x509 -in www_samsungsmartplaza_co_in.crt.txt -noout -enddate                                       --- certificate date
+openssl pkey -in privateKey.key -pubout -outform pem | sha256sum                                        
+openssl x509 -in certificate.crt -pubkey -noout -outform pem | sha256sum
+openssl req -in CSR.csr -pubkey -noout -outform pem | sha256sum
+
+
+
+I have generated the new csr for   https://imagesquare.in.canon/. Please find the below attached csr file and screenshot please check
+
+I have purchased SSL for 1 year and i have provided CSR to godaddy,but certificate pending for godaddy side. Please check .
+
+
+13-12-2023
+
+Organization: Paragon Polymer Products Private Limited
+Organization Unit: Marketing
+City or Locality: Bangalore
+State or Province: Karnataka
+Country: India 
+Email Address: ravi.modi@paragonfootwear.com
+Mobile Number: 8971317359
+
+stores.paragonfootwear.com 
+
+openssl req -new -newkey rsa:2048 -nodes -keyout vyshukrishna.shop.key -out vyshukrishna.shop.csr   --- Generate csr command
+
+
+ TXT REXORD\\
+ 
+1.  TXT record is a type of DNS record that provides information about a domain. It can be used for various purposes, such as verifying domain ownership, setting up email authentication 
+ 
+2.  "TXT records are like text notes attached to your domain that can serve various purposes. For example, they are commonly used for email authentication 
+
+3.  your domain registrar or hosting provider's control panel.
+
+4. Firstly, log in to your domain management dashboard and navigate to the DNS settings or DNS management section." 
+
+5. "Find the option to add a new record and select TXT record type
+
+Step -2 
+1. Please log in to your domain registrar or hosting provider's control panel and navigate to the DNS management section."
+
+Step 3: Delete Subdomain TXT Record:   stores.makeo.app
+
+"Once you're in the DNS management section, locate the list of DNS records. Find the specific subdomain for which you want to delete the TXT record. There should be an option to delete or remove the record. Click on that option to remove the TXT record associated with the subdomain."
+
+Step 4: Add TXT Record to Main Domain:   1bch3fj37kcl8t5nj2os1ppciu
+
+    You: "Now, let's proceed to add the new TXT record to the main domain. Look for an option to add a new record and select TXT as the record type. Enter the information you want to associate with the main domain."
+    
+    Step 5: Propagation Time:
+
+    You: "Keep in mind that DNS changes may take some time to propagate across the internet. It's normal for the changes to take a few hours or even up to 48 hours to take effect globally."
+    
+    t6358bi322obqud14gb3cm3ucq
+    shellpartnerworkshops.in
+    
+    
+    
+SSLCertificateFile /etc/httpd/ssl/www.reliancedigitalstores.in/615cb164124720c0.crt
+SSLCertificateKeyFile /etc/httpd/ssl/www.reliancedigitalstores.in/reliancedigitalstores.in.key
+SSLCACertificateFile /etc/httpd/ssl/www.reliancedigitalstores.in/gd_bundle-g2-g1.crt
+    
+  
+	SSLCertificateFile /etc/httpd/ssl/shellpartnerworkshops.in_24/6b121b2b39ce9ee3.crt
+	SSLCertificateKeyFile /etc/httpd/ssl/shellpartnerworkshops.in_24/shellpartnerworkshops.in.key
+	SSLCACertificateFile /etc/httpd/ssl/shellpartnerworkshops.in_24/gd_bundle-g2-g1.crt
+  
+    
+    
+   m57y7ysktx094dck3nw2r8jf6wjjsmns  - OLD  TXT RECORD samsungsmartplaza.co.in 
+    
+    7f2tjjk0j72pujfh8l01cn1m7d
+    
+    
+    
+    
+    
+                                                    14-12-2023
+    
+    
+    openssl x509 -req -in near-me.hdfcbank.com.csr -signkey near-me.hdfcbank.com.key -out near-me_hdfcbank_com
+
+    
+   I applied for full file permissions. Please find the attached screenshot. 
+
+Path : /var/singleinterface/app/webroot/files/enterprise/sitemap/google
+
+
+
+
+
+                                                     15-12-2023-
+                                                     
+                       PREPROD1                              
+                                                     
+                                                     
+           server name -  test-webp-server
+                                                     
+        t3a small                                             
+                                                     
+      VPC- si-
+      supnet - public
+      ipv4 -enable
+                                                     
+                                                     
+            i-0ec6e6bc2d75325d0)                                         
+                                                     
+                                                     
+                                                     
+ServerName: test-webp-server
+ServerClone: PREPROD1
+Credentials: Same which we are using for PREPROD1[x.x.x.10] server
+ServerIP: 10.0.3.143                                      
+App Path: /var/singleinterface                                                     
+                                                     
+                                                     
+                 t4g.medium                                    
+                                                     
+                                                     
+         
+         
+         
+         
+<VirtualHost *:443>
+        ServerAdmin aijaz.m@dealsandyou.com
+        ServerName  retailstore.1mg.com
+        ServerAlias  retailstore.1mg.com
+        DocumentRoot /var/www/sites/ford_sites/Ford_Websites/
+<Directory /var/www/sites/ford_sites/Ford_Websites/>
+        Options Indexes FollowSymLinks MultiViews
+                <LimitExcept GET POST>
+                        Order allow,deny
+                </LimitExcept>
+                Options +FollowSymLinks
+                AllowOverride All
+                Order allow,deny
+                allow from all
+        </Directory>
+        SSLEngine on
+	SSLCertificateFile /etc/httpd/ssl/retailstore_24/retailstore.1mg.com.crt
+	SSLCertificateKeyFile /etc/httpd/ssl/retailstore_24/retailstore.1mg.com.key
+	SSLCertificateChainFile /etc/httpd/ssl/retailstore_24/retailstore.1mg.com_fullchain
+</VirtualHost>
+
+<VirtualHost *:80>
+        ServerAdmin aijaz@singleinterface.com
+        ServerName  retailstore.1mg.com
+        ServerAlias  retailstore.1mg.com
+        DocumentRoot /var/www/sites/ford_sites/Ford_Websites/
+<Directory /var/www/sites/ford_sites/Ford_Websites/>
+                Options Indexes FollowSymLinks MultiViews
+                AllowOverride All
+                Order allow,deny
+                allow from all 
+</Directory>
+        ErrorLog /var/log/httpd/retailstore.1mg.com.error.log
+        LogLevel warn
+        CustomLog /var/log/httpd/retailstore.1mg.com.access.log combined
+</VirtualHost>    
+         
+         
+         
+         
+         
+         
+         
+      vpc-07692e7dfa1013d83   
+         
+         
+   sg-0b6969f3916571050      
+         
+         
+     INFRA_TEST_16-12-2023    
+         
+    sg-0e164ead74d46b705 | INFRA_TEST_16-12-2023     
+         
+      sg-0e164ead74d46b705   
+         
+         
+     All-front-end-Curl-servers    
+         
+       
+       
+       
+ 18-12-2023
+ 
+ Ec2-instace
+
+CPU utilization : 15.065
+Network in (bytes):  232,333,920
+Network out (bytes) : 28,043,173
+Network packets in (count) : 175,647
+Network packets out (count) : 34,146
+
+RDS-Instance
+
+CPU utilization : 42.4673333333
+DatabaseConnections : 10.4
+LVMReadIOPS : 2.70671307
+LVMWriteIOPS : 289.0829950
+    
+    
+1. studio.legrand.co.in
+2. zip.legrand.co.in
+3. innovals.legrand.co.in    
+     
+       
+ CSR FILES COMMANDS   
+	
+openssl req -new -newkey rsa:4096 -nodes -keyout innovals.legrand.co.in.key -out innovals.legrand.co.in.csr   --- Generate csr command
+openssl pkey -pubout -in innovals.legrand.co.in.key | openssl sha256	                                  --- key command 
+openssl req -pubkey -in innovals.legrand.co.in.csr -noout | openssl sha256                                  --- csr command 
+openssl req -noout -text -in innovals.legrand.co.in.csr                                                    --- certificate command 
+openssl x509 -in www_samsungsmartplaza_co_in.crt.txt -noout -enddate                                       --- certificate date
+openssl pkey -in privateKey.key -pubout -outform pem | sha256sum                                        
+openssl x509 -in certificate.crt -pubkey -noout -outform pem | sha256sum
+openssl req -in CSR.csr -pubkey -noout -outform pem | sha256sum
+
+Sharing the CSR details below:
+Organization: Novateur Electricals & digital system pvt ltd
+Organization Unit: Head office
+City or Locality: Mumbai
+State or Province: Maharashtra
+Country: India
+Email Address: priyanka.rane@legrand.com
+Mobile Number: 8082426315
+
+I have generated the new csr for  & I have purchased 3 SSL for 1 year and i have provided CSR to godaddy,but certificate pending for godaddy side .Please check .
+      
+I created a new CSR for shops.astralbathware.com and gave it to Godaddy; as a result, Godaddy awarded the SSL certificate. Please cheak tha attached screenshot      
+       
+       
+       
+       
+                                                        19-12-2023       
+       
+ 
+saikrishna@SIGU-DL-22-N-52:~$ ping dealer-locator.cars.tatamotors.com
+PING si-locations-166252326.ap-south-1.elb.amazonaws.com (3.7.193.33) 56(84) bytes of data. 
+       
+2023-12-16 05:08:19       
+       
+       
+       
+       
+ https://www.samsungsmartplaza.co.in/      2023-12-15 11:48:12
+       
+       
+       Billing and Cost   $388.02
+       
+       
+ restaurants.pizzahut.co.in      - pending
+ sanjeevani.singleinterface.com  - pending 
+ labs.metropolisindia.com/       - pending
+ www.renault.co.in               - pending
+   
+       
+ partsdistributor.india.ford.com  - Done, Not working
+
+ locator.bharatpetroleum.com/     - Done, Not working
+ stores.airtel.in/                - Done, Not working
+
+     
+       
+      stores.myvi.in 
+       
+       per hour hits  - 3496
+       per min hits   - 58
+       
+         
+         
+Please find the required details below.
+
+RDS
+
+1. nfs server snapshot SS         
+ 
+2. Live SI rds SS
+         
+3. spotlight live rds SS         
+         
+4. spot live rds SS
+                                                     
+5. connect app live rds SS
+                                                     
+                                                     
+6. bharat-shop-live-rds SS.
+
+
+
+
+
+
+
+EC2
+
+LB-Name : Ford-LB
+
+1. Ford server
+
+FORD-SERVER-2       IP- 10.0.4.221
+
+
+
+2. SI-LOCATION-2         IP- 10.0.4.238
+
+
+
+3. ALB Name: si-locations-4
+
+PIXMA-SERVER-3     IP - 10.0.1.250
+
+
+4.  ALB Name: si-locations-5
+
+NEW-SI-LOCATION-4  - 10.0.1.14
+
+
+5. ALB Name: SI-LOCATIONS-6
+
+SI-LOCATION-ALB-7-1    IP- 10.0.2.119
+
+
+
+6.   ALB-Name: SI-LOCATIONS-7
+
+SI-LOCATIONS-7-2   IP- 10.0.2.192
+
+
+
+7. ALB Name: SI-LOCATIONS-8-ALB-4
+
+SI-LOCATIONS-8-ALB-4   IP - 10.0.2.43
+
+
+
+
+8. ALB-Name: SI-LOCATIONS-9-ALB-5 
+
+ALB-5-1     IP- 10.0.1.86
+
+
+
+9. PREPROD1   IP - 10.0.4.10 
+
+
+
+10.  prod4   IP- 10.0.4.206
+
+
+
+
+11.  PREPROD1-2        IP- 10.0.4.53
+                                                     
+ 
+ 
+New server for backend migraction 
+
+
+Hi ,
+I have checked the subdomain  store.croma.com is  pointing to si-locations-lb-a-3.singleinterface.com. Please find the below attached screenshot.
+
+
+
+
+
+                                      21-DEC-2023
+
+Load Balancer -  starbucks-959516397.ap-south-1.elb.amazonaws.com
+
+Public ip - 13.200.206.62
+          - 13.200.54.201
+          
+          
+Server Name -  starbuck-server-2
+Private ip  -  10.0.2.72
+
+ 
+
+New UAT --> tsb-uat-stores.starbucksindia.net
+New prod --> tsb-stores.starbucksindia.net
+
+
+
+                            22-12-2023
+
+Server Name:PIXMA-SERVER-3
+Server Ip :-x.x.x.1.46
+
+
+
+
+
+retailstore.1mg.com
+stores.tatagreenbattery.com
+commercial-vehicles.buytrucknbus.tatamotors.com
+branches.tatacapital.com
+
+
+There is an SSL certificate from Godaddy.  Please review the screenshot that is attached.
+
+
+
+
+<VirtualHost *:443>
+        DocumentRoot /var/www/sites/ford_sites/Ford_Websites/
+        ServerName castrolautoservice.in
+        ServerAlias castrolautoservice.in
+<Directory /var/www/sites/ford_sites/Ford_Websites/>
+       Options Indexes FollowSymLinks MultiViews
+       AllowOverride All
+       Order allow,deny
+       allow from all
+</Directory>
+       SSLEngine on
+       SSLCertificateFile /etc/httpd/ssl/castrolautoservice.in_24/880db873ed6ca15d.crt
+       SSLCertificateKeyFile /etc/httpd/ssl/castrolautoservice.in_24/castrolautoservice.in.key
+       SSLCACertificateFile /etc/httpd/ssl/castrolautoservice.in_24/gd_bundle-g2-g1.crt
+</VirtualHost>
+
+<VirtualHost *:80>
+        ServerAdmin aijaz@singleinterface.com
+        ServerName  castrolautoservice.in
+        ServerAlias  castrolautoservice.in
+        DocumentRoot /var/www/sites/ford_sites/Ford_Websites/
+<Directory /var/www/sites/ford_sites/Ford_Websites/>
+                Options Indexes FollowSymLinks MultiViews
+                AllowOverride All
+                Order allow,deny
+                allow from all 
+</Directory>
+        ErrorLog /var/log/httpd/retailstore.1mg.com.error.log
+        LogLevel warn
+        CustomLog /var/log/httpd/retailstore.1mg.com.access.log combined
+</VirtualHost>
+
+
+
+CSR FILES COMMANDS   
+	
+openssl req -new -newkey rsa:4096 -nodes -keyout castrolautoservice.in.key -out castrolautoservice.in.csr   --- Generate csr command
+openssl pkey -pubout -in castrolautoservice.in.key | openssl sha256	                                  --- key command 
+openssl req -pubkey -in castrolautoservice.in.csr -noout | openssl sha256                                  --- csr command 
+openssl req -noout -text -in castrolautoservice.in.csr                                                    --- certificate command 
+openssl x509 -in www_samsungsmartplaza_co_in.crt.txt -noout -enddate                                       --- certificate date
+openssl pkey -in privateKey.key -pubout -outform pem | sha256sum                                        
+openssl x509 -in certificate.crt -pubkey -noout -outform pem | sha256sum
+openssl req -in CSR.csr -pubkey -noout -outform pem | sha256sum
+
+Sharing the CSR details below:
+Organization:            CASTROL INDIA LIMITED
+Organization Unit:    Auto Ancillary
+City or Locality:        Andheri East, Mumbai
+State or Province:    Maharashtra
+Country:                     India
+Email Address:          gaurav.khatri@bp.com
+Contact Number:        9130098805
+
+                          24-12-2023
+
+PIXMA-SERVER-4 -   ssh -i "si-location-new-shailedra-key.pem" root@ec2-15-207-106-248.ap-south-1.compute.amazonaws.com
+
+i-0cd71d5c80551b573
+
+
+
+
+Hi Naval,
+
+As our discuss we have  added the new server on pixma alb .Please find the below server details.
+
+Server Name:PIXMA-SERVER-4
+Server Ip :-x.x.x.1.32
+
+
+54.85.169.114/32
+14.143.114.10/32
+2.17.209.0/24
+10.0.4.75/32
+99.80.137.157/32
+139.15.189.40/32
+185.136.166.34/32
+10.0.4.235/32
+3.121.126.156/32
+13.232.119.255/32
+10.0.2.192/32
+23.63.110.0/24
+54.88.149.100/32
+
+
+
+
+
+t3a.xlarge      c5a.8xlarge
+
+
+
+                                               26-12-2023
+
+
+                                   per minute           per hour                24 hour
+pixma server-1    :        1,442                  86,526                 20,76,642
+pixma server-2    :        1349                   80,958                 19,43,007
+pixma server-3    :        1,442                  86,535                 20,76,858
+                          
+          Total hits    :         4,233                 2,53,749              60,96,507
+
+
+
+doctors.pristyncare.com
+speciality.pristyncare.com
+jktyrebrandshops.com
+stores.myvi.in
+tataevcarshowroom.com
+
+
+                                              per minute           per hour                24 hour
+10.0.1.250         pixma server-1    :        1,442                  86,526                 20,76,642 441310+98763+1292952
+10.0.2.38          pixma server-2    :        1349                   80,958                 19,43,007 198190+213422+1074294
+10.0.1.46          pixma server-3    :        1,442                  86,535                 20,76,858 441200+96754+1298597 
+                          
+                       Total hits    :         4,233                 2,53,749              60,96,507
+
+
+    10.0.1.250
+441310+98763+1292952= 1833025 - 585598 =1247427
+6860
+20189
+33043
+68852
+116449
+120921
+124544
+94740
+
+
+
+   10.0.2.38 
+198190+213422+1074294= 1485906 - 553423 = 932483
+85525
+112262
+76496
+60385
+59083
+62269
+52679
+44724
+
+
+  10.0.1.46
+441200+96754+1298597= 1836551 - 591253 = 1245298
+12516
+20188
+33048
+68847
+116453
+120917
+124547
+94731
+
+
+
+
+                                              per minute           per hour                 24 hour
+10.0.1.250         pixma server-1    :        866                    51,976                 12,47,427
+10.0.2.38          pixma server-2    :        647                    38,853                  9,32,483 
+10.0.1.46          pixma server-3    :        864                    51,887                 12,45,298
+                          
+                       Total hits    :         2,377                 1,42,716                34,25,298
+
+
+The clients listed below have SSL certificates that expire in January.
+
+
+    Client website                               Expied Date
+https://stores.capitol.com.sg/		        15 January 2024 
+https://stores.futureworldindia.in/		18 January 2024
+https://logistics-near-me.cjdarcl.com/		18 January 2024   
+https://locator.iocl.com/		        21 January 2024
+https://locator.iocl.com/indane		        21 January 2024
+https://branches.tatacapital.com/		22 January 2024
+https://in-stores.ajmalperfume.com/		25 January 2024
+https://www.stores.aeo.in/	         	28 January 2024
+https://my-branches.aadharhousing.com/		31 January 2024
+https://plywood-dealers.centuryply.com/		30 January 2024
+
+
+
+
+    Client website                               Expied Date
+https://eye-hospitals.dragarwal.com/		28 December 2023
+https://stores.myvi.in/		                29 December 2023
+
+
+
+The SSL certificates of the clients below have expired.
+
+https://locations-nearme.carsome.my/		27/11/23
+https://branches.piramalfinance.com/		16 December 2023 
+https://speciality.pristyncare.com/	        22 December 2023
+https://doctors.pristyncare.com/	        22 December 2023
+
+The clients listed below have SSL certificates that expire in December.
+
+    Client website                               Expied Date
+https://eye-hospitals.dragarwal.com/		28 December 2023
+https://stores.myvi.in/		                29 December 2023
+
+
+The clients listed below have SSL certificates that expire in January.
+
+
+    Client website                               Expied Date
+https://stores.capitol.com.sg/		        15 January 2024 
+https://stores.futureworldindia.in/		18 January 2024
+https://logistics-near-me.cjdarcl.com/		18 January 2024   
+https://locator.iocl.com/		        21 January 2024
+https://locator.iocl.com/indane		        21 January 2024
+https://branches.tatacapital.com/		22 January 2024
+https://in-stores.ajmalperfume.com/		25 January 2024
+https://www.stores.aeo.in/	         	28 January 2024
+https://my-branches.aadharhousing.com/		31 January 2024
+https://plywood-dealers.centuryply.com/		30 January 2024
+
+
+
+
+
+openssl x509 -in 880db873ed6ca15d.crt  -noout -enddate 
+openssl req -noout -text -in reliancedigitalstores.in.csr
+
+
+
+openssl pkey -in castrolautoservice.in.key -pubout -outform pem | sha256sum
+openssl x509 -in 880db873ed6ca15d.crt -pubkey -noout -outform pem | sha256sum
+openssl req -in CSR.csr -pubkey -noout -outform pem | sha256sum
+
+Request for Work From Home 
+
+I hope this message finds you well. As the Sankranti celebration approaches, I would like to request your approval for working remotely from January 8th to January 25th. During this period, my family and I have planned a joint celebration, and being present for these festivities is of great importance to me.
+
+I want to assure you that I am fully committed to maintaining my regular work hours, meeting all deadlines, and ensuring that there is no disruption to the team's workflow. 
+
+
+ I appreciate your understanding and consideration of this request and am happy to discuss any details or concerns you may have.
+
+Thank you for your time and support.
+
+
+
+
+
+I hope this email finds you well. As we approach the joyous occasion of Sankranti, I wanted to bring to your attention the cultural significance and importance this festival holds for us Telugu-speaking individuals.
+
+Sankranti is not just a festival; it's a celebration of our traditions, unity, and family bonds. It is a time when families come together to share joy, traditions, and festivities. In keeping with our cultural values, my family has planned a joint celebration from January 8th to January 25th.
+
+Understanding the importance of work commitments, I am seeking your permission to work from home during this period. I assure you of my dedication to maintaining productivity and meeting all deadlines. I have already arranged a conducive workspace at home to ensure a seamless continuation of work.
+
+I believe that this time spent with family will rejuvenate me, ultimately contributing to my overall well-being and productivity. I appreciate your understanding of the cultural significance of Sankranti and your consideration of this request.
+
+ధన్యవాదాలు (Thank you) for your time and consideration.
+
+I have checked both subdomain  stores.astraladhesives.com  & shops.astralbathware.com  is  pointing  to si-locations-lb-a-5.singleinterface.com. Please find the below attached screenshot.
+
+
+
+ dealers.srmbsteel.com
+stores.realbuildstores.com
+
+
+I have checked the subdomain  stores.realbuildstores.com does not  pointing our origin.
+
+I applied for full file permissions. Please find the attached screenshot.
+
+I have  granted full file access to the directory. Please find the screenshot.
+
+
+
+CSR FILES COMMANDS   
+	
+openssl req -new -newkey rsa:4096 -nodes -keyout dealers.srmbsteel.com.key -out dealers.srmbsteel.com.csr   --- Generate csr command
+openssl pkey -pubout -in dealers.srmbsteel.com.key | openssl sha256	                                  --- key command 
+openssl req -pubkey -in dealers.srmbsteel.com.csr -noout | openssl sha256                                  --- csr command 
+openssl req -noout -text -in dealers.srmbsteel.com.csr                                                    --- certificate command 
+openssl x509 -in stores_myvi_in.txt -noout -enddate                                       --- certificate date
+openssl pkey -in privateKey.key -pubout -outform pem | sha256sum                                        
+openssl x509 -in certificate.crt -pubkey -noout -outform pem | sha256sum
+openssl req -in CSR.csr -pubkey -noout -outform pem | sha256sum
+
+Sharing the CSR details below:
+• Organization: SRMB Srijan Private Limited
+• City or Locality: Kolkata
+• State or Province: West Bengal
+• Country: India
+• Email Address: abhoy.banerjee@srmbsteel.com
+• Contact Number: 9830096704
+Organization unit : Marketing Team
+
+
+
+public $readonly = array(
+                'datasource' => 'Database/Mysql',
+                'persistent' => false,
+                'host' => 'si-test-rds-3r6dj98e478jvryrui278ryjh.c83fh8gbkqpw.ap-south-1.rds.amazonaws.com',
+                'login' => 'webp-user',
+                'password' => 'dsg(h6#d2aZn098h76gCf',
+                'database' => 'sinterface_live_mis_17_backup',
+                'prefix' => '',
+                //'encoding' => 'utf8',
+        );
+        
+        
+        memu jan 8 nunchi 25 work from homr option kavalani korukuntunnanu and ma join family tho sankrathi festival ni jarukuntunnam and na family naku matrimonial discussions kuda arrenge chesaru deeniki  mail example ivvandi because nenu chala months taruvatha adugutunnanu work from home option simple and kind  small mail example 
+        
+        
+
+
+
+Subject: Request for Work from Home and Leave for Sankranti Festival
+
+Dear [Supervisor's Name],
+
+I hope this email finds you well. I am writing to request the option to work from home from January 8th to 25th due to personal commitments, including our family's Sankranti celebrations. I assure you of my commitment to maintaining productivity and meeting all work responsibilities during this period.
+
+Additionally, I wanted to let you know that my family and I are currently having marital talks for me, which means I have to be there and involved. The flexibility to work remotely would greatly assist me in managing both personal and professional obligations seamlessly.
+
+I appreciate your understanding and support in this matter.  Thank you for your time and consideration.
+
+Best regards,
+
+
+
+I trust this email finds you in good health. I am writing to ask that I be allowed to work from home from January 8 to January 25 since I have personal obligations, such as celebrating Sankranthi with my family. I assure you of my commitment to maintaining productivity and meeting all work responsibilities during this period.
+
+Furthermore, I wanted to let you know that my family and I are currently having marital talks for me, which means I have to be there and involved. The flexibility to work remotely would greatly assist me in managing both personal and professional obligations seamlessly.
+
+I appreciate your understanding and support in this matter.  Thank you for your time and consideration.
+
+
+
+
+Unhealthy Hosts
+Healthy Hosts
+Average latency
+Requests
+HTTP 5XXs
+ELB 5XXs
+HTTP 4XXs
+HTTP 4XXs
+Backend connection errors
+Estimated ALB consumed LCUs
+Surge queue length
+Estimated processed bytes
+Estimated ALB active connection count
+Estimated ALB new connection count
+
+
+The client website, https://stores.vijaysales.com/, has SSL certificates installed in the si-locations-lb-a-2.singleinterface.com ALB layer. It operates smoothly and the certificates are upto date. Please find the attached screenshot
+
+
+
+I am suffering from a heavy cold and sneezing so please give  me the work from home option today.
+
+Thank you for your understanding.
+
+
+                                           28-12-2023
+TXT REXORD\\
+ 
+1.  TXT record is a type of DNS record that provides information about a domain. It can be used for various purposes, such as verifying domain ownership, setting up email authentication 
+ 
+2.  "TXT records are like text notes attached to your domain that can serve various purposes. For example, they are commonly used for email authentication 
+
+3.  your domain registrar or hosting provider's control panel.
+
+4. Firstly, log in to your domain management dashboard and navigate to the DNS settings or DNS management section." 
+
+5. "Find the option to add a new record and select TXT record type
+
+Step -2 
+1. Please log in to your domain registrar or hosting provider's control panel and navigate to the DNS management section."
+
+Step 3: Delete Subdomain TXT Record:   stores.makeo.app
+
+"Once you're in the DNS management section, locate the list of DNS records. Find the specific subdomain for which you want to delete the TXT record. There should be an option to delete or remove the record. Click on that option to remove the TXT record associated with the subdomain."
+
+Step 4: Add TXT Record to Main Domain:   1bch3fj37kcl8t5nj2os1ppciu
+
+    You: "Now, let's proceed to add the new TXT record to the main domain. Look for an option to add a new record and select TXT as the record type. Enter the information you want to associate with the main domain."
+    
+    Step 5: Propagation Time:
+
+    You: "Keep in mind that DNS changes may take some time to propagate across the internet. It's normal for the changes to take a few hours or even up to 48 hours to take effect globally."
+                                               
+                                           
+aogcn53r3neckp91thd2ig5kot
+
+
+ stores.paragonfootwear.com
+
+How To Create Domain TXT record In Cloudflare
+
+
+1. Visit www.cloudflare.com & ''Log in''
+
+2. Click on the Domain you want to create ''TXT'' for
+
+3. Click on ''DNS''
+
+4. Click on ''Add record''
+
+5. ''Type'' Select ''TXT''
+
+6. ''Name'' use @ for root
+
+7. ''TTL'' Select ''Auto''
+
+8. Paste your ''TXT record code'' in ''Content'' box & Click ''Save''
+
+Important Note:
+
+DNS propagation takes 
+0 - 72 hours to be updated
+So if your verification doesn't work immediately
+after you Added ''TXT record'' then wait for 24/72 hours 
+then you try the verification again.
+
+
+How To Create Domain TXT record In Cloudflare
+
+
+openssl pkey -in near-me.cjdarcl.com.key -pubout -outform pem | sha256sum
+openssl x509 -in 4728ba8bd0fd4145.crt -pubkey -noout -outform pem | sha256sum
+openssl req -in CSR.csr -pubkey -noout -outform pem | sha256sum
+
+
+<VirtualHost *:443>
+DocumentRoot /var/www/sites/ford_sites/Ford_Websites/
+ServerName stores.paragonfootwear.com
+ServerAlias stores.paragonfootwear.com
+<Directory /var/www/sites/ford_sites/Ford_Websites/>
+       Options Indexes FollowSymLinks MultiViews
+       AllowOverride All
+       Order allow,deny
+       allow from all
+</Directory>
+SSLEngine on
+SSLCertificateFile /etc/httpd/ssl/stores.paragonfootwear.com/3300281c4fce66c3.crt
+SSLCertificateKeyFile /etc/httpd/ssl/stores.paragonfootwear.com/stores.paragonfootwear.com.key
+SSLCACertificateFile /etc/httpd/ssl/stores.paragonfootwear.com/gd_bundle-g2-g1.crt
+</VirtualHost>
+
+<VirtualHost *:80>
+        ServerAdmin aijaz.m@dealsandyou.com
+        ServerName  stores.paragonfootwear.com
+        ServerAlias stores.paragonfootwear.com
+
+        DocumentRoot /var/www/sites/ford_sites/Ford_Websites/
+        <Directory /var/www/sites/ford_sites/Ford_Websites/>
+                Options -Indexes +FollowSymLinks +MultiViews
+                AllowOverride All
+                 Order allow,deny
+                  allow from all
+        </Directory>
+ErrorLog /var/log/httpd/stores.paragonfootwear.com.error.log
+        LogLevel warn
+        CustomLog /var/log/httpd/stores.paragonfootwear.com.access.log combined
+</VirtualHost>
+
+Please share private key file. We have only received the Certificate.crt & gd_bundle-g2-g1.crt in the attachment.
+
+
+I have checked the client logistics-near-me.cjdarcl.com certificate & key file matched. Please find the attached screenshot.
+
+
+
+
+logistics-near-me.cjdarcl.com
+
+I have implemented the ssl certificates to the  client  website  https://stores.twamev.com/ server layer and si-locations-lb-a-5.singleinterface.com ALB layer. It's working fine and certificates uptodate. Please find the attached screenshot.
+
+
+
+
+	SSLCertificateFile /etc/httpd/ssl/logistics-near-me.cjdarcl.com_24/4728ba8bd0fd4145.crt
+	SSLCertificateKeyFile /etc/httpd/ssl/logistics-near-me.cjdarcl.com_24/near-me.cjdarcl.com.key
+	SSLCACertificateFile /etc/httpd/ssl/logistics-near-me.cjdarcl.com_24/gd_bundle-g2-g1.crt
+
+
+I have checked both subdomain  stores.astraladhesives.com  & shops.astralbathware.com  is  pointing  to si-locations-lb-a-5.singleinterface.com. Please find the below attached screenshot.
+
+
+
+
+                                                              02-01-2024
+                                                              
+Please find the December 2023 required Cloud Invoice copy below.
+
+
+
+
+2853673993
+20/12/2023
+₹3,716.17 INR
+2852881845
+19/12/2023
+₹683.22 INR
+2851005756
+18/12/2023
+₹11,148.52 INR
+2843328485
+13/12/2023
+₹4,247.06 INR
+2843289371
+13/12/2023
+₹7,432.35 INR
+2824428017R
+REFUND
+12/12/2023
+( ₹46,726.23 INR )
+2840681963
+11/12/2023
+₹11,148.52 INR
+2834599149
+8/12/2023
+₹3,716.17 INR
+2833030685
+6/12/2023
+₹1,319.71 INR
+2832062141
+5/12/2023
+₹3,716.17 INR
+2831521068
+5/12/2023
+₹3,716.17 INR
+2830022000
+4/12/2023
+₹4,247.06 INR
+2827296104
+2/12/2023
+₹18,879.06 INR
+
+
+
+        SSLCertificateFile /etc/httpd/ssl/tataevcarshowroom.com_24/ef112ec2073c30c.crt
+        SSLCertificateKeyFile /etc/httpd/ssl/tataevcarshowroom.com_24/tataevcarshowroom.com.key
+        SSLCACertificateFile /etc/httpd/ssl/tataevcarshowroom.com_24/gd_bundle-g2-g1.crt
+
+
+openssl pkey -in locations-nearme.carsome.id.key -pubout -outform pem | sha256sum
+openssl x509 -in 8416c5e8dd19cf75.crt -pubkey -noout -outform pem | sha256sum
+openssl req -in CSR.csr -pubkey -noout -outform pem | sha256sum
+
+openssl x509 -in ef112ec2073c30c.crt -noout -enddate
+
+
+We got 502 error notification I checked the logs at the same time I didn't see 502 error
+
+
+                                                      03-12-2023
+2023-11-09T09:34:29.000Z
+
+
+
+Receipt number                Client Name
+2821130598                    stores.makeo.app
+
+Receipt number                Client Name
+2834599149                   mobilitystation.jiobp.com
+
+
+Receipt number                Client Name
+2840681963                    branches.sbilife.co.in
+                              dealers.srmbsteel.com
+                              my-branches.aadharhousing.com
+
+
+
+openssl req -new -newkey rsa:4096 -nodes -keyout stores.twamev.com.key -out stores.twamev.com.csr   --- Generate csr command
+openssl pkey -pubout -in stores.twamev.com.key | openssl sha256	                                  --- key command 
+openssl req -pubkey -in stores.twamev.com.csr -noout | openssl sha256                                  --- csr command 
+openssl req -noout -text -in stores.twamev.com.csr                                                    --- certificate command 
+openssl x509 -in stores_myvi_in.txt -noout -enddate                                       --- certificate date
+openssl pkey -in privateKey.key -pubout -outform pem | sha256sum                                        
+openssl x509 -in certificate.crt -pubkey -noout -outform pem | sha256sum
+openssl req -in CSR.csr -pubkey -noout -outform pem | sha256sum
+
+
+I created a new CSR for shops.astralbathware.com and gave it to Godaddy; as a result, Godaddy awarded the SSL certificate. Please cheak tha attached screenshot  
+
+I created a new CSR for https://imagesquare.in.canon/ and gave it to Godaddy; as a result, Godaddy awarded me the  TXT record. Please check the attached screenshot
+
+
+
+
+
+                                                         04-0-2024
+dealers.srmbsteel.com
+stores.astraladhesives.com
+stores.vijaysales.com/
+stores.paragonfootwear.com/
+stores.astralpipes.com
+retailstore.1mg.com
+stores.tasva.com
+audiapprovedplusdealers.myaudi.in
+stores.easybuyindia.com
+ branch.geojit.com
+                           
+                           
+                           I have generated the new csrs for the above all subdomain and I have purchased ssls for 1 year.Please find the attached csr files and screenshots. 
+
+
+                                            05-01-2024 
+
+Please take backup on x.x.x.113 server.
+
+1. Create a new server in a private subnet.
+2. SG would be new and not use existing
+3. Shift all virtual hosts and it's ssl in a directory and share path where you will shift all these ssl and clients vhost.
+4. Keep only those vhost in conf.d directory which point to ALB-3.
+5. Test all these client domains and subdomains after confirmation.
+6. share the ping SS for all
+7. share SS for all symlink
+8. SS for all working clients.
+
+Please remember to configure and test only those domains and subdomains which point to ALB-3.
+
+
+
+Old_SG
+INFRA_TEST_16-12-2023	                                            
+
+
+Backup name - All-front-end-Curl-servers_bkp-113_05_01_2024    
+
+New SG_Name:  SI-7-INFRA_TEST_05_01_2024   
+
+
+sg-0068c643dbcd241da
+sg-0068c643dbcd241da    
+
+server Name: SI-7-INFRA_TEST-ALB_3                  
+
+Instance type :  t4g.medium
+
+instance id :  (i-0a6f0d21687496919)
+
+Public IPv4 address - disabled
+
+Subnet :  Si-Private-5
+
+Key: Silive
+
+Backup server name: All-front-end-Curl-servers
+
+Private IPv4 addresses: 10.0.5.186   
+
+
+Servername: SI-7-INFRA_TEST-ALB_3
+Private IPv4 addresses: 10.0.5.186  
+Instance type : t4g.medium
+New SG_Name:  SI-7-INFRA_TEST_05_01_2024
+Public IPv4 address:  disabled
+Subnet:   Si-Private-5
+Key :  Silive
+Backup server name: All-front-end-Curl-servers
+
+
+
+1. Create a new server in a private subnet.
+2. SG would be new and not use existing
+3. Shift all virtual hosts and it's ssl in a directory and share path where you will shift all these ssl and clients vhost.
+4. Keep only those vhost in conf.d directory which point to ALB-3.
+5. Test all these client domains and subdomains after confirmation.
+6. share the ping SS for all
+7. share SS for all symlink
+8. SS for all working clients. 
+
+
+
+Conf_Files:    /home/sai/conf.d-bkp/
+
+
+
+SSL Files :    /home/sai/ssl-bkp/
+
+
+
+
+   185.46.46.42/32   
+   47.97.249.120/32
+   
+   
+   
+   194811 122.171.17.170
+  63943 91.92.253.37
+   4727 34.215.116.161
+   4522 54.186.145.173
+   4386 103.191.156.101
+   4376 136.233.180.78
+   4344 123.63.125.15
+   4342 115.240.206.113
+   3647 35.92.90.168
+   
+   
+   
+   
+   
+   17-01-2024
+   
+   
+   https://drive.google.com/drive/folders/1ZRQcY2iMIQpnToYxk5YP9G9yRbrlch9h
+   
+   
+   
+   Hi Team,
+
+Please find the required 17-01-2024 incident report.
+
+
+Thanks
+        
+ALB3-2-BKP-17-01-2024-807  
+
+
+aster-v2-may-2023-bkp-19-1-2024-2206, test-master-v2-may-2023-bkp-19-01-2024-2114)
+Merge: 85bbc4f 75350cb
+Author: umesh-si <umesh.gupta@singleinterface.com>
+Date:   Fri Jan 19 20:32:21 2024 +0530
+
+    Merge branch 'tarannum-Jan-2024-api-alias-replace' of https://github.com/dealsandyou/si-backend-v2 into test-master-v2-may-2023
+
+commit 75350cb5538a2ace47643e8316164a84b40ca1a4
+Author: umesh-si <umesh.gupta@singleinterface.com>
+Date:   Fri Jan 19 20:31:07 2024 +0530
+
+    changes dn for default dashboard call ana date range
+
+diff --git a/src/services/dashboard.service.js b/src/services/dashboard.service.js
+index ed3beb0..c1a8748 100644
+--- a/src/services/dashboard.service.js
++++ b/src/services/dashboard.service.js
+@@ -193,7 +193,14 @@ const getFormattedDashboardWidgetData = async (widgets) => {
+   );
+   return ret;
+ };
+-const getFormattedDashboardWidgetDataV2 = async (widgets, masterOutletId, category, subCategory, siDashboardIdentifier, siUserId) => {
++const getFormattedDashboardWidgetDataV2 = async (
++  widgets,
++  masterOutletId,
++  category,
++  subCategory,
++  siDashboardIdentifier,
++  siUserId
+
+
+NEW-SI-LOCATION-4 [10.0.1.14]
+
+si-locations-lb-a-1-bkp-22-01-2024-2356
+
+
+
+
+
+PREPROD1)
+
+PREPROD1-bkp-23-01-2024-0001
+
+
+
+
+As of our discussion i have created both server AMIs backups below.
+
+cloned (x.x.2.119) server and  added one server on alb-2. credentials which are the same which are using x.x.2.119 server.
+ Below are the details;
+
+
+
+ MONGO-TEST-API-SERVER - 10.0.3.105 having cpu utization 93.5%
+
+
+
+1. LIVE-SIGLEINTERFACE-SERVER - 10.0.4.119  having disk space 77%
+2. TEST-MYSPOTLIGHT-SERVER-1  - 10.0.4.83   having disk space 78%
+3. Bharat-Test-server      -  10.0.4.141   having disk space  72%
+4. Bharat-Shop-Live-server - 10.0.4.96 having disk space is 85%
+  
+
+                  23-01-2024
+
+ 
+1. Take backup on 10.0.5.186 and then create a new server.
+2. Server name would be ALB-4 and ALB-5 [These both server will use for ALB-4 and ALB-5]
+3. copy the security Group and give new name ALB-4-SG abd ALB-5-SG
+4. Server would be in both availability zone 1a and 1b
+5. Once the servers are deployed then  copy domain and subdomain vhost on these servers which clients point to ALB-4 and ALB-5.
+6.  Shift ssl also for all those clients which point to ALB-4 and ALB-5
+7. Once everything is done then Please check all client domains and subdomains with servers private IP. These client domains and subdomains working or not? Please send working SS for all these clients.
+
+
+Once this work will be done then handover to me tomorrow before 11AM.
+ 
+ si-locations-4-New-SG    -  sg-01ee6f7befca880e3
+ 
+ server name: PIXMA-ALB-1-1
+ (i-0236ef2f71d8415b1)
+ 
+ server ip : 10.0.5.199
+ 
+ si-locations-5-New-SG    - sg-0b80df33941944818
+     
+server name : ALB-1-1     (i-0a3e44113a70b6b10)
+ 
+ server ip : 10.0.5.48
+ 
+ 
+ (PIXMA-ALB-1-1-bkp-AMI3-23-01-2024-2303
+ 
+ 
+ Backup name:  ALB-3-bkp-186-23-01-2024-2224
+ 
+ 
+ awk '$1 == "Host:" {print $2}' | sort | uniq
+ 
+ tail -f access_log | awk '{print $1, $7}' | sed 's/.*Host: \(.*\)\]/\1/' | sort | uniq
+
+
+1. branches.muthootfincorp.com
+2. godrejinterio.com
+3. www.tvsmotors.com   -  stores.godrejinterio.com.conf
+4. logistics-near-me.cjdarcl.com  - 2 times name in list
+ 
+ 
+ 
+ scp -r stores.thebodyshop.in.conf branch.suryodaybank.com.conf branches.tatacapital.com.conf in-stores.ajmalperfume.com.conf service.livpure.com.conf patanjalistores.patanjaliayurved.org.conf stores.spencers.in.conf dealers.skoda-auto.co.in.conf sai@10.0.5.48:/home/sai/
+ 
+ 
+ 
+ 
+ 
+ scp -r stores.thebodyshop.in branch.suryodaybank.com branches.tatacapital.com_2024 in-stores.ajmalperfume.com_2023 service.livpure.com patanjalistores.patanjaliayurved.org stores.spencers.in skoda_23 sai@10.0.5.48:/home/sai/
+ 
+ 
+ 
+ 
+ scp -r brandstores.bosch-home.in.conf store.livpure.com.conf stores.reliancesmartbazaar.com.conf stores.lapcare.com.conf dealersnearme.logitech-shopping.com.conf battery-inverter-dealers.livguard.com.conf  location.maplestore.in.conf restaurantswowchicken.wowmomo.com.conf restaurantswowchina.wowmomo.com.conf restaurantschinabelly.wowmomo.com.conf restaurants.wowmomo.com.conf stores.louisphilippe.com.conf locations.avivaindia.com.conf locate.aubank.in.conf stores.arrow.nnnow.com.conf
+ logistics-near-me.cjdarcl.com.conf stores.homecentre.in.conf dealers.eichertrucksandbuses.com.conf dealersnearme.logitech-shopping.com.conf sai@10.0.5.48:/home/sai/
+ 
+ 
+ 
+ 
+ 
+ 
+scp -r brandstores.bosch-home.in Store-livpure.com stores.reliancesmartbazaar.com stores.lapcare.com_24 dealersnearme.logitech-shopping.com_23 battery-inverter-dealers.livguard.com location.maplestore.in wowmomo.com stores.louisphilippe.com locations.avivaindia.com locate.aubank.in_23 stores.arrow.nnnow.com logistics-near-me.cjdarcl.com_24 stores.homecentre.in_23 dealers.eichertrucksandbuses.com dealersnearme.logitech-shopping.com_23 sai@10.0.5.48:/home/sai/
+
+
+
+
+
+scp store.ozone-india.com.conf shop.bhatiamobile.com.conf speciality.pristyncare.com.conf doctors.pristyncare.com.conf indiacentres.amplifon.com.conf nearme.idfcfirstbank.com.conf stores.tatagreenbattery.com.conf stores.inventstore.in.conf dealers.tvsmotor.com.conf logistics-near-me.cjdarcl.com.conf location.reliancefashionfactorystores.com.conf brandshop.in.panasonic.com.conf nearme.bajajfinserv.in.conf dealers.faberindia.com.conf stores.easybuyindia.com.conf 3mcarcare.3mindia.co.in.conf stores.astralpipes.com.conf 
+
+
+
+
+
+scp store.ozone-india.com shop.bhatiamobile.com speciality.pristyncare.com doctors.pristyncare.com indiacentres.amplifon.com nearme.idfcfirstbank.com_23 stores.tatagreenbattery.com-23 inventstore tvsmotor_certs logistics-near-me.cjdarcl.com_24 reliancefashionfactory brandshop.in.panasonic.com-23 dealers.faberindia.com_23 nearme.bajajfinserv_23 stores.easybuyindia.com 3mcarcare.3mindia.co.in astralpipes.com 
+
+
+
+prelive-dnd.singleinterface.com
+
+
+Servername: PIXMA-ALB-1-1
+Private IPv4 addresses: 10.0.5.199 
+Instance type : t4g.micro
+New SG_Name:  si-locations-4-New-SG
+Public IPv4 address:  disabled
+Subnet:   Si-Private-5
+Backup server name: ALB-3-bkp-186-23-01-2024-2224
+
+
+
+
+
+
+
+
+We have checked all clients which are pointed to si-locations-4-Pixma server and all clients are working with server private IP . The clients are not working at https://stores.titan.co.in/
+
+https://stores.philipslightlounge.com
+https://dealers.heromotocorp.com
+https://www.samsungexclusivestores.in/
+https://pixmazone.in.canon/
+https://store.casio.in/
+https://www.samsungsmartplaza.co.in/
+https://stores.utpro.in/
+https://stores.titan.co.in/
+
+
+
+I have first taken the bkp alb-5 10.0.5.186 server. Then I have created one new server for PIXMA-ALB-1-1. Login credentials are the same previous use of the10.0.5.186 server. Please find the details below.
+
+ 
+ 
+ 
+ We have checked all clients which are pointed to alb-3 and all clients are working with server private IP .   The clients are not working at stores.myvi.in & audiapprovedplusdealers.myaudi.in. 
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+We  have first taken the bkp 10.0.5.186 server. Then I have created one new server for ALB-1-1 . Login credentials are the same as the previous use of the 10.0.5.186 server. Please find the details below.
+
+Servername: ALB-1-1 
+Private IPv4 addresses: 10.0.5.48
+Instance type : t4g.micro
+New SG_Name:  si-locations-5-New-SG 
+Public IPv4 address:  disabled
+Subnet:   Si-Private-5
+Backup server name: ALB-3-bkp-186-23-01-2024-2224
+
+We have checked all clients which are pointed to si-locations-5-ALB-1 server and all clients are working with server private IP. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(i-0075f5760079881be     10.0.1.189
+
+
+
+
+(i-09015df0046ce1b27     10.0.1.146
+
+
+(i-0cf42601113ceb3aa     10.0.1.233       
+                              
+                              
+                              
+                              
+                              RSB-TG
+                              
+                              
+                              
+             RSB-ALB                 
+                              RSB-TG-1
+                              
+                              
+                              
+          10.0.1.156                    RSB_SG    sg-05dacd620d752e738
+
+RSB-ALB-1168848270.ap-south-1.elb.amazonaws.com 
+
+
+
+
+
+
+29-01-2024         
+sub-domain name:   https://imagesquare.in.canon/
+
+CSR received by client:
+Organization: Canon Image Square
+Organization Unit: Consumer durable
+City or Locality: Gurugram
+State or Province:   Haryana 
+Country: India
+Email Address:  ruchika.Manhas@canon.co.in
+Contact Number: 98110 04159
+
+
+CSR FILES COMMANDS   
+	
+openssl req -new -newkey rsa:4096 -nodes -keyout imagesquare.in.canon.key -out imagesquare.in.canon.csr   --- Generate csr command
+openssl pkey -pubout -in imagesquare.in.canon.key | openssl sha256	                                  --- key command 
+openssl req -pubkey -in imagesquare.in.canon.csr -noout | openssl sha256                                  --- csr command 
+openssl req -noout -text -in imagesquare.in.canon.csr                                                    --- certificate command 
+openssl x509 -in stores_myvi_in.txt -noout -enddate                                       --- certificate date
+openssl pkey -in privateKey.key -pubout -outform pem | sha256sum                                        
+openssl x509 -in certificate.crt -pubkey -noout -outform pem | sha256sum
+openssl req -in CSR.csr -pubkey -noout -outform pem | sha256sum
+
+
+
+
+
+
+
+
+
+
+
+
+www.tatamotors-WasanMotorsBorivaliEast.com
+www.tatamotors-KeshvaMotorsMulund.com
+www.tatamotors-SudarshanMotorsKalyan.com
+www.tatamotors-FortuneCarsNerul.com
+www.tatamotors-SuryodayAutoVasai.com
+www.tatamotors-WasanMotorsChembur.com
+www.tatamotors-InderjitCarsMiraRoad.com
+www.tatamotors-PuneetCarsPrabhadevi.com
+www.tatamotors-HeritageMotorsPanchpakhadi.com
+www.tatamotors-HeritageMotorsGhodbunder.com
+www.tatamotors-InderjitCarsAndheriWest.com
+www.tatamotors-SuryodayAutoVirar.com
+www.tatamotors-SudarshanMotorsAmbarnath.com
+www.tatamotors-InderjitCarsBoisar.com
+www.tatamotors-SuryodayAutoDahanu.com
+www.tatamotors-SudarshanMotorsDombivali.com
+www.tatamotors-SuryodayAutoPalghar.com
+www.tatamotors-HeritageMotorsPanvel.com
+www.tatamotors-FortuneCarsVashi.com
+www.tatamotors-HeritageAlibagh.com
+www.tatamotors-TridentMotorsAndheriWest.com
+www.tatamotors-WasanMotorsMarineLines.com
+www.tatamotors-WasanMotorsKandivali.com
+www.tatamotors-SudarshanMotorsShahpur.com
+www.tatamotors-TridentVikhroliWest.com
+www.tatamotors-PuneetAutomobilesMumbai.com
+www.tatamotors-HeritageKarjat.com
+www.tatamotors-WellWisherCarsAiroli.com
+www.tatamotors-SuryodayAutoTalasari.com
+www.tatamotors-WasanMotorsBandraWest.com
+www.tatamotors-PuneetCarsAndheri.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://dealers.skoda-auto.co.in
+https://branches.tatacapital.com
+https://locate.aubank.in
+https://in-stores.ajmalperfume.com
+https://dealers.tvsmotor.com/tvs-motors
+https://dealers.tvsmotor.com/iqube/
+https://dealersnearme.logitech-shopping.com
+https://nearme.bajajfinserv.in/investments
+https://dealers.faberindia.com
+https://stores.lapcare.com
+https://speciality.pristyncare.com
+https://doctors.pristyncare.com
+https://stores.arrow.nnnow.com
+https://stores.thebodyshop.in
+https://stores.homecentre.in
+https://indiacentres.amplifon.com
+https://service.livpure.com
+https://brandstores.bosch-home.in
+https://patanjalistores.patanjaliayurved.org
+https://near-me.iplanet.one
+https://branch.suryodaybank.com
+https://restaurants.wowmomo.com
+https://battery-inverter-dealers.livguard.com
+https://shop.bhatiamobile.com
+https://doctors.pristyncare.com
+https://nearme.bajajfinserv.in/insta-personal-loan
+https://stores.spencers.in
+https://stores.louisphilippe.com
+https://dealers.eichertrucksandbuses.com
+https://store.livpure.com
+https://stores.easybuyindia.com
+https://location.maplestore.in
+https://stores.godrejinterio.com
+https://stores.reliancesmartbazaar.com
+https://location.reliancefashionfactorystores.com
+https://restaurantschinabelly.wowmomo.com
+https://restaurantswowchicken.wowmomo.com
+https://logistics-near-me.cjdarcl.com
+https://3mcarcare.3mindia.co.in
+https://nearme.bajajfinserv.in/twowheelerfinance
+https://store.ozone-india.com
+https://stores.inventstore.in
+https://stores.tatagreenbattery.com
+https://restaurantswowchina.wowmomo.com
+https://stores.astralpipes.com
+
+
+
+Domain :  johnplayerstores.com
+
+CSR FILES COMMANDS   
+	
+openssl req -new -newkey rsa:4096 -nodes -keyout resqservicecenter.in.key -out resqservicecenter.in.csr   --- Generate csr command
+openssl pkey -pubout -in resqservicecenter.in.key | openssl sha256	                                  --- key command 
+openssl req -pubkey -in resqservicecenter.in.csr -noout | openssl sha256                                  --- csr command 
+openssl req -noout -text -in resqservicecenter.in.csr                                                    --- certificate command 
+openssl x509 -in f17c08f9a0858a08.crt -noout -enddate                                       --- certificate date
+openssl pkey -in privateKey.key -pubout -outform pem | sha256sum                                        
+openssl x509 -in certificate.crt -pubkey -noout -outform pem | sha256sum
+openssl req -in CSR.csr -pubkey -noout -outform pem | sha256sum
+
+
+Organization Name: Reliance Retail Limited
+Organization Unit: Brandsout
+City or Locality: Bengaluru
+State or Province: Karnataka
+Country: India
+Email Address: Ramkumar1.K@ril.com
+Contact Number: +919110499595
+
+
+
+
+Hi Sir,
+
+I need to buy the 2 SSL certificates for 1 year. Could you please share otp sir.
+
+1. imagesquare.in.canon 
+2. johnplayerstores.com
+
+
+I have generated the new csr for   johnplayerstores.com. Please find the below attached csr file and screenshot please check
+
+I have purchased SSL for 1 year and i have provided CSR to godaddy. Godaddy provided the ssl certificate. Please check .
+
+
+
+
+I have checked without hhtps. But it automatically takes https
+
+
+
+83332.5	
+
+
+
+
+
+
+
+
+openssl pkey -in www.tatamotors-wasanmotorsborivalieast.com.key -pubout -outform pem | sha256sum
+openssl x509 -in fb979c0464f6c36d.crt -pubkey -noout -outform pem | sha256sum
+openssl req -in CSR.csr -pubkey -noout -outform pem | sha256sum
+
+
+
+SSLCertificateFile /etc/httpd/ssl/stores.soch.com_24/4b4b887c2cd0763b.crt
+SSLCertificateKeyFile /etc/httpd/ssl/stores.soch.com_24/stores.soch.com.key
+SSLCACertificateFile /etc/httpd/ssl/stores.soch.com_24/gd_bundle-g2-g1.crt
+
+
+
+
+30-01-2024
+We asked Godaddy team to give more discount. But GoDaddy team says this is final maximum discount.
+
+
+
+86,521.05
+
+
+<VirtualHost *:443>
+DocumentRoot /var/www/sites/ford_sites/Ford_Websites/
+ServerName stores.twamev.com
+ServerAlias stores.twamev.com
+<Directory /var/www/sites/ford_sites/Ford_Websites/>
+       Options Indexes FollowSymLinks MultiViews
+       AllowOverride All
+       Order allow,deny
+       allow from all
+</Directory>
+SSLEngine on
+SSLCertificateFile /etc/httpd/ssl/stores.twamev.com/f17c08f9a0858a08.crt
+SSLCertificateKeyFile /etc/httpd/ssl/stores.twamev.com/stores.twamev.com.key
+SSLCACertificateFile /etc/httpd/ssl/stores.twamev.com/gd_bundle-g2-g1.crt
+</VirtualHost>
+
+<VirtualHost *:80>
+        ServerAdmin aijaz@singleinterface.com
+        ServerName stores.twamev.com
+        ServerAlias stores.twamev.com
+        DocumentRoot /var/www/sites/ford_sites/Ford_Websites/
+<Directory /var/www/sites/ford_sites/Ford_Websites/>
+                Options Indexes FollowSymLinks MultiViews
+                AllowOverride All
+                Order allow,deny
+                allow from all 
+</Directory>
+        ErrorLog /var/log/httpd/stores.twamev.com.error.log
+        LogLevel warn
+        CustomLog /var/log/httpd/stores.twamev.com.access.log combined
+</VirtualHost>
+
+
+I have implemented the ssl certificates to the  client  website  https://locations-nearme.carsome.id/ server layer and si-locations-166252326.ap-south-1.elb.amazonaws.com CLB layer. It's working fine and certificates uptodate. Please find the attached screenshot.
+
+
+imagesquare.in.canon
+
+SSLCertificateFile /etc/httpd/ssl/imagesquare.in.canon_24/3288491bfa9af551.crt
+SSLCertificateKeyFile /etc/httpd/ssl/imagesquare.in.canon_24/imagesquare.in.canon.key
+SSLCACertificateFile /etc/httpd/ssl/imagesquare.in.canon_24/gd_bundle-g2-g1.crt
+
+<VirtualHost *:443>
+DocumentRoot /var/www/sites/ford_sites/Ford_Websites/canon_image_square/
+ServerName imagesquare.in.canon
+ServerAlias imagesquare.in.canon
+<Directory /var/www/sites/ford_sites/Ford_Websites/canon_image_square/>
+       Options Indexes FollowSymLinks MultiViews
+       AllowOverride All
+       Order allow,deny
+       allow from all
+</Directory>
+SSLEngine on
+SSLCertificateFile /etc/httpd/ssl/imagesquare.in.canon_24/3288491bfa9af551.crt
+SSLCertificateKeyFile /etc/httpd/ssl/imagesquare.in.canon_24/imagesquare.in.canon.key
+SSLCACertificateFile /etc/httpd/ssl/imagesquare.in.canon_24/gd_bundle-g2-g1.crt
+</VirtualHost>
+
+<VirtualHost *:80>
+        ServerAdmin aijaz@singleinterface.com
+        ServerName imagesquare.in.canon
+        ServerAlias imagesquare.in.canon
+        DocumentRoot /var/www/sites/ford_sites/Ford_Websites/canon_image_square/
+        <Directory /var/www/sites/ford_sites/Ford_Websites/canon_image_square/>
+                Options Indexes FollowSymLinks MultiViews
+                AllowOverride All
+                Order allow,deny
+                allow from all
+        </Directory>
+        ErrorLog /var/log/httpd/imagesquare.in.canon.error.log
+        LogLevel warn
+        CustomLog /var/log/httpd/imagesquare.in.canon.access.log combined
+</VirtualHost>
+
+
+
+subdomain : brandstores.siemens-home.bsh-group.in
+
+
+Organization:  BSH Hausgeraete GmbH
+Organization Unit:  BSH Hausgeraete GmbH
+City or Locality:  Munich
+State or Province:  Bayern
+Country:  Germany
+Email Address: Shantanu.Sakharpekar-ext@bshg.com
+Mobile Number: 9819795567
+
+
+31-01-2024
+
+
+Renewal Request
+
+Kindly purchase and implement ssl on https://petrolpump.hpretail.in/
+
+Please proceed to buy and implement SSL for  https://www.dealer.india.ford.com
+
+
+
+Hi sir, I need to renewal www.dealer.india.ford.com ssl certificate for 1 year.  Please share otp sir
+
+
+14 October 2024
+
+
+tatamotors-wasanmotorsborivalieast.com
+tatamotors-keshvamotorsmulund.com
+tatamotors-sudarshanmotorskalyan.com
+tatamotors-fortunecarsnerul.com
+tatamotors-suryodayautovasai.com
+tatamotors-wasanmotorschembur.com
+tatamotors-inderjitcarsmiraroad.com
+tatamotors-puneetcarsprabhadevi.com
+tatamotors-heritagemotorspanchpakhadi.com
+tatamotors-heritagemotorsghodbunder.com
+tatamotors-inderjitcarsandheriwest.com
+tatamotors-suryodayautovirar.com
+tatamotors-sudarshanmotorsambarnath.com
+tatamotors-inderjitcarsboisar.com
+tatamotors-suryodayautodahanu.com
+tatamotors-sudarshanmotorsdombivali.com
+tatamotors-suryodayautopalghar.com
+tatamotors-heritagemotorspanvel.com
+tatamotors-fortunecarsvashi.com
+tatamotors-heritagealibagh.com
+tatamotors-tridentmotorsandheriwest.com
+tatamotors-wasanmotorsmarinelines.com
+tatamotors-wasanmotorskandivali.com
+tatamotors-sudarshanmotorsshahpur.com
+tatamotors-tridentvikhroliwest.com
+tatamotors-puneetautomobilesmumbai.com
+tatamotors-heritagekarjat.com
+tatamotors-wellwishercarsairoli.com
+tatamotors-suryodayautotalasari.com
+tatamotors-wasanmotorsbandrawest.com
+tatamotors-puneetcarsandheri.com
+
+
+                                                          1-02-2024
+
+
+Please find the  Invoice copy month of Jan 2024 & missing Receipt details below.
+
+
+Please find missing Receipt details below.
+
+
+Date: 4/01/2024
+
+Receipt number                Client Name
+2872062976                  stores.aarke.ritukumar.com
+                            stores.label.ritukumar.com
+
+Date : 5/01/2024
+
+Receipt number                Client Names
+2874997331                   stores.ri.ritukumar.com
+                             stores.ritukumar.com
+                                       
+some popular domain registration websites where you can purchase and manage domain names:
+
+    GoDaddy: https://www.godaddy.com
+    Namecheap: https://www.namecheap.com
+    Bluehost: https://www.bluehost.com
+    HostGator: https://www.hostgator.com
+    Google Domains: https://domains.google
+    1&1 IONOS: https://www.ionos.com
+    Name.com: https://www.name.com
+    Hover: https://www.hover.com
+    Network Solutions: https://www.networksolutions.com
+    Enom: https://www.enom.com
+    
+    
+    
+si-locations-lb-a-5.singleinterface.com
+
+resqservicecenter.in
+
+IPv4 :
+52.223.22.35
+35.71.174.210    
+ 
+                                         02-02-2024
+     
+Domain : resqservicecenter.in     
+     
+          CSR FILES COMMANDS   
+	
+openssl req -new -newkey rsa:4096 -nodes -keyout resqservicecenter.in.key -out resqservicecenter.in.csr   --- Generate csr command
+openssl pkey -pubout -in resqservicecenter.in.key | openssl sha256	                                  --- key command 
+openssl req -pubkey -in resqservicecenter.in.csr -noout | openssl sha256                                  --- csr command 
+openssl req -noout -text -in resqservicecenter.in.csr                                                    --- certificate command 
+openssl x509 -in f17c08f9a0858a08.crt -noout -enddate                                       --- certificate date
+openssl pkey -in privateKey.key -pubout -outform pem | sha256sum                                        
+openssl x509 -in certificate.crt -pubkey -noout -outform pem | sha256sum
+openssl req -in CSR.csr -pubkey -noout -outform pem | sha256sum
+
+                               
+                                         
+Organization: Reliance Retail Limited
+
+Organization Unit: Reliance resQ
+
+City or Locality: Mumbai
+
+State or Province: Maharashtra
+
+Country: India
+
+Email Address: suraj1.jain@ril.com
+
+Contact Number: 9041102993   
+
+                                             05-02-2024
+
+
+#10.0.1.30  stockbroker.motilaloswal.com
+#10.0.1.30  restaurants.kfc.co.in
+#10.0.1.30  locate-us.iifl.com/apply-for-gold-loan
+#10.0.1.30  dealer.hondacarindia.com
+#10.0.1.30  pizza-restoran.dominos.co.id
+#10.0.1.30  cosmetics-stores.newu.in
+#10.0.1.30  cakeshops.monginis.net       done
+#10.0.1.30  brandshops.jktyre.com
+#10.0.1.30  restaurants.biryaniblues.com
+#10.0.1.30  stores.orientbell.com
+#10.0.1.30  branch-atm-locator.bankofmaharashtra.in
+#10.0.1.30  centers.aakash.ac.in
+#10.0.1.30  brandshops.jktyre.com/truck-dealers
+#10.0.1.30  brandshops.jktyre.com/retread-centers
+#10.0.1.30  stores.maxfashion.in
+#10.0.1.30  branch.pnbmetlife.com
+#10.0.1.30  dealers.caseconstructionindia.com
+#10.0.1.30  branch.bajajallianzlife.com
+#10.0.1.30  stores.orientbell.com/nepal
+#10.0.1.30  stores.drfixit.co.in
+#10.0.1.30  mobilitystation.jiobp.com
+#10.0.1.30  brandshop.in.panasonic.com
+#10.0.1.30  my-branches.aadharhousing.com
+#10.0.1.30  branch.indiashelter.in
+#10.0.1.30  lab.hitechlabsindia.in
+#10.0.1.30  stores.nitco.in
+#10.0.1.30  nearme.gtpl.net
+#10.0.1.30  health-insurance-nearme.nivabupa.com
+#10.0.1.30  agent.hdfcergo.com
+#10.0.1.30  stores.vijaysales.com
+#10.0.1.30  salons.naturals.in
+#10.0.1.30  stores.thesleepcompany.in
+#10.0.1.30  stores-rarerabbit.thehouseofrare.com
+#10.0.1.30  labs.lalpathlabs.com
+#10.0.1.30  stores.dominos.co.in
+#10.0.1.30  rmcplants.infra.market
+#10.0.1.30  retailstore.1mg.com
+#10.0.1.30  stores.nilkamalfurniture.com
+#10.0.1.30  stores.maccosmetics.in
+#10.0.1.30  stores.at-home.co.in
+#10.0.1.30  stores.rareism.com
+#10.0.1.30  find-dealer.yamaha-motor.com.ph
+#10.0.1.30  stores.nilkamalsleep.com
+
+
+
+
+https://dealer.hondacarindia.com/   - Not woeking 
+stores.orientbell.com/nepal  - symlink - done
+nearme.gtpl.net  _  symlink - done
+stores.vijaysales.com  - symlink - done
+retailstore.1mg.com  - symlink - done
+stores.nilkamalsleep.com  - symlink - done
+
+08-02-2024               ALB-4
+
+https://stores.kfc.com.ph/
+https://abfbranches.adityabirlacapital.com/
+https://abhfbranches.adityabirlacapital.com/
+https://experiencestores.oneplus.in/
+https://sports-near-me.playatspada.com/
+https://store-in.puma.com/
+https://stores.burgerking.in/
+https://stores.wildcraft.com/
+https://solar-near-me.livguardsolar.com/
+https://stores.soch.com/
+https://www.stores.aeo.in/
+https://stores.mothercare.in/
+https://branches.luluexchange.com/
+stores.burgerking.in
+stores.menmoms.in
+branches.orientalinsurance.org.in
+
+
+
+10.0.5.70  stores.kfc.com.ph
+10.0.5.70  abfbranches.adityabirlacapital.com
+10.0.5.70  abhfbranches.adityabirlacapital.com
+10.0.5.70  experiencestores.oneplus.in
+10.0.5.70  sports-near-me.playatspada.com
+10.0.5.70  store-in.puma.com
+10.0.5.70  stores.burgerking.in
+10.0.5.70  stores.wildcraft.com
+10.0.5.70  solar-near-me.livguardsolar.com
+10.0.5.70  stores.soch.com
+10.0.5.70  www.stores.aeo.in
+10.0.5.70  stores.mothercare.in
+10.0.5.70  branches.luluexchange.com
+10.0.5.70  stores.burgerking.in
+10.0.5.70  stores.menmoms.in
+10.0.5.70  branches.orientalinsurance.org.in
+
+
+
+
+
+
+To get the total money spent, used memory info, and free memory info for an AWS MySQL RDS server, you'll need to use SQL queries to access the relevant system tables. Here's a step-by-step guide:
+Total Money Spent:
+Unfortunately, there isn't a direct query in MySQL to retrieve the total money spent on an AWS RDS instance. You would need to access the AWS Billing Dashboard or use AWS Cost Explorer to get this information.
+Used Memory Info:
+You can use the following query to get information about memory usage:
+sql
+Copy code
+SHOW ENGINE INNODB STATUS;
+Look for the section "BUFFER POOL AND MEMORY" which will provide details about the buffer pool size, free buffers, and buffer pool hit rate. This can give you insights into memory usage.
+Free Memory Info:
+Similarly, you can calculate free memory by subtracting the used memory from the total memory available. For example, if you have access to the server's memory configuration, you can calculate free memory using this formula:
+sql
+Copy code
+SELECT @@innodb_buffer_pool_size - (SELECT SUM(data_length + index_length)
+                                     FROM information_schema.tables
+                                     WHERE engine = 'InnoDB') AS free_memory;
+This query calculates the remaining free memory in the InnoDB buffer pool.
+Step-by-step guide:
+Connect to your MySQL RDS instance using a MySQL client or command-line tool.
+Run the provided queries to gather the necessary information.
+For total money spent, access the AWS Billing Dashboard or use AWS Cost Explorer.
+Interpret the results and analyze the memory usage on your RDS instance.
+Remember that accessing system-level information like memory usage might require appropriate permissions on your RDS instance, and some metrics like total money spent are not directly accessible through MySQL queries. You may need to consult AWS documentation or use AWS management tools for detailed cost analysis.
+
+
+Bathini Saikrishna -Tech -Server Admin
+  4:00 PM
+Memory Usage:
+To get memory usage information, you can query the information_schema.INNODB_BUFFER_POOL_STATS table:
+sql
+Copy code
+SELECT
+    pool_size AS total_memory_allocated,
+    pool_size - free_pages * page_size AS used_memory
+FROM
+    information_schema.INNODB_BUFFER_POOL_STATS;
+This query retrieves the total memory allocated to the InnoDB buffer pool and calculates the used memory based on the number of free pages and the page size.
+Remaining Free Space:
+To calculate the remaining free space, you can subtract the used memory from the total memory allocated:
+sql
+Copy code
+SELECT
+    pool_size - free_pages * page_size AS remaining_free_memory
+FROM
+    information_schema.INNODB_BUFFER_POOL_STATS;
+This query calculates the remaining free memory in the InnoDB buffer pool, similar to the used memory query but without subtracting it from the total memory allocated.
+                                
+                                
+                                
+                                
+                                
+                                ALB-5
+                                
+                                
+https://stores.manyavar.com
+https://stores.mebaz.com
+https://stores.manyavar.com/ManyavarMohey/
+https://dealers.okinawascooters.com
+https://stores.manyavar.com/usa/
+https://stores.manyavar.com/uk/
+https://stores.manyavar.com/uae/
+http://stores.twamev.com
+https://stores.hamleys.in
+https://stores.manyavar.com/ManyavarMohey/uae/
+https://stores.astraladhesives.com
+https://stores.paragonfootwear.com
+https://dealers.srmbsteel.com
+https://shops.astralbathware.com
+https://branches.hfs.in
+https://studio.legrand.co.in
+https://zip.legrand.co.in
+https://innovals.legrand.co.in  
+https://store.ambaniceramics.com
+ https://dealers.lectrixev.com
+dealer-locator.jcb.com
+homeshops.tupperwareindia.com
+johnplayerstores.com
+distributors.tupperwareindia.com
+brandstores.siemens-home.bsh-group.in
+shellpartnerworkshops.in   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1.			hdfc-preprod-2	674,868,717,158
+2.			bi-googlereadreplica-1	649,621,906,227
+3.			preprod-timeline-2	649,402,236,109
+4.			live-si-db	633,879,720,755
+5.			mysql8-rds	586,784,030,720
+6.			v2-preprod-replica	565,788,191,949
+7.			prepord-timeline	501,213,960,602
+8.			preprod1	500,621,750,272
+9.			preprod2	500,604,656,026
+10.			hdfc-preprod-1	491,810,896,282
+11.			spotlightreadreplica	414,681,985,843
+12.			si-test-rds-3r6dj98e478jvryrui278ryjh	371,919,860,531
+13.			connect-app-live	349,258,865,050
+14.			coonect-bi-team-read-replica	349,252,914,381
+15.			bharat-shop	207,854,841,856
+16.			bharat-shop-live-rds	101,862,948,045
+17.			test-connect-app	100,160,624,230
+18.			test-myspotlight	53,906,422,170
+19.			bharat-test-shfdg3474i5	44,434,501,632
+20.			ai-db-rds	34,873,569,280
+21.			spotlight-googlelookerreadreplica1	25,620,153,958
+22.			spot-test	19,425,402,880
+23.			mysqldbserver	14,136,933,581
+24.			google-test	-
+25.			prod2	-
+26.			lookergooglereadreplica	-
+27.			bi-googlereadreplica	-
+28.			starify	-
+29.			fail-over-server       
+
+
+
+12-02-2024
+
+
+1. https://nearme.gtpl.net
+2. https://www.samsungsmartplaza.co.in/
+
+
+sudo apt-get install wkhtmltopdf
+
+curl --location 'http://127.0.0.1/api/generate_image/' \
+--form 'url="https://www.w3schools.com/django/django_create_project.php"'
+
+curl --location 'https://banner-creation.myspotlight.co/api-image' \
+--header 'Content-Type: application/x-www-form-urlencoded' \
+--header 'Authorization: Basic U2luZ2xlSW50ZXJmYWNlOlNJMTIz' \
+--data-urlencode 'sentence=i'
+
+
+
+
+grep "10/Feb/2024:" access_log-20240211| grep 'battery-inverter-dealers.livguard.com' | cut -d[ -f2 | cut -d] -f1 | awk -F: '{print $2":00"}' | sort -n | uniq -c | wc -l
+
+
+
+
+
+
+
+
+
+
+
+grep "11/Feb/2024:10" access_log | grep 'locations.avivaindia.com' |  cut -d[ -f2 | cut -d] -f1 | awk -F: '{print $2":"$3}' | sort -nk1 -nk2 | uniq -c | awk '{ if ($1 > 10) print $0}'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Per day hits
+
+grep "11/Feb/2024:" access_log | grep 'www.stores.aeo.in' | wc -l
+
+
+Per hour hits
+
+grep "11/Feb/2024:" access_log | grep 'www.stores.aeo.in' | cut -d[ -f2 | cut -d] -f1 | awk -F: '{print $2":00"}' | sort -n | uniq -c
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ Hi sir, I need to renewal locations-nearme.carsome.id ssl certificate for 1 year.  Please share otp sir
+ 
+       SSLCertificateFile /etc/httpd/ssl/locations-nearme.carsome.id_24/8416c5e8dd19cf75.crt
+       SSLCertificateKeyFile /etc/httpd/ssl/locations-nearme.carsome.id_24/locations-nearme.carsome.id.key
+       SSLCACertificateFile /etc/httpd/ssl/locations-nearme.carsome.id_24/gd_bundle-g2-g1.crt
+
+ 
+ 
+ 
+ 13-02-2024
+ 
+ Domain
+10179	3007570-Sales-Faridabad-MulMlp	www.MultitechMotors-Faridabad.com
+11246	3007570-Sales-Palwal-MulMlp	www.MultitechMotors-Palwal.com
+11527	300B440-Sales-Himgrimnsr-HimGau	www.HimgiriAutomobiles-Manesar.com
+11923	300B960-Sales-Punhana-CsgAut	www.CsgAutomobiles-HodalRoad-Hodal.com
+12139	300B570-Sales-Kashmirigt-DpsMor	www.DPSCars-KashmereGate-NewDelhi.com
+12352	3007570-Sales-Rlwayrdnit-MulMlp	www.MultitechMotors-Faridabad.com
+
+-rw-r--r--. 1 root root 1343 Jan 24 01:40 patanjalistores.patanjaliayurved.org.conf
+-rw-r--r--. 1 root root 1577 Mar 15  2023 php.conf
+-rw-r--r--. 1 root root 1382 Jan 24 08:22 prelive-dnd.singleinterface.com.conf
+-rw-r--r--. 1 root root 1274 Jan 24 02:09 restaurants.wowmomo.com.conf
+-rw-r--r--. 1 root root 1346 Jan 24 02:09 restaurantschinabelly.wowmomo.com.conf
+-rw-r--r--. 1 root root 1346 Jan 24 02:09 restaurantswowchicken.wowmomo.com.conf
+-rw-r--r--. 1 root root 1326 Jan 24 02:09 restaurantswowchina.wowmomo.com.conf
+-rw-r--r--. 1 root root 1228 Jan 24 01:40 service.livpure.com.conf
+-rw-r--r--. 1 root root 1325 Jan 24 05:01 shop.bhatiamobile.com.conf
+-rw-r--r--. 1 root root 1416 Jan 24 05:01 speciality.pristyncare.com.conf
+-rw-r--r--. 1 root root 9556 Mar 16  2023 ssl.conf-bkp-11-04-2023-357
+-rw-r--r--. 1 root root 1496 Jan 24 02:09 store.livpure.com.conf
+-rw-r--r--. 1 root root 1280 Jan 24 05:01 store.ozone-india.com.conf
+-rw-r--r--. 1 root root 1292 Jan 24 02:09 stores.arrow.nnnow.com.conf
+-rw-r--r--. 1 root root 1225 Jan 24 05:01 stores.astralpipes.com.conf
+-rw-r--r--. 1 root root 1312 Jan 24 05:01 stores.easybuyindia.com.conf
+-rw-r--r--. 1 root root 1774 Jan 24 07:07 stores.godrejinterio.com.conf
+-rw-r--r--. 1 root root 1545 Jan 24 02:09 stores.homecentre.in.conf
+-rw-r--r--. 1 root root 1487 Jan 24 05:01 stores.inventstore.in.conf
+-rw-r--r--. 1 root root 1485 Jan 24 02:09 stores.lapcare.com.conf
+-rw-r--r--. 1 root root 1365 Jan 24 02:09 stores.louisphilippe.com.conf
+-rw-r--r--. 1 root root 1602 Jan 24 02:09 stores.reliancesmartbazaar.com.conf
+-rw-r--r--. 1 root root 1388 Jan 24 01:40 stores.spencers.in.conf
+-rw-r--r--. 1 root root 1635 Jan 24 05:01 stores.tatagreenbattery.com.conf
+-rw-r--r--. 1 root root 1244 Jan 23 23:22 stores.thebodyshop.in.conf
+
+ 
+ALB-4- LIST
+
+
+
+-rw-r--r--. 1 root root 2096 Feb  8 22:18 abfbranches.adityabirlacapital.com.conf
+-rw-r--r--. 1 root root 2138 Feb  8 22:18 abhfbranches.adityabirlacapital.com.conf
+-rw-r--r--. 1 root root 2916 Mar 16  2023 autoindex.conf-bkp
+-rw-r--r--. 1 root root 1908 Feb  9 17:03 branch.ucobank.com.conf
+-rw-r--r--. 1 root root 1352 Feb  8 22:18 branches.luluexchange.com.conf
+-rw-r--r--. 1 root root 1733 Feb  8 22:18 branches.orientalinsurance.org.in.conf
+-rw-r--r--. 1 root root 2152 Feb  9 17:48 dealer-locator.cars.tatamotors.com.conf
+-rw-r--r--. 1 root root 1554 Feb  8 22:18 experiencestores.oneplus.in.conf
+-rw-r--r--. 1 root root 1149 Feb  9 17:41 locations.federalbank.co.in.conf
+-rw-r--r--. 1 root root 1577 Mar 15  2023 php.conf
+-rw-r--r--. 1 root root 2290 Feb  9 18:29 restaurant.timhowan.com.conf
+-rw-r--r--. 1 root root 1702 Feb  8 22:18 solar-near-me.livguardsolar.com.conf
+-rw-r--r--. 1 root root 1669 Feb  8 22:18 sports-near-me.playatspada.com.conf
+-rw-r--r--. 1 root root 9556 Mar 16  2023 ssl.conf-bkp-11-04-2023-357
+-rw-r--r--. 1 root root 1509 Feb  8 22:18 store-in.puma.com.conf
+-rw-r--r--. 1 root root 1242 Feb  8 22:18 stores.burgerking.in.conf
+-rw-r--r--. 1 root root 1626 Feb  8 22:18 stores.kfc.com.ph.conf
+-rw-r--r--. 1 root root 1504 Feb  8 22:18 stores.menmoms.in.conf
+-rw-r--r--. 1 root root 1427 Feb  8 22:18 stores.mothercare.in.conf
+-rw-r--r--. 1 root root 1404 Feb  8 22:18 stores.soch.com.conf
+-rw-r--r--. 1 root root 1562 Feb  8 22:18 stores.wildcraft.com.conf
+-rw-r--r--. 1 root root 1252 Mar 16  2023 userdir.conf
+-rw-r--r--. 1 root root  660 Apr 11  2023 welcome.conf-bkp
+-rw-r--r--. 1 root root 1273 Feb  8 22:18 www.stores.aeo.in.conf
+ 
+ Domain :  Tata_domains_tatamotors-wasanmotorsborivalieast.com
+
+CSR FILES COMMANDS   
+	
+openssl req -new -newkey rsa:4096 -nodes -keyout www.tatamotors-wasanmotorsborivalieast.com.key -out www.tatamotors-wasanmotorsborivalieast.com.csr   --- Generate csr command
+openssl pkey -pubout -in www.tatamotors-wasanmotorsborivalieast.com.key | openssl sha256	                                  --- key command 
+openssl req -pubkey -in www.tatamotors-wasanmotorsborivalieast.com.csr -noout | openssl sha256                                  --- csr command 
+openssl req -noout -text -in www.tatamotors-wasanmotorsborivalieast.com.csr                                                    --- certificate command 
+openssl x509 -in f17c08f9a0858a08.crt -noout -enddate                                       --- certificate date
+openssl pkey -in privateKey.key -pubout -outform pem | sha256sum                                        
+openssl x509 -in certificate.crt -pubkey -noout -outform pem | sha256sum
+openssl req -in CSR.csr -pubkey -noout -outform pem | sha256sum
+ 
+ 
+ Certificate Request:
+    Data:
+        Version: 1 (0x0)
+        Subject: C = IN, ST = Maharashtra, L = Mumbai, O = Tata Motors Passenger Vehicles Limited, OU = Marketing, CN = www.TataMotors-MalwaAuto-Rohini.com, emailAddress = "sankalp.thakur@tatamotors.com, 02262407109"
+
+
+
+
+
+
+
+
+
+www.tatamotors-wasanmotorsborivalieast.com
+I need to purchage these domains. Please provide otp sir.
+
+www.tatamotors-WasanMotorsBorivaliEast.com  13.127.119.111
+www.tatamotors-KeshvaMotorsMulund.com
+www.tatamotors-SudarshanMotorsKalyan.com
+www.tatamotors-FortuneCarsNerul.com
+www.tatamotors-SuryodayAutoVasai.com
+www.tatamotors-WasanMotorsChembur.com
+www.tatamotors-InderjitCarsMiraRoad.com
+www.tatamotors-PuneetCarsPrabhadevi.com
+www.tatamotors-HeritageMotorsPanchpakhadi.com
+www.tatamotors-HeritageMotorsGhodbunder.com
+www.tatamotors-InderjitCarsAndheriWest.com
+www.tatamotors-SuryodayAutoVirar.com
+www.tatamotors-SudarshanMotorsAmbarnath.com
+www.tatamotors-InderjitCarsBoisar.com
+www.tatamotors-SuryodayAutoDahanu.com
+www.tatamotors-SudarshanMotorsDombivali.com
+www.tatamotors-SuryodayAutoPalghar.com
+www.tatamotors-HeritageMotorsPanvel.com
+www.tatamotors-FortuneCarsVashi.com
+www.tatamotors-HeritageAlibagh.com
+www.tatamotors-TridentMotorsAndheriWest.com
+www.tatamotors-WasanMotorsMarineLines.com
+www.tatamotors-WasanMotorsKandivali.com
+www.tatamotors-SudarshanMotorsShahpur.com
+www.tatamotors-TridentVikhroliWest.com
+www.tatamotors-PuneetAutomobilesMumbai.com
+www.tatamotors-HeritageKarjat.com
+www.tatamotors-WellWisherCarsAiroli.com
+www.tatamotors-SuryodayAutoTalasari.com
+www.tatamotors-WasanMotorsBandraWest.com
+www.tatamotors-PuneetCarsAndheri.com
+www.MultitechMotors-Palwal.com
+www.HimgiriAutomobiles-Manesar.com
+www.CsgAutomobiles-HodalRoad-Hodal.com
+www.DPSCars-KashmereGate-NewDelhi.com
+www.MultitechMotors-mathuraroad.com
+www.MultitechMotors-neelambatachowk.com
+
+
+ 
+ 
+ 
+ 
+<VirtualHost *:443>
+        ServerAdmin aijaz.m@dealsandyou.com
+        ServerName www.tatamotors-WasanMotorsBorivaliEast.com
+        ServerAlias www.tatamotors-WasanMotorsBorivaliEast.com
+        DocumentRoot /var/www/sites/ford_sites/Ford_Websites/spotlight_ads/TATAMOTORS
+        <Directory /var/www/sites/ford_sites/Ford_Websites/spotlight_ads/TATAMOTORS>
+                <LimitExcept GET POST>
+                        Order allow,deny
+                </LimitExcept>
+                Options -Indexes +FollowSymLinks
+                AllowOverride All
+                Order allow,deny
+                allow from all
+    </Directory>
+    SSLCertificateFile /etc/httpd/ssl/Tata_Domain_UCC_SSL/fb979c0464f6c36d.crt
+    SSLCertificateKeyFile /etc/httpd/ssl/Tata_Domain_UCC_SSL/www.tatamotors.key
+    SSLCertificateChainFile /etc/httpd/ssl/Tata_Domain_UCC_SSL/gd_bundle-g2-g1.crt
+</VirtualHost>
+
+<VirtualHost *:80>
+        ServerAdmin aijaz.m@dealsandyou.com
+        ServerName www.tatamotors-WasanMotorsBorivaliEast.com
+        ServerAlias www.tatamotors-WasanMotorsBorivaliEast.com
+
+        DocumentRoot /var/www/sites/ford_sites/Ford_Websites/spotlight_ads/TATAMOTORS
+        <Directory /var/www/sites/ford_sites/Ford_Websites/spotlight_ads/TATAMOTORS>
+                Options -Indexes +FollowSymLinks +MultiViews
+                <LimitExcept GET POST>
+                        Order allow,deny
+                </LimitExcept>
+                Options +FollowSymLinks
+                AllowOverride All
+                Order allow,deny
+                allow from all
+        </Directory>
+ErrorLog /var/log/httpd/tatamotors-WasanMotorsBorivaliEast.com.error.log
+        LogLevel warn
+        CustomLog /var/log/httpd/tatamotors-WasanMotorsBorivaliEast.com.access.log combined
+</VirtualHost>
+
+
+
+14-02-2024
+
+
+
+
+
+
+
+
+
+
+
+
+
+
